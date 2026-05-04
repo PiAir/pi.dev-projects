@@ -1,0 +1,3400 @@
+WEBVTT
+Kind: captions
+Language: nl
+
+1
+00:00:00.320 --> 00:00:02.710
+Doe geen incrementeel werk.
+
+2
+00:00:02.720 --> 00:00:04.950
+Dit is Barbara Liskov. Ze is een Turing
+
+3
+00:00:04.960 --> 00:00:07.030
+Award-winnaar bekend om haar fundamentele
+
+4
+00:00:07.040 --> 00:00:08.870
+bijdragen aan programmeertalen
+
+5
+00:00:08.880 --> 00:00:10.549
+en gedistribueerde systemen.
+
+6
+00:00:10.559 --> 00:00:12.950
+Encapsulatie is een cruciaal onderdeel van
+
+7
+00:00:12.960 --> 00:00:15.749
+het laten werken van modulariteit. Je team is
+
+8
+00:00:15.759 --> 00:00:17.830
+echt maar zo sterk als je zwakste
+
+9
+00:00:17.840 --> 00:00:18.950
+programmeur.
+
+10
+00:00:18.960 --> 00:00:21.349
+Ik vroeg haar om verhalen uit haar carrière.
+
+11
+00:00:21.359 --> 00:00:23.670
+Dat paper was de go-to statements
+
+12
+00:00:23.680 --> 00:00:26.870
+considered harmful. Is Dijkstra in persoon
+
+13
+00:00:26.880 --> 00:00:29.269
+ook zoals zijn schrijfstijl? Hij was niet altijd
+
+14
+00:00:29.279 --> 00:00:31.589
+zo tactvol als hij had kunnen zijn.
+
+15
+00:00:31.599 --> 00:00:34.950
+Er waren mensen die zeiden: "Waarom heeft ze
+
+16
+00:00:34.960 --> 00:00:37.110
+de Turing Award gekregen? Waarom denk je
+
+17
+00:00:37.120 --> 00:00:40.869
+dat ze dat zeiden over jouw werk?"
+
+18
+00:00:40.879 --> 00:00:47.029
+Hier is de volledige aflevering.
+
+19
+00:00:47.039 --> 00:00:50.229
+Je solliciteerde op meerdere plekken en
+
+20
+00:00:50.239 --> 00:00:52.389
+Princeton was er een van en ze hadden
+
+21
+00:00:52.399 --> 00:00:54.310
+je afgewezen omdat je
+
+22
+00:00:54.320 --> 00:00:56.869
+een vrouw bent. Hoe ben je terechtgekomen in
+
+23
+00:00:56.879 --> 00:00:58.869
+programmeren in een omgeving die zo
+
+24
+00:00:58.879 --> 00:01:00.310
+vijandig is?
+
+25
+00:01:00.320 --> 00:01:02.069
+Oké, dus dit was toen ik mijn
+
+26
+00:01:02.079 --> 00:01:04.310
+bachelordiploma behaalde
+
+27
+00:01:04.320 --> 00:01:07.910
+en ik me aanmeldde bij verschillende graduate
+
+28
+00:01:07.920 --> 00:01:10.789
+programma's in wiskunde, wat ik
+
+29
+00:01:10.799 --> 00:01:13.350
+als hoofdvak had tijdens mijn bachelor.
+
+30
+00:01:13.360 --> 00:01:16.789
+En ik kreeg deze kleine kaart terug. Het was
+
+31
+00:01:16.799 --> 00:01:19.190
+een briefkaart van Princeton met de tekst: "We
+
+32
+00:01:19.200 --> 00:01:23.109
+laten geen vrouwen toe." Wat verrassend was.
+
+33
+00:01:23.119 --> 00:01:24.789
+Eh, ik wist dat ze geen vrouwen hadden in
+
+34
+00:01:24.799 --> 00:01:26.469
+hun bachelorprogramma, maar ik
+
+35
+00:01:26.479 --> 00:01:28.390
+had niet gerealiseerd dat het ook gold voor het
+
+36
+00:01:28.400 --> 00:01:32.870
+graduate programma. Eh, maar weet je, het
+
+37
+00:01:32.880 --> 00:01:35.749
+was zoals het was. Dus, wat er gebeurde was
+
+38
+00:01:35.759 --> 00:01:37.749
+ik werd wel toegelaten tot Berkeley, waar ik
+
+39
+00:01:37.759 --> 00:01:40.310
+mijn bacheloropleiding had gedaan, maar ik
+
+40
+00:01:40.320 --> 00:01:43.190
+besloot dat ik echt niet klaar was voor een
+
+41
+00:01:43.200 --> 00:01:46.550
+PhD in wiskunde en dat ik een baan moest zoeken
+
+42
+00:01:46.560 --> 00:01:49.270
+in plaats daarvan en gewoon kijken, weet je,
+
+43
+00:01:49.280 --> 00:01:53.350
+hoe de dingen waren. En de beste baan
+
+44
+00:01:53.360 --> 00:01:56.230
+die ik kreeg was als programmeur.
+
+45
+00:01:56.240 --> 00:01:57.830
+Zo ben ik in de computer
+
+46
+00:01:57.840 --> 00:02:00.630
+wetenschap terechtgekomen door een gelukkig toeval.
+
+47
+00:02:00.640 --> 00:02:02.389
+Je was consequent, in ieder geval bij
+
+48
+00:02:02.399 --> 00:02:04.709
+Berkeley, je was consequent een top
+
+49
+00:02:04.719 --> 00:02:08.229
+student. Het is dus vreemd dat je
+
+50
+00:02:08.239 --> 00:02:10.229
+niet eens de kans zou krijgen om mee te doen
+
+51
+00:02:10.239 --> 00:02:11.510
+in sommige gevallen,
+
+52
+00:02:11.520 --> 00:02:13.430
+maar zo was het destijds. Het was
+
+53
+00:02:13.440 --> 00:02:15.750
+alleen had ik niet beseft dat het meer was dan
+
+54
+00:02:15.760 --> 00:02:18.550
+een bachelording en Berkeley was
+
+55
+00:02:18.560 --> 00:02:22.630
+gemengd. Dus, weet je, wat ik daar ontdekte
+
+56
+00:02:22.640 --> 00:02:24.869
+was dat er niet veel vrouwen in mijn
+
+57
+00:02:24.879 --> 00:02:26.550
+lessen zaten. Er waren veel vrouwelijke
+
+58
+00:02:26.560 --> 00:02:29.350
+studenten, maar heel weinig die afstudeerden
+
+59
+00:02:29.360 --> 00:02:32.630
+in wiskunde en er waren misschien maar een
+
+60
+00:02:32.640 --> 00:02:36.949
+paar vrouwen in mijn lessen, maar het
+
+61
+00:02:36.959 --> 00:02:38.949
+idee dat een deur gesloten was en
+
+62
+00:02:38.959 --> 00:02:40.710
+vrouwen dingen niet konden doen, dat was niet
+
+63
+00:02:40.720 --> 00:02:43.670
+wat er bij Berkeley gaande was. Het was dus een
+
+64
+00:02:43.680 --> 00:02:45.830
+andere omgeving. Natuurlijk
+
+65
+00:02:45.840 --> 00:02:50.070
+tegenwoordig zijn in de topscholen de vrouwen
+
+66
+00:02:50.080 --> 00:02:53.589
+ongeveer 50% in informatica.
+
+67
+00:02:53.599 --> 00:02:55.750
+Ik wil het hebben over enkele van de
+
+68
+00:02:55.760 --> 00:02:57.350
+kernproblemen die u in
+
+69
+00:02:57.360 --> 00:03:00.470
+uw carrière oploste. Ik begrijp dat
+
+70
+00:03:00.480 --> 00:03:03.430
+er in de jaren 1970 een softwarecrisis was
+
+71
+00:03:03.440 --> 00:03:05.670
+en ik vroeg me af of u de
+
+72
+00:03:05.680 --> 00:03:08.309
+context kon schetsen van wat het probleem was
+
+73
+00:03:08.319 --> 00:03:10.869
+op dat moment. Wel, het was een enorm
+
+74
+00:03:10.879 --> 00:03:13.990
+probleem destijds omdat mensen
+
+75
+00:03:14.000 --> 00:03:16.309
+niet wisten hoe ze grote programma's moesten bouwen
+
+76
+00:03:16.319 --> 00:03:20.149
+die werkten. En zo pakte u vaak
+
+77
+00:03:20.159 --> 00:03:22.149
+de krant op en zag u een artikel
+
+78
+00:03:22.159 --> 00:03:26.070
+over een bedrijf dat
+
+79
+00:03:26.080 --> 00:03:30.630
+u weet wel miljoenen dollars en
+
+80
+00:03:30.640 --> 00:03:34.390
+honderden mensjaren had besteed aan het ontwikkelen van
+
+81
+00:03:34.400 --> 00:03:37.030
+een softwaresysteem voor hun bedrijf en
+
+82
+00:03:37.040 --> 00:03:38.630
+dat ze het uiteindelijk moesten weggooien
+
+83
+00:03:38.640 --> 00:03:41.509
+omdat het simpelweg niet werkte.
+
+84
+00:03:41.519 --> 00:03:45.589
+Het probleem was dat je voor een groot
+
+85
+00:03:45.599 --> 00:03:48.309
+programma dat werkt, modulariteit nodig hebt
+
+86
+00:03:48.319 --> 00:03:50.070
+en je programma moet opsplitsen
+
+87
+00:03:50.080 --> 00:03:52.470
+in kleine stukken.
+
+88
+00:03:52.480 --> 00:03:57.990
+Elk stuk biedt een interface met een
+
+89
+00:03:58.000 --> 00:04:00.390
+hopelijk volledige beschrijving van welke
+
+90
+00:04:00.400 --> 00:04:03.110
+dienst het voor u levert. En dan
+
+91
+00:04:03.120 --> 00:04:05.589
+binnenin zit een implementatie die
+
+92
+00:04:05.599 --> 00:04:07.350
+verborgen is en waar niemand aandacht aan besteedt
+
+93
+00:04:07.360 --> 00:04:10.949
+van buitenaf. En als u een
+
+94
+00:04:10.959 --> 00:04:12.789
+systeem hebt dat zo georganiseerd is, kunt u
+
+95
+00:04:12.799 --> 00:04:15.030
+de correctheid ervan redeneren
+
+96
+00:04:15.040 --> 00:04:18.469
+één module tegelijk. Maar in die tijd
+
+97
+00:04:18.479 --> 00:04:21.990
+wisten mensen niet hoe ze geen manier konden
+
+98
+00:04:22.000 --> 00:04:23.749
+bedenken om systemen te ontwerpen die
+
+99
+00:04:23.759 --> 00:04:27.189
+modulair waren. En het enige soort
+
+100
+00:04:27.199 --> 00:04:29.030
+modulariteitsmechanisme aanwezig in
+
+101
+00:04:29.040 --> 00:04:32.070
+programmeertalen was een procedure.
+
+102
+00:04:32.080 --> 00:04:35.189
+En procedures kwamen niet overeen met de soorten
+
+103
+00:04:35.199 --> 00:04:37.830
+modules die u nodig had. Want als u nadenkt
+
+104
+00:04:37.840 --> 00:04:41.670
+over een bestandssysteem of een database of je
+
+105
+00:04:41.680 --> 00:04:44.629
+weet Amazon of wat dan ook, weet je, ze
+
+106
+00:04:44.639 --> 00:04:46.469
+zijn geen procedure waarbij je iets
+
+107
+00:04:46.479 --> 00:04:48.150
+erin stopt en er iets uithaalt
+
+108
+00:04:48.160 --> 00:04:51.270
+ze zijn een veel ingewikkelder ding.
+
+109
+00:04:51.280 --> 00:04:54.070
+Er was dus geen begrip van een module die
+
+110
+00:04:54.080 --> 00:04:55.909
+min of meer overeenkwam met het soort dingen
+
+111
+00:04:55.919 --> 00:04:58.150
+waar mensen naar op zoek waren.
+
+112
+00:04:58.160 --> 00:05:00.390
+Dus toen je dat probleem zag, weet je,
+
+113
+00:05:00.400 --> 00:05:02.629
+hoe zagen de vroege oplossingen eruit?
+
+114
+00:05:02.639 --> 00:05:04.230
+Nou, mensen stelden dus
+
+115
+00:05:04.240 --> 00:05:06.469
+modulariteit voor en ze hadden het over
+
+116
+00:05:06.479 --> 00:05:09.670
+hoe belangrijk modulariteit was. Ze
+
+117
+00:05:09.680 --> 00:05:12.469
+wisten niet precies wat een module was
+
+118
+00:05:12.479 --> 00:05:14.230
+en dus was het niet zo dat ze je
+
+119
+00:05:14.240 --> 00:05:16.070
+een regel konden geven. Dit is een module. Het was
+
+120
+00:05:16.080 --> 00:05:18.469
+gewoon een stuk code. Er waren zelfs
+
+121
+00:05:18.479 --> 00:05:20.070
+artikelen geschreven die het hadden over
+
+122
+00:05:20.080 --> 00:05:22.070
+hoe groot een module zou moeten zijn en zo
+
+123
+00:05:22.080 --> 00:05:24.469
+meer. Gewoon een stuk code. Dat
+
+124
+00:05:24.479 --> 00:05:27.029
+gaat niet werken, want je moet deze
+
+125
+00:05:27.039 --> 00:05:28.950
+systemen ontwerpen. Je hebt dus een manier nodig
+
+126
+00:05:28.960 --> 00:05:31.029
+om een ontwerp te bedenken dat min of meer
+
+127
+00:05:31.039 --> 00:05:34.230
+past binnen dit begrip van modulariteit.
+
+128
+00:05:34.240 --> 00:05:36.070
+Ze wisten ook niet echt wat de
+
+129
+00:05:36.080 --> 00:05:38.790
+regels voor modulariteit zouden moeten zijn.
+
+130
+00:05:38.800 --> 00:05:42.070
+En eh het bleek dat in een deel van het
+
+131
+00:05:42.080 --> 00:05:44.150
+vroege werk dat ik deed na mijn afstuderen, toen
+
+132
+00:05:44.160 --> 00:05:47.189
+ik bij MITER werkte, ik al een begrip van
+
+133
+00:05:47.199 --> 00:05:49.430
+modulariteit had uitgevonden dat
+
+134
+00:05:49.440 --> 00:05:51.189
+min of meer vollediger was dan wat mensen
+
+135
+00:05:51.199 --> 00:05:54.310
+hadden besproken, simpelweg omdat ik
+
+136
+00:05:54.320 --> 00:05:56.230
+een klein team van programmeurs had. We waren
+
+137
+00:05:56.240 --> 00:05:59.830
+een ingewikkeld systeem aan het bouwen en ik
+
+138
+00:05:59.840 --> 00:06:02.950
+wilde ons uit de problemen houden en dus
+
+139
+00:06:02.960 --> 00:06:04.790
+had ik dat min of meer klaarliggen toen ik
+
+140
+00:06:04.800 --> 00:06:09.590
+begon te werken aan dit onderwerp. En het
+
+141
+00:06:09.600 --> 00:06:12.309
+stelde me in staat dit idee van data-
+
+142
+00:06:12.319 --> 00:06:13.909
+abstractie te zien.
+
+143
+00:06:13.919 --> 00:06:16.309
+Ineens zag ik min of meer dat dit
+
+144
+00:06:16.319 --> 00:06:18.469
+ding dat ik had, dit soort modulariteit
+
+145
+00:06:18.479 --> 00:06:21.670
+mechanisme dat in feite bestond uit
+
+146
+00:06:21.680 --> 00:06:23.830
+wat ik net beschreef
+
+147
+00:06:23.840 --> 00:06:26.710
+een een een hoop code die je voorziet van
+
+148
+00:06:26.720 --> 00:06:29.189
+toegang via een aantal van wat ik
+
+149
+00:06:29.199 --> 00:06:30.950
+bewerkingen noemde. Je kon het dus
+
+150
+00:06:30.960 --> 00:06:33.029
+op verschillende manieren aanroepen en daarbinnen was alles
+
+151
+00:06:33.039 --> 00:06:35.189
+verborgen en welke data het ook gebruikte
+
+152
+00:06:35.199 --> 00:06:37.990
+was niet toegankelijk voor de buitenwereld.
+
+153
+00:06:38.000 --> 00:06:39.990
+En op een gegeven moment kon ik dit zien
+
+154
+00:06:40.000 --> 00:06:41.830
+als een data-abstractie. Het kon
+
+155
+00:06:41.840 --> 00:06:44.070
+een verzameling zijn, het kon een reeks zijn, het kon
+
+156
+00:06:44.080 --> 00:06:47.270
+je weet wel enzovoort. En eh en dat
+
+157
+00:06:47.280 --> 00:06:50.550
+betekende dat we een nieuw type module hadden. Nu
+
+158
+00:06:50.560 --> 00:06:52.390
+als ik terugkijk naar de papers van die
+
+159
+00:06:52.400 --> 00:06:55.189
+tijd zie ik dat idee, het is er bijna
+
+160
+00:06:55.199 --> 00:06:57.670
+behalve dat mensen het niet hadden weten te
+
+161
+00:06:57.680 --> 00:07:00.950
+onderscheiden. En dus was het waarschijnlijk, ik denk dat dit
+
+162
+00:07:00.960 --> 00:07:02.870
+in de wetenschap vaak voorkomt. Er is zoiets
+
+163
+00:07:02.880 --> 00:07:05.510
+als een moment waarop een idee rijp is en ik
+
+164
+00:07:05.520 --> 00:07:07.589
+toevallig degene ben die het ziet.
+
+165
+00:07:07.599 --> 00:07:11.029
+Je hebt dit samengesteld en je hebt het
+
+166
+00:07:11.039 --> 00:07:13.350
+in de programmeertaal CLU verwerkt waar
+
+167
+00:07:13.360 --> 00:07:15.670
+je aan werkte. Hoe zag je het
+
+168
+00:07:15.680 --> 00:07:18.150
+de industrie beïnvloeden? Het eerste
+
+169
+00:07:18.160 --> 00:07:20.870
+wat er gebeurde was dat ik een paper schreef
+
+170
+00:07:20.880 --> 00:07:24.710
+met eh een man die een afgestudeerde
+
+171
+00:07:24.720 --> 00:07:27.350
+student was aan MIT, Steve Zillis, over dit
+
+172
+00:07:27.360 --> 00:07:29.430
+idee van data-abstractie en het schetste
+
+173
+00:07:29.440 --> 00:07:31.350
+een notie van wat abstracte datatypes
+
+174
+00:07:31.360 --> 00:07:32.870
+zouden zijn en hoe een programmeertaal
+
+175
+00:07:32.880 --> 00:07:36.469
+ze kon ondersteunen. En dit was heel eh
+
+176
+00:07:36.479 --> 00:07:40.390
+het was een zeer invloedrijke paper. En dus
+
+177
+00:07:40.400 --> 00:07:42.950
+was er een grote impact op de onderzoeks-
+
+178
+00:07:42.960 --> 00:07:46.309
+gemeenschap en toen
+
+179
+00:07:46.319 --> 00:07:48.710
+kwam CLU en dat bracht veel
+
+180
+00:07:48.720 --> 00:07:50.710
+aanvullend onderzoek met zich mee op het gebied van de
+
+181
+00:07:50.720 --> 00:07:53.189
+programmeertaal. Het volgende
+
+182
+00:07:53.199 --> 00:07:55.430
+wat er gebeurde. Mensen waren dus
+
+183
+00:07:55.440 --> 00:07:57.430
+dit aan het volgen in de onderzoeksgemeenschap,
+
+184
+00:07:57.440 --> 00:07:59.110
+maar natuurlijk mensen die in
+
+185
+00:07:59.120 --> 00:08:01.670
+bedrijven werken die programma's willen schrijven,
+
+186
+00:08:01.680 --> 00:08:04.390
+hebben een programmeertaal nodig.
+
+187
+00:08:04.400 --> 00:08:08.469
+En ik besloot dat ik niet zou proberen
+
+188
+00:08:08.479 --> 00:08:12.309
+van CLU een product te maken omdat dat
+
+189
+00:08:12.319 --> 00:08:13.830
+zou hebben vereist dat ik in een
+
+190
+00:08:13.840 --> 00:08:15.670
+bedrijf werkte. In die tijd zette je niet zomaar
+
+191
+00:08:15.680 --> 00:08:17.350
+software op het internet en
+
+192
+00:08:17.360 --> 00:08:20.070
+gebruikten mensen het. Er was nog geen internet
+
+193
+00:08:20.080 --> 00:08:23.510
+om te beginnen. En ik was veel
+
+194
+00:08:23.520 --> 00:08:25.350
+meer geïnteresseerd in onderzoek doen dan
+
+195
+00:08:25.360 --> 00:08:28.790
+in je weet wel werken in een bedrijf. Dus ik
+
+196
+00:08:28.800 --> 00:08:31.990
+zette CLU opzij. Het had een gebruikersbasis
+
+197
+00:08:32.000 --> 00:08:34.709
+maar voor bedrijven om een
+
+198
+00:08:34.719 --> 00:08:36.230
+programmeertaal in die tijd te gebruiken
+
+199
+00:08:36.240 --> 00:08:39.029
+wilden ze een bedrijf achter die taal.
+
+200
+00:08:39.039 --> 00:08:40.709
+Het volgende wat er gebeurde was dat de
+
+201
+00:08:40.719 --> 00:08:44.470
+overheid eh een oproep deed voor eh een
+
+202
+00:08:44.480 --> 00:08:45.910
+programmeertaal die ze konden gebruiken.
+
+203
+00:08:45.920 --> 00:08:48.870
+Dit leidde tot de programmeertaal ADA
+
+204
+00:08:48.880 --> 00:08:51.910
+die eh dus je weet dat was al een
+
+205
+00:08:51.920 --> 00:08:53.829
+grote impact als je erover nadenkt dat
+
+206
+00:08:53.839 --> 00:08:55.829
+er expliciet een taal
+
+207
+00:08:55.839 --> 00:08:57.829
+werd eh ontworpen om data te hebben
+
+208
+00:08:57.839 --> 00:09:01.269
+abstractie erin en dan uiteindelijk in
+
+209
+00:09:01.279 --> 00:09:03.990
+de jaren '90 kwam Java. Ik dacht het zou
+
+210
+00:09:04.000 --> 00:09:05.750
+interessant zijn omdat jij werkte aan
+
+211
+00:09:05.760 --> 00:09:07.910
+Clue, je ontwierp die programmeertaal.
+
+212
+00:09:07.920 --> 00:09:09.430
+Om je te vragen over andere
+
+213
+00:09:09.440 --> 00:09:11.350
+programmeertalen, je zei ergens
+
+214
+00:09:11.360 --> 00:09:13.190
+dat er iets mis is
+
+215
+00:09:13.200 --> 00:09:14.790
+met Python. En ik was benieuwd naar
+
+216
+00:09:14.800 --> 00:09:16.470
+jouw gedachten over waarom
+
+217
+00:09:16.480 --> 00:09:18.150
+Python
+
+218
+00:09:18.160 --> 00:09:20.870
+modules heeft, maar geen
+
+219
+00:09:20.880 --> 00:09:24.070
+inkapseling. Het staat code toe van
+
+220
+00:09:24.080 --> 00:09:25.990
+buiten om te rommelen met wat er
+
+221
+00:09:26.000 --> 00:09:28.230
+binnen in een module gebeurt. En
+
+222
+00:09:28.240 --> 00:09:29.829
+dat is alles waar ik het over had.
+
+223
+00:09:29.839 --> 00:09:33.509
+Inkapseling is een cruciaal onderdeel van
+
+224
+00:09:33.519 --> 00:09:36.870
+het laten werken van modulariteit. En als je
+
+225
+00:09:36.880 --> 00:09:39.110
+grote programma's bouwt met veel
+
+226
+00:09:39.120 --> 00:09:41.750
+programmeurs die eraan werken, is je team
+
+227
+00:09:41.760 --> 00:09:44.230
+echt zo sterk als je zwakste schakel
+
+228
+00:09:44.240 --> 00:09:45.750
+programmeur.
+
+229
+00:09:45.760 --> 00:09:49.190
+Dus het is fijn als de compiler dingen
+
+230
+00:09:49.200 --> 00:09:51.590
+kan afdwingen en bepaalde soorten slecht
+
+231
+00:09:51.600 --> 00:09:54.310
+gedrag onmogelijk kan maken. Python
+
+232
+00:09:54.320 --> 00:09:56.870
+heeft, weet je, een ander beoogd gebruik.
+
+233
+00:09:56.880 --> 00:09:59.590
+Het helpt onervaren programmeurs snel
+
+234
+00:09:59.600 --> 00:10:01.350
+te leren hoe ze programma's moeten schrijven
+
+235
+00:10:01.360 --> 00:10:04.070
+en zo. En mensen in de programmeertaal-
+
+236
+00:10:04.080 --> 00:10:06.550
+wereld denken wel na over kwesties
+
+237
+00:10:06.560 --> 00:10:10.389
+zoals hoe je talen veiliger kunt maken
+
+238
+00:10:10.399 --> 00:10:12.470
+enzovoort. Maar omdat ik
+
+239
+00:10:12.480 --> 00:10:15.269
+in dat gebied ben gestopt, ben ik niet meer
+
+240
+00:10:15.279 --> 00:10:16.870
+langer een expert in programmeertalen.
+
+241
+00:10:16.880 --> 00:10:17.910
+talen.
+
+242
+00:10:17.920 --> 00:10:20.310
+Wat bracht je naar gedistribueerd rekenen?
+
+243
+00:10:20.320 --> 00:10:24.069
+Ik las een paper van Bob Kahn die samen met
+
+244
+00:10:24.079 --> 00:10:26.150
+Vint Cerf wordt beschouwd als de
+
+245
+00:10:26.160 --> 00:10:29.509
+grondleggers van het internet en Bob sprak
+
+246
+00:10:29.519 --> 00:10:31.190
+over
+
+247
+00:10:31.200 --> 00:10:34.470
+zijn droom van gedistribueerd rekenen
+
+248
+00:10:34.480 --> 00:10:36.230
+waarbij je een programma zou hebben samengesteld
+
+249
+00:10:36.240 --> 00:10:38.310
+uit onderdelen op verschillende computers
+
+250
+00:10:38.320 --> 00:10:41.990
+verbonden door een netwerk en niemand wist
+
+251
+00:10:42.000 --> 00:10:43.829
+hoe die programma's te bouwen en dus dacht ik
+
+252
+00:10:43.839 --> 00:10:47.829
+gewoon geweldig probleem
+
+253
+00:10:47.839 --> 00:10:49.990
+en ik was op zoek naar een nieuw probleem dus ik
+
+254
+00:10:50.000 --> 00:10:52.470
+stortte me in gedistribueerd rekenen en
+
+255
+00:10:52.480 --> 00:10:53.990
+het eerste project was eigenlijk een
+
+256
+00:10:54.000 --> 00:10:55.269
+programmeertaal om
+
+257
+00:10:55.279 --> 00:10:57.910
+gedistribueerde programma's in te schrijven
+
+258
+00:10:57.920 --> 00:11:00.310
+en eh en toen begon ik te kijken naar
+
+259
+00:11:00.320 --> 00:11:01.829
+andere problemen in de gedistribueerde
+
+260
+00:11:01.839 --> 00:11:03.190
+systeemgebied.
+
+261
+00:11:03.200 --> 00:11:04.790
+Wat was die eerste programmeertaal?
+
+262
+00:11:04.800 --> 00:11:05.509
+taal? Ik weet het niet
+
+263
+00:11:05.519 --> 00:11:07.910
+het heette Argus. Het was heel erg
+
+264
+00:11:07.920 --> 00:11:10.790
+sterk beïnvloed door CLU. Het was een
+
+265
+00:11:10.800 --> 00:11:13.590
+objectgeoriënteerde taal met een speciaal
+
+266
+00:11:13.600 --> 00:11:16.870
+soort object genaamd een guardian, dat
+
+267
+00:11:16.880 --> 00:11:18.790
+een module was op één enkele
+
+268
+00:11:18.800 --> 00:11:21.430
+computer, en guardians konden
+
+269
+00:11:21.440 --> 00:11:23.430
+communiceren via remote
+
+270
+00:11:23.440 --> 00:11:25.990
+procedure calls. Een van de dingen waar je
+
+271
+00:11:26.000 --> 00:11:29.269
+tegenaan loopt bij gedistribueerd rekenen
+
+272
+00:11:29.279 --> 00:11:31.590
+is als je een berekening hebt die
+
+273
+00:11:31.600 --> 00:11:33.990
+begint bij één guardian en dan gebruik
+
+274
+00:11:34.000 --> 00:11:35.910
+maakt van andere guardians op andere knooppunten in
+
+275
+00:11:35.920 --> 00:11:38.790
+het netwerk. Uiteindelijk wil je dat
+
+276
+00:11:38.800 --> 00:11:41.910
+de berekening ofwel volledig wordt voltooid
+
+277
+00:11:41.920 --> 00:11:45.430
+of helemaal geen effect heeft. En hoe doe je
+
+278
+00:11:45.440 --> 00:11:48.470
+dat? Ik leende het concept van
+
+279
+00:11:48.480 --> 00:11:51.030
+transacties uit het database-
+
+280
+00:11:51.040 --> 00:11:54.310
+vakgebied. En dat was een onderdeel van hoe Argus
+
+281
+00:11:54.320 --> 00:11:56.550
+werkte. Het voerde berekeningen uit als atomaire
+
+282
+00:11:56.560 --> 00:11:57.910
+transacties.
+
+283
+00:11:57.920 --> 00:12:00.389
+Oh, interessant. Dus gedistribueerde
+
+284
+00:12:00.399 --> 00:12:02.870
+transacties over die knooppunten.
+
+285
+00:12:02.880 --> 00:12:04.790
+Ja. En ik denk dat het direct leidde tot het
+
+286
+00:12:04.800 --> 00:12:07.509
+werk dat ik deed aan viewstamp-replicatie
+
+287
+00:12:07.519 --> 00:12:10.470
+wat de basis was van
+
+288
+00:12:10.480 --> 00:12:12.710
+cloudopslag. Ik dacht in termen
+
+289
+00:12:12.720 --> 00:12:14.470
+van een bestandssysteem, maar het maakt niet echt
+
+290
+00:12:14.480 --> 00:12:16.230
+uit wat het is. Hoe zorg je ervoor dat je
+
+291
+00:12:16.240 --> 00:12:20.230
+gegevens op internet opslaat op
+
+292
+00:12:20.240 --> 00:12:26.069
+meerdere locaties met correct gedrag en
+
+293
+00:12:26.079 --> 00:12:28.949
+altijd toegankelijk zolang er genoeg
+
+294
+00:12:28.959 --> 00:12:30.710
+knooppunten actief zijn en het netwerk
+
+295
+00:12:30.720 --> 00:12:32.150
+werkt.
+
+296
+00:12:32.160 --> 00:12:34.470
+Ik begrijp het. En wat is viewstamp in deze
+
+297
+00:12:34.480 --> 00:12:35.509
+context?
+
+298
+00:12:35.519 --> 00:12:37.670
+Dat had te maken met enkele details van
+
+299
+00:12:37.680 --> 00:12:39.990
+hoe het systeem werkte en het was een manier
+
+300
+00:12:40.000 --> 00:12:43.190
+om te merken wanneer bepaalde knooppunten uitvielen en
+
+301
+00:12:43.200 --> 00:12:45.509
+andere knooppunten het moesten overnemen. Je kon
+
+302
+00:12:45.519 --> 00:12:47.030
+bepalen welke de meest
+
+303
+00:12:47.040 --> 00:12:48.870
+recente toestand hadden. Zo kon je
+
+304
+00:12:48.880 --> 00:12:51.590
+doorgaan zonder iets te verliezen wat niet
+
+305
+00:12:51.600 --> 00:12:53.750
+dat in het verleden was gebeurd.
+
+306
+00:12:53.760 --> 00:12:55.750
+Maar wat als de klokken niet gesynchroniseerd
+
+307
+00:12:55.760 --> 00:12:56.949
+zijn? Zoals
+
+308
+00:12:56.959 --> 00:12:58.870
+het had niets met klokken te maken
+
+309
+00:12:58.880 --> 00:13:01.750
+want het waren gewoon getallen. Met andere
+
+310
+00:13:01.760 --> 00:13:03.990
+woorden, we bevonden ons in view 25. De volgende view
+
+311
+00:13:04.000 --> 00:13:05.509
+was 26. Dus,
+
+312
+00:13:05.519 --> 00:13:07.750
+Oh, oké. Gewoon een getal ophogen
+
+313
+00:13:07.760 --> 00:13:08.949
+dat wordt doorgegeven.
+
+314
+00:13:08.959 --> 00:13:09.590
+Ja.
+
+315
+00:13:09.600 --> 00:13:11.670
+Dit doet me erg denken aan uh Leslie
+
+316
+00:13:11.680 --> 00:13:12.870
+Lamport's werk.
+
+317
+00:13:12.880 --> 00:13:14.470
+Eigenlijk wel, ja.
+
+318
+00:13:14.480 --> 00:13:17.350
+Heb je ooit met hem samengewerkt of?
+
+319
+00:13:17.360 --> 00:13:19.829
+Nee. Leslie en ik ontwikkelden wat in
+
+320
+00:13:19.839 --> 00:13:22.550
+wezen hetzelfde idee, onafhankelijk van elkaar,
+
+321
+00:13:22.560 --> 00:13:25.509
+en hij had het systeem dat hij Paxos noemde
+
+322
+00:13:25.519 --> 00:13:27.350
+en ik had dit ding dat stempel-
+
+323
+00:13:27.360 --> 00:13:28.870
+replicatie heette.
+
+324
+00:13:28.880 --> 00:13:31.750
+Oh, interessant. En ze zijn in wezen
+
+325
+00:13:31.760 --> 00:13:32.629
+hetzelfde.
+
+326
+00:13:32.639 --> 00:13:33.990
+Dat zijn ze. Ja.
+
+327
+00:13:34.000 --> 00:13:36.230
+Oh. Zijn er voor- en nadelen van de twee
+
+328
+00:13:36.240 --> 00:13:37.509
+benaderingen?
+
+329
+00:13:37.519 --> 00:13:39.750
+Ja. Ik bedoel, als je dit soort
+
+330
+00:13:39.760 --> 00:13:41.350
+systeem doet, zijn er veel kleine
+
+331
+00:13:41.360 --> 00:13:43.190
+details waar je mee kunt spelen. Dus je
+
+332
+00:13:43.200 --> 00:13:45.670
+kunt, weet je, beslissen het te doen. Het
+
+333
+00:13:45.680 --> 00:13:47.190
+wordt technisch, maar weet je, er zijn
+
+334
+00:13:47.200 --> 00:13:49.030
+kleine verschillen, maar nee, ze zijn
+
+335
+00:13:49.040 --> 00:13:50.470
+in principe hetzelfde. Wat er eigenlijk
+
+336
+00:13:50.480 --> 00:13:55.110
+gebeurde was uh de eerste keer dat ik
+
+337
+00:13:55.120 --> 00:13:57.110
+weet dat dit daadwerkelijk werd gebruikt in
+
+338
+00:13:57.120 --> 00:13:59.910
+een echt systeem was toen het Google-bestand
+
+339
+00:13:59.920 --> 00:14:04.150
+systeem verscheen en een van mijn vroegere
+
+340
+00:14:04.160 --> 00:14:06.550
+studenten die een – ik denk dat hij een
+
+341
+00:14:06.560 --> 00:14:08.470
+consultant bij Google was – keek naar wat
+
+342
+00:14:08.480 --> 00:14:09.910
+daar speelde en hij zei oh, hij zei
+
+343
+00:14:09.920 --> 00:14:12.389
+dat is fut-replicatie. Dus de mensen bij
+
+344
+00:14:12.399 --> 00:14:15.269
+Google leken te denken dat het Paxos was, maar
+
+345
+00:14:15.279 --> 00:14:18.150
+in feite zijn het hetzelfde systeem. Ik merkte ook
+
+346
+00:14:18.160 --> 00:14:21.110
+zoals um toen jij uh toen
+
+347
+00:14:21.120 --> 00:14:24.310
+je abstracte gegevenstypes bedacht
+
+348
+00:14:24.320 --> 00:14:25.829
+misschien en misschien is het gewoon omdat er
+
+349
+00:14:25.839 --> 00:14:28.870
+geen internet was, niet zoals je weet
+
+350
+00:14:28.880 --> 00:14:30.870
+er niet was, dat er ook de
+
+351
+00:14:30.880 --> 00:14:33.189
+objectgeoriënteerde dingen gaande waren aan de
+
+352
+00:14:33.199 --> 00:14:34.150
+westkust
+
+353
+00:14:34.160 --> 00:14:37.350
+ja, Alan Kay ontwikkelde Smalltalk
+
+354
+00:14:37.360 --> 00:14:39.350
+op hetzelfde moment dat ik werkte aan
+
+355
+00:14:39.360 --> 00:14:43.030
+CLU en daarna bij Carnegie Mellon uh Bill
+
+356
+00:14:43.040 --> 00:14:44.550
+Wolf en Mary Shaw werkten aan
+
+357
+00:14:44.560 --> 00:14:46.230
+Alphard, wat een andere data-
+
+358
+00:14:46.240 --> 00:14:47.430
+abstractie
+
+359
+00:14:47.440 --> 00:14:50.150
+taal was, en je hebt gelijk, er was geen
+
+360
+00:14:50.160 --> 00:14:51.590
+er was geen internet hoewel er wel
+
+361
+00:14:51.600 --> 00:14:53.269
+het arpanet was
+
+362
+00:14:53.279 --> 00:14:55.990
+weet je, dus we deden het maar het was alsof er
+
+363
+00:14:56.000 --> 00:14:58.230
+twee onafhankelijke onderzoeksstromen waren
+
+364
+00:14:58.240 --> 00:15:00.069
+aan de gang was en we niet met elkaar praatten
+
+365
+00:15:00.079 --> 00:15:02.949
+en daarom besteedde ik niet veel
+
+366
+00:15:02.959 --> 00:15:05.990
+aandacht aan Smalltalk en aan de west
+
+367
+00:15:06.000 --> 00:15:07.269
+kust denk ik dat zij niet veel
+
+368
+00:15:07.279 --> 00:15:10.230
+aandacht besteedden aan data-abstractie
+
+369
+00:15:10.240 --> 00:15:13.430
+en dit leidde tot het Liskov-substitutie
+
+370
+00:15:13.440 --> 00:15:16.949
+principe, en het verhaal is
+
+371
+00:15:16.959 --> 00:15:21.590
+een soort treffend verhaal, want in 1986
+
+372
+00:15:21.600 --> 00:15:23.269
+denk ik, werd ik gevraagd een
+
+373
+00:15:23.279 --> 00:15:25.990
+keynote te geven op OOPSLA, OOPS is de
+
+374
+00:15:26.000 --> 00:15:29.110
+conferentie over objectgeoriënteerd programmeren
+
+375
+00:15:29.120 --> 00:15:30.949
+en dit was het tweede jaar dat het
+
+376
+00:15:30.959 --> 00:15:34.790
+plaatsvond, dus besloot ik: ik ga
+
+377
+00:15:34.800 --> 00:15:36.870
+alle papers over Smalltalk lezen
+
+378
+00:15:36.880 --> 00:15:38.389
+en er waren andere talen die
+
+379
+00:15:38.399 --> 00:15:40.150
+ontwikkeld werden op basis van Smalltalk
+
+380
+00:15:40.160 --> 00:15:42.629
+en kijken wat er mee aan de hand was, en ik
+
+381
+00:15:42.639 --> 00:15:44.389
+ontdekte
+
+382
+00:15:44.399 --> 00:15:46.550
+dus Smalltalk heeft dit concept van
+
+383
+00:15:46.560 --> 00:15:48.629
+overerving waarbij je een
+
+384
+00:15:48.639 --> 00:15:51.110
+klasse en een subklasse kunt hebben die leent van
+
+385
+00:15:51.120 --> 00:15:52.870
+de manier waarop de klasse is geïmplementeerd en
+
+386
+00:15:52.880 --> 00:15:56.069
+het een beetje aanpast, en CLU heeft dat
+
+387
+00:15:56.079 --> 00:15:57.910
+niet. CLU heeft alleen wat wij
+
+388
+00:15:57.920 --> 00:16:00.790
+clusters noemen en die zijn allemaal onafhankelijk.
+
+389
+00:16:00.800 --> 00:16:03.910
+Dus ik zag dat ze het hadden over
+
+390
+00:16:03.920 --> 00:16:07.269
+dit begrip van klassen en subklassen
+
+391
+00:16:07.279 --> 00:16:10.069
+en toen zag ik dat ze het ook
+
+392
+00:16:10.079 --> 00:16:11.670
+hadden over iets wat ze type
+
+393
+00:16:11.680 --> 00:16:13.430
+hiërarchie noemden
+
+394
+00:16:13.440 --> 00:16:16.069
+waarbij ze wilden dat het type geïmplementeerd
+
+395
+00:16:16.079 --> 00:16:19.829
+door een klasse op een of andere manier gerelateerd zou zijn
+
+396
+00:16:19.839 --> 00:16:21.749
+op een manier die ze niet begrepen aan het type
+
+397
+00:16:21.759 --> 00:16:24.550
+dat geïmplementeerd werd door een subklasse. Ik
+
+398
+00:16:24.560 --> 00:16:26.389
+dacht echt over modules na in termen van
+
+399
+00:16:26.399 --> 00:16:29.030
+hun specificaties.
+
+400
+00:16:29.040 --> 00:16:31.430
+Dit had deels te maken met een cursus die ik
+
+401
+00:16:31.440 --> 00:16:33.910
+ontwikkelde aan MIT en die ik
+
+402
+00:16:33.920 --> 00:16:36.629
+gezamenlijk ontwikkelde met mijn collega John Gutag.
+
+403
+00:16:36.639 --> 00:16:38.389
+In die cursus leerden we de
+
+404
+00:16:38.399 --> 00:16:40.069
+studenten hoe ze moesten ontwerpen op het gebied van
+
+405
+00:16:40.079 --> 00:16:42.069
+modulariteit, gegevenstypen enzovoort,
+
+406
+00:16:42.079 --> 00:16:44.629
+maar ook hoe ze specificaties moesten schrijven,
+
+407
+00:16:44.639 --> 00:16:47.670
+hoe ze over correctheid moesten redeneren. En zo
+
+408
+00:16:47.680 --> 00:16:51.030
+lag de nadruk sterk op: denk eerst na over de
+
+409
+00:16:51.040 --> 00:16:53.509
+betekenis van dingen. En de
+
+410
+00:16:53.519 --> 00:16:54.949
+implementatie is iets dat een beetje
+
+411
+00:16:54.959 --> 00:16:56.389
+verborgen zit binnenin. Daar maak je je
+
+412
+00:16:56.399 --> 00:16:59.350
+niet zo veel zorgen over. En dus
+
+413
+00:16:59.360 --> 00:17:00.790
+was dat een andere manier van denken
+
+414
+00:17:00.800 --> 00:17:02.550
+over dingen dan wat er gaande was in
+
+415
+00:17:02.560 --> 00:17:05.429
+op de westkust waar ze waren
+
+416
+00:17:05.439 --> 00:17:08.230
+echt dachten in termen van klassen en
+
+417
+00:17:08.240 --> 00:17:10.630
+subklassen. En ik zag zelfs papers waarin
+
+418
+00:17:10.640 --> 00:17:13.270
+ze het gedrag van een
+
+419
+00:17:13.280 --> 00:17:14.710
+klasse beschreven door uit te leggen hoe de
+
+420
+00:17:14.720 --> 00:17:16.390
+implementatie verschilde van de
+
+421
+00:17:16.400 --> 00:17:18.470
+implementatie van de superklasse. Dus
+
+422
+00:17:18.480 --> 00:17:19.909
+waren ze min of meer gericht op
+
+423
+00:17:19.919 --> 00:17:21.510
+implementaties op een manier waarop wij
+
+424
+00:17:21.520 --> 00:17:24.870
+dat niet waren. En dus
+
+425
+00:17:24.880 --> 00:17:27.110
+toen ik deze papers over type
+
+426
+00:17:27.120 --> 00:17:29.430
+hiërarchie las en zag dat ze gewoon niet
+
+427
+00:17:29.440 --> 00:17:32.230
+konden bedenken wat het zou moeten betekenen,
+
+428
+00:17:32.240 --> 00:17:34.070
+dacht ik er vanuit de begrippen
+
+429
+00:17:34.080 --> 00:17:37.029
+van betekenis over na. En zo kon ik zeggen dat het
+
+430
+00:17:37.039 --> 00:17:40.070
+te maken heeft met het gedrag. En deze
+
+431
+00:17:40.080 --> 00:17:41.750
+subklasse kan maar beter gedragen als de
+
+432
+00:17:41.760 --> 00:17:43.909
+superklasse als je hem gebruikt in een
+
+433
+00:17:43.919 --> 00:17:45.750
+omgeving waar de superklasse
+
+434
+00:17:45.760 --> 00:17:47.669
+verwacht wordt.
+
+435
+00:17:47.679 --> 00:17:49.990
+En dat werd wat uiteindelijk
+
+436
+00:17:50.000 --> 00:17:51.590
+het Liskoff-substitutieprincipe
+
+437
+00:17:51.600 --> 00:17:54.150
+werd genoemd. En uiteindelijk schreven Janette Wing
+
+438
+00:17:54.160 --> 00:17:55.909
+en ik een paper over gedragsmatige
+
+439
+00:17:55.919 --> 00:17:57.590
+subtypering, wat de formele
+
+440
+00:17:57.600 --> 00:17:58.950
+definitie is.
+
+441
+00:17:58.960 --> 00:18:00.630
+En hoe kreeg het die naam?
+
+442
+00:18:00.640 --> 00:18:02.150
+Want jij ging niet op het podium staan en
+
+443
+00:18:02.160 --> 00:18:03.830
+zeggen: "Hé iedereen, hier is de lijst."
+
+444
+00:18:03.840 --> 00:18:06.789
+Nee, nee, maar nee. Zoals ik al zei, op een dag
+
+445
+00:18:06.799 --> 00:18:10.230
+in de jaren 90, nadat het internet
+
+446
+00:18:10.240 --> 00:18:12.950
+was gekomen, kreeg ik een e-mail met de vraag: "Kunt u
+
+447
+00:18:12.960 --> 00:18:14.310
+zeggen of dit de juiste
+
+448
+00:18:14.320 --> 00:18:15.750
+interpretatie is van het Liskoff-
+
+449
+00:18:15.760 --> 00:18:17.990
+substitutieprincipe?" Toen ontdekte ik
+
+450
+00:18:18.000 --> 00:18:22.549
+dat er zo'n naam bestond
+
+451
+00:18:22.559 --> 00:18:25.909
+en ik denk niet dat ik echt
+
+452
+00:18:25.919 --> 00:18:28.070
+had beseft hoe belangrijk het was tot
+
+453
+00:18:28.080 --> 00:18:29.590
+dat moment, omdat ik niet
+
+454
+00:18:29.600 --> 00:18:31.110
+aan dit soort dingen dacht. Ik werkte aan
+
+455
+00:18:31.120 --> 00:18:32.230
+andere dingen
+
+456
+00:18:32.240 --> 00:18:35.190
+in de academische gemeenschap. Het lijkt heel
+
+457
+00:18:35.200 --> 00:18:37.909
+logisch dat meerdere mensen
+
+458
+00:18:37.919 --> 00:18:40.710
+vergelijkbare ideeën hebben, maar het lijkt erop dat sommige
+
+459
+00:18:40.720 --> 00:18:44.630
+ideeën meer blijven hangen dan andere. Zo is
+
+460
+00:18:44.640 --> 00:18:46.789
+bijvoorbeeld de view stamp-
+
+461
+00:18:46.799 --> 00:18:49.430
+replicatie versus Paxos,
+
+462
+00:18:49.440 --> 00:18:51.909
+hetzelfde. Ik vraag me af
+
+463
+00:18:51.919 --> 00:18:53.830
+waarom in dat geval bijvoorbeeld
+
+464
+00:18:53.840 --> 00:18:57.350
+Paxos bekender zou zijn dan Vstamp-
+
+465
+00:18:57.360 --> 00:18:57.909
+replicatie?
+
+466
+00:18:57.919 --> 00:19:00.950
+Ja. Dus wat Lesie zegt is
+
+467
+00:19:00.960 --> 00:19:03.270
+Ik ging rond en gaf alle lezingen en
+
+468
+00:19:03.280 --> 00:19:08.070
+zij heeft het geïmplementeerd.
+
+469
+00:19:08.080 --> 00:19:09.830
+Echt waar
+
+470
+00:19:09.840 --> 00:19:11.669
+iets tot dat punt.
+
+471
+00:19:11.679 --> 00:19:15.750
+Toen werd hij bekend omdat hij erover sprak
+
+472
+00:19:15.760 --> 00:19:18.230
+het. Ja, hij gaf inderdaad veel
+
+473
+00:19:18.240 --> 00:19:20.310
+lezingen erover en schreef verschillende artikelen
+
+474
+00:19:20.320 --> 00:19:23.430
+enzovoort en ik realiseerde me niet dat het
+
+475
+00:19:23.440 --> 00:19:26.150
+hetzelfde systeem was, maar uiteindelijk werd het
+
+476
+00:19:26.160 --> 00:19:28.310
+duidelijk dat het hetzelfde systeem was.
+
+477
+00:19:28.320 --> 00:19:31.350
+Ik vraag me ook af hoeveel de naam uitmaakt
+
+478
+00:19:31.360 --> 00:19:33.590
+omdat Paxos een beetje pakkend is.
+
+479
+00:19:33.600 --> 00:19:34.549
+Het is een leuke naam.
+
+480
+00:19:34.559 --> 00:19:35.590
+Het is een leuke naam. Ja.
+
+481
+00:19:35.600 --> 00:19:36.230
+Ja. Inderdaad.
+
+482
+00:19:36.240 --> 00:19:38.789
+Dus ik ik kan me voorstellen dat het misschien betere
+
+483
+00:19:38.799 --> 00:19:41.830
+marketing rondom het idee heeft, denk ik. Ik
+
+484
+00:19:41.840 --> 00:19:45.350
+denk ook dat deze aanpak voor het oplossen van
+
+485
+00:19:45.360 --> 00:19:47.190
+dit probleem dat zowel Leslie als ik
+
+486
+00:19:47.200 --> 00:19:49.669
+onafhankelijk oppikten in mijn geval afkomstig was
+
+487
+00:19:49.679 --> 00:19:51.110
+van het werk dat ik deed met
+
+488
+00:19:51.120 --> 00:19:54.070
+transacties omdat in transacties
+
+489
+00:19:54.080 --> 00:19:57.750
+er een leider is die zegt nu
+
+490
+00:19:57.760 --> 00:19:59.510
+gaan we vastleggen en iedereen vragen
+
+491
+00:19:59.520 --> 00:20:01.750
+kunnen we vastleggen en als ze allemaal ja zeggen
+
+492
+00:20:01.760 --> 00:20:06.150
+weet je het is maar anders dan in transacties
+
+493
+00:20:06.160 --> 00:20:08.470
+als in transacties als de leider uitvalt
+
+494
+00:20:08.480 --> 00:20:10.549
+is er wat je noemt weet je dit dit
+
+495
+00:20:10.559 --> 00:20:12.630
+kan hier een echt probleem zijn. We moesten
+
+496
+00:20:12.640 --> 00:20:15.350
+een manier hebben om naar een nieuwe leider over te stappen als
+
+497
+00:20:15.360 --> 00:20:17.510
+de oude leider uitviel. En dat is de
+
+498
+00:20:17.520 --> 00:20:19.990
+grote stap vooruit die plaatsvond in zowel
+
+499
+00:20:20.000 --> 00:20:23.669
+view stamp replicatie als paxos. Nu
+
+500
+00:20:23.679 --> 00:20:26.549
+was er ook Byzantijnse fouttolerantie
+
+501
+00:20:26.559 --> 00:20:29.029
+die later kwam en werd
+
+502
+00:20:29.039 --> 00:20:31.669
+ontwikkeld. Dus viewstamp replicatie heb ik
+
+503
+00:20:31.679 --> 00:20:33.909
+ontwikkeld met mijn student Brian Oki. Het
+
+504
+00:20:33.919 --> 00:20:37.750
+was zijn proefschrift en daarna Paxos heb ik
+
+505
+00:20:37.760 --> 00:20:40.390
+ontwikkeld met mijn student Miguel Castro.
+
+506
+00:20:40.400 --> 00:20:45.190
+was zijn proefschrift en Miguel
+
+507
+00:20:45.200 --> 00:20:47.990
+raakte geïnteresseerd in dit probleem omdat
+
+508
+00:20:48.000 --> 00:20:50.310
+er een DARPA-verzoek was voor
+
+509
+00:20:50.320 --> 00:20:53.669
+voorstellen en er was één over dit
+
+510
+00:20:53.679 --> 00:20:55.430
+probleem op het internet. Tegen die tijd waren er
+
+511
+00:20:55.440 --> 00:20:57.270
+Byzantijnse aanvallen en je weet
+
+512
+00:20:57.280 --> 00:21:01.190
+kwaadaardige aanvallen en knooppunten die
+
+513
+00:21:01.200 --> 00:21:03.029
+beweerden correct te werken maar
+
+514
+00:21:03.039 --> 00:21:04.950
+eigenlijk waren ze gecompromitteerd en
+
+515
+00:21:04.960 --> 00:21:07.430
+enzovoort. En dus view stamp
+
+516
+00:21:07.440 --> 00:21:10.149
+versterking in Paxos behandelde alleen
+
+517
+00:21:10.159 --> 00:21:14.230
+crashes en eh als er berichten waren
+
+518
+00:21:14.240 --> 00:21:16.549
+waarmee geknoeid was kon je
+
+519
+00:21:16.559 --> 00:21:17.909
+zien wanneer ze aankwamen dat ze
+
+520
+00:21:17.919 --> 00:21:19.590
+slecht waren en dat was ongeveer de omvang van
+
+521
+00:21:19.600 --> 00:21:22.230
+wat we behandelden. Maar deze kwaadaardige
+
+522
+00:21:22.240 --> 00:21:24.950
+aanvallen met knooppunten die beweerden te
+
+523
+00:21:24.960 --> 00:21:27.190
+werken terwijl ze dat niet deden, dat was een
+
+524
+00:21:27.200 --> 00:21:30.310
+grote stap vooruit. En Miguel zag dit
+
+525
+00:21:30.320 --> 00:21:32.630
+verzoek om voorstellen en hij zei tegen mij,
+
+526
+00:21:32.640 --> 00:21:34.390
+"Waarom kijken we niet of we kunnen komen
+
+527
+00:21:34.400 --> 00:21:36.630
+met een protocol dat werkt in de
+
+528
+00:21:36.640 --> 00:21:39.830
+aanwezigheid van Byzantijnse aanvallen?" En en
+
+529
+00:21:39.840 --> 00:21:41.510
+ik denk trouwens dat Leslie degene is
+
+530
+00:21:41.520 --> 00:21:43.510
+die het woord Byzantijns heeft uitgevonden, ik
+
+531
+00:21:43.520 --> 00:21:43.590
+denk
+
+532
+00:21:43.600 --> 00:21:44.230
+hij deed het.
+
+533
+00:21:44.240 --> 00:21:45.990
+Ja. Klopt. Ik zag in de in de
+
+534
+00:21:46.000 --> 00:21:48.070
+software-crisis dingen is er het paper
+
+535
+00:21:48.080 --> 00:21:51.669
+met Dijkstra dat u had genoemd als
+
+536
+00:21:51.679 --> 00:21:53.669
+een van de papers die u schreef dat
+
+537
+00:21:53.679 --> 00:21:56.230
+zei dat we modulariteit nodig hebben en dat paper
+
+538
+00:21:56.240 --> 00:21:58.789
+was de go-to statements considered
+
+539
+00:21:58.799 --> 00:21:59.590
+harmful
+
+540
+00:21:59.600 --> 00:22:00.310
+precies
+
+541
+00:22:00.320 --> 00:22:02.950
+en ik ben benieuwd want Dijkstra ik bedoel
+
+542
+00:22:02.960 --> 00:22:04.710
+toen ik informatica studeerde
+
+543
+00:22:04.720 --> 00:22:07.590
+we kennen allemaal zijn naam heeft u hem ooit ontmoet
+
+544
+00:22:07.600 --> 00:22:08.549
+of met hem gewerkt
+
+545
+00:22:08.559 --> 00:22:10.149
+oh ja vele malen ik heb nooit samengewerkt
+
+546
+00:22:10.159 --> 00:22:12.390
+met hem maar ik heb hem meerdere
+
+547
+00:22:12.400 --> 00:22:15.270
+keren ontmoet en uh weet u hij had zeer
+
+548
+00:22:15.280 --> 00:22:19.909
+interessante ideeën en dat paper uh go
+
+549
+00:22:19.919 --> 00:22:22.149
+to statement considered harmful het is niet
+
+550
+00:22:22.159 --> 00:22:24.549
+eigenlijk een paper het was een brief aan de
+
+551
+00:22:24.559 --> 00:22:27.669
+redacteur van de communications of the ACM
+
+552
+00:22:27.679 --> 00:22:31.590
+maar het had grote impact en wat
+
+553
+00:22:31.600 --> 00:22:33.750
+echt belangrijk was aan dat paper was
+
+554
+00:22:33.760 --> 00:22:37.430
+dat Dijkstra het had over
+
+555
+00:22:37.440 --> 00:22:40.149
+hoe moeilijk het is om te redeneren over de
+
+556
+00:22:40.159 --> 00:22:43.430
+correctheid van code en dit was op een
+
+557
+00:22:43.440 --> 00:22:47.350
+moment waarop in de wetenschappen
+
+558
+00:22:47.360 --> 00:22:49.270
+informatica min of meer werd afgedaan
+
+559
+00:22:49.280 --> 00:22:52.710
+als weinig bijzonders en iedereen kan
+
+560
+00:22:52.720 --> 00:22:55.830
+code schrijven en weet u Dijkstra probeerde
+
+561
+00:22:55.840 --> 00:22:58.310
+een punt te maken dat ik denk werkelijk
+
+562
+00:22:58.320 --> 00:23:01.029
+belangrijk was dat het niet zo triviaal is als
+
+563
+00:23:01.039 --> 00:23:04.549
+je denkt dat het is het is helemaal niet triviaal
+
+564
+00:23:04.559 --> 00:23:06.310
+eh en hij wees er ook op dat
+
+565
+00:23:06.320 --> 00:23:08.630
+goto's misbruikt kunnen worden
+
+566
+00:23:08.640 --> 00:23:11.430
+en het was destijds controversieel maar
+
+567
+00:23:11.440 --> 00:23:12.149
+dat was het ja
+
+568
+00:23:12.159 --> 00:23:15.350
+maar vandaag de dag bedoel ik ik heb
+
+569
+00:23:15.360 --> 00:23:17.750
+meer dan tien jaar code geschreven.
+
+570
+00:23:17.760 --> 00:23:18.710
+Mensen gebruiken geen goto.
+
+571
+00:23:18.720 --> 00:23:20.630
+Ja. Ik heb zelfs geen goto gezien in
+
+572
+00:23:20.640 --> 00:23:21.669
+de code.
+
+573
+00:23:21.679 --> 00:23:23.990
+Dus waarom was het destijds
+
+574
+00:23:24.000 --> 00:23:24.789
+controversieel?
+
+575
+00:23:24.799 --> 00:23:26.390
+De programmeertalen waren destijds
+
+576
+00:23:26.400 --> 00:23:29.270
+anders. Ten eerste waren er mensen die
+
+577
+00:23:29.280 --> 00:23:32.149
+programma's schreven in assembler. In
+
+578
+00:23:32.159 --> 00:23:34.549
+assembler moet je gotos gebruiken.
+
+579
+00:23:34.559 --> 00:23:37.029
+Programmeertalen hadden sommige
+
+580
+00:23:37.039 --> 00:23:38.789
+constructen niet die we tegenwoordig
+
+581
+00:23:38.799 --> 00:23:42.870
+kennen. En dus gebruikten sommige mensen
+
+582
+00:23:42.880 --> 00:23:45.830
+gotos omdat ze moesten. En
+
+583
+00:23:45.840 --> 00:23:47.510
+ook
+
+584
+00:23:47.520 --> 00:23:49.830
+deden compilers niet alle soorten
+
+585
+00:23:49.840 --> 00:23:52.070
+optimalisaties die ze nu doen. Er was
+
+586
+00:23:52.080 --> 00:23:53.669
+een zorg dat als je geen gotos had
+
+587
+00:23:53.679 --> 00:23:55.510
+je programma misschien niet efficiënt
+
+588
+00:23:55.520 --> 00:23:59.350
+genoeg zou zijn. En dan waren er
+
+589
+00:23:59.360 --> 00:24:01.270
+mensen die gotos gebruikten en echt
+
+590
+00:24:01.280 --> 00:24:03.750
+goede code schreven. En zij waren
+
+591
+00:24:03.760 --> 00:24:06.870
+beledigd dat Dijkstra zei dat hun code
+
+592
+00:24:06.880 --> 00:24:09.110
+slecht was. Er was veel ophef en Dijkstra
+
+593
+00:24:09.120 --> 00:24:13.909
+was niet de meest diplomatieke persoon.
+
+594
+00:24:13.919 --> 00:24:15.990
+Dus hij schreef het niet op een
+
+595
+00:24:16.000 --> 00:24:18.630
+vriendelijke manier, je kunt je
+
+596
+00:24:18.640 --> 00:24:22.310
+voorstellen dat papier vriendelijker te
+
+597
+00:24:22.320 --> 00:24:24.789
+schrijven, maar er waren vele redenen
+
+598
+00:24:24.799 --> 00:24:26.310
+waarom het controversieel was.
+
+599
+00:24:26.320 --> 00:24:28.789
+Mensen waren beledigd, maar er waren
+
+600
+00:24:28.799 --> 00:24:31.510
+ook zorgen over
+
+601
+00:24:31.520 --> 00:24:32.950
+programmeertalen hebben deze
+
+602
+00:24:32.960 --> 00:24:34.630
+functies niet die ik nodig heb. Wat moet
+
+603
+00:24:34.640 --> 00:24:37.590
+ik dan doen? En dan waren er zorgen over
+
+604
+00:24:37.600 --> 00:24:39.909
+wat de compiler deed. De wereld is nu
+
+605
+00:24:39.919 --> 00:24:42.149
+heel anders. Maar duidelijk heeft
+
+606
+00:24:42.159 --> 00:24:43.669
+Dijkstra het gewonnen.
+
+607
+00:24:43.679 --> 00:24:44.310
+Oké.
+
+608
+00:24:44.320 --> 00:24:49.029
+Want geen gotos.
+
+609
+00:24:49.039 --> 00:24:53.110
+En is Dijkstra in persoon ook zoals zijn
+
+610
+00:24:53.120 --> 00:24:55.510
+schrijven.
+
+611
+00:24:55.520 --> 00:24:57.750
+Hij was niet altijd even tactvol als hij
+
+612
+00:24:57.760 --> 00:25:00.070
+had kunnen zijn.
+
+613
+00:25:00.080 --> 00:25:02.710
+Ja. Maar hij was een zeer
+
+614
+00:25:02.720 --> 00:25:04.950
+vooraanstaand onderzoeker. Informatica
+
+615
+00:25:04.960 --> 00:25:07.750
+heeft zo'n enorme impact gehad op de
+
+616
+00:25:07.760 --> 00:25:10.630
+industrie. Waarom koos u ervoor om in de
+
+617
+00:25:10.640 --> 00:25:12.710
+academische wereld te blijven in plaats
+
+618
+00:25:12.720 --> 00:25:14.230
+van naar de industrie te gaan?
+
+619
+00:25:14.240 --> 00:25:15.750
+Dus
+
+620
+00:25:15.760 --> 00:25:18.470
+Ik doe graag onderzoek
+
+621
+00:25:18.480 --> 00:25:21.510
+en ik werk graag met studenten
+
+622
+00:25:21.520 --> 00:25:23.190
+en
+
+623
+00:25:23.200 --> 00:25:26.070
+lesgeven was nooit mijn favoriete bezigheid
+
+624
+00:25:26.080 --> 00:25:28.310
+maar ik vond altijd dat lesgeven en onderzoek
+
+625
+00:25:28.320 --> 00:25:30.789
+nauw met elkaar verbonden waren.
+
+626
+00:25:30.799 --> 00:25:35.750
+Maar het was ook een andere tijd. Dus
+
+627
+00:25:35.760 --> 00:25:38.549
+dit verhaal over hoe professoren
+
+628
+00:25:38.559 --> 00:25:41.190
+allemaal bedrijven oprichten enzovoort, wat
+
+629
+00:25:41.200 --> 00:25:43.750
+tegenwoordig gebeurt, gebeurde 20
+
+630
+00:25:43.760 --> 00:25:47.190
+jaar geleden niet, of misschien wel 20
+
+631
+00:25:47.200 --> 00:25:49.110
+jaar geleden, maar 30 jaar geleden niet.
+
+632
+00:25:49.120 --> 00:25:50.870
+En toen ik jong was, was het niet de
+
+633
+00:25:50.880 --> 00:25:53.990
+gewoonte. Het was een soort van
+
+634
+00:25:54.000 --> 00:25:56.950
+of-of situatie. Dus ik dacht er niet eens
+
+635
+00:25:56.960 --> 00:25:59.669
+aan om zoiets te doen. Ik
+
+636
+00:25:59.679 --> 00:26:01.909
+heb kort bij een startup gewerkt aan het einde
+
+637
+00:26:01.919 --> 00:26:05.590
+van de jaren 90. Ik vond het niks.
+
+638
+00:26:05.600 --> 00:26:08.870
+Ik doe veel liever onderzoek. En als
+
+639
+00:26:08.880 --> 00:26:11.350
+professor heb je dit, het is een
+
+640
+00:26:11.360 --> 00:26:14.549
+gave en een vloek. De gave is dat je kunt doen
+
+641
+00:26:14.559 --> 00:26:16.870
+wat je wilt. De vloek is dat je moet
+
+642
+00:26:16.880 --> 00:26:18.230
+uitzoeken wat het is dat je
+
+643
+00:26:18.240 --> 00:26:22.549
+doet. Maar ik hou van die vrijheid en het
+
+644
+00:26:22.559 --> 00:26:25.350
+feit dat ik zomaar alle kanten op kon, mijn
+
+645
+00:26:25.360 --> 00:26:27.350
+carrière zit vol met deze
+
+646
+00:26:27.360 --> 00:26:29.430
+interessante zigzags waarbij ik zou overstappen
+
+647
+00:26:29.440 --> 00:26:31.269
+naar iets anders. Ik had de vrijheid om
+
+648
+00:26:31.279 --> 00:26:32.470
+dat te doen.
+
+649
+00:26:32.480 --> 00:26:34.870
+Wat weerhoudt je ervan een heel
+
+650
+00:26:34.880 --> 00:26:36.549
+nutteloze richting in te gaan?
+
+651
+00:26:36.559 --> 00:26:40.390
+Je krijgt geen vaste aanstelling.
+
+652
+00:26:40.400 --> 00:26:41.909
+Wie is de rechter?
+
+653
+00:26:41.919 --> 00:26:43.990
+De gemeenschap.
+
+654
+00:26:44.000 --> 00:26:46.710
+Ja. Het is niet, weet je, wat de
+
+655
+00:26:46.720 --> 00:26:48.230
+manier waarop je wordt gezien aan je
+
+656
+00:26:48.240 --> 00:26:53.350
+universiteit heeft vooral te maken met één
+
+657
+00:26:53.360 --> 00:26:55.669
+heel belangrijk facet daarvan: hoe word je
+
+658
+00:26:55.679 --> 00:26:59.110
+gezien in je onderzoeksgemeenschap.
+
+659
+00:26:59.120 --> 00:27:02.549
+Dus omdat dat een van de belangrijke
+
+660
+00:27:02.559 --> 00:27:05.830
+dingen is die ze van hun faculteit verwachten als
+
+661
+00:27:05.840 --> 00:27:08.149
+je aan een onderzoeksuniversiteit bent. Je
+
+662
+00:27:08.159 --> 00:27:10.630
+noemde eerder dat onderzoek en
+
+663
+00:27:10.640 --> 00:27:13.110
+lesgeven nauw verwant waren in jouw
+
+664
+00:27:13.120 --> 00:27:15.190
+mening. Waarom is dat?
+
+665
+00:27:15.200 --> 00:27:18.149
+Omdat je wanneer je lesgeeft, moet
+
+666
+00:27:18.159 --> 00:27:20.789
+lesgeven vanuit eerste beginselen.
+
+667
+00:27:20.799 --> 00:27:22.789
+En als je goed onderzoek doet, moet je
+
+668
+00:27:22.799 --> 00:27:25.510
+diep begrijpen wat
+
+669
+00:27:25.520 --> 00:27:27.110
+werkt, wat niet werkt, welke
+
+670
+00:27:27.120 --> 00:27:29.350
+aannames je maakt. Het is
+
+671
+00:27:29.360 --> 00:27:31.830
+echt hetzelfde denkproces.
+
+672
+00:27:31.840 --> 00:27:34.710
+Het klinkt alsof in onderzoek, bedoel ik
+
+673
+00:27:34.720 --> 00:27:37.510
+en dit geldt in elk aspect van het leven
+
+674
+00:27:37.520 --> 00:27:39.510
+er is de, ik denk, de richting die
+
+675
+00:27:39.520 --> 00:27:41.909
+je inslaat en dan het werk dat je doet
+
+676
+00:27:41.919 --> 00:27:43.990
+in die richting en het klinkt
+
+677
+00:27:44.000 --> 00:27:48.630
+alsof voor onderzoek de richting
+
+678
+00:27:48.640 --> 00:27:51.190
+misschien wel het belangrijkste is, want je
+
+679
+00:27:51.200 --> 00:27:54.950
+kunt een fenomenale onderzoeker hebben
+
+680
+00:27:54.960 --> 00:27:58.149
+die werkt aan een idee dat, weet je, zelfs
+
+681
+00:27:58.159 --> 00:28:00.310
+als je het voor 100% uitvoert, het niet zal
+
+682
+00:28:00.320 --> 00:28:02.789
+leiden tot. Precies. Dus, weet je, ik
+
+683
+00:28:02.799 --> 00:28:05.110
+zeg tegen studenten, promovendi,
+
+684
+00:28:05.120 --> 00:28:07.909
+doe geen incrementeel werk. Je moet niet
+
+685
+00:28:07.919 --> 00:28:09.750
+weten, je kunt niet zomaar blijven
+
+686
+00:28:09.760 --> 00:28:11.190
+werken aan hetzelfde ding keer op keer
+
+687
+00:28:11.200 --> 00:28:13.269
+en alleen maar kleine verbeteringen maken.
+
+688
+00:28:13.279 --> 00:28:15.029
+Je moet iets vinden. Je hebt gelijk. Je moet
+
+689
+00:28:15.039 --> 00:28:17.110
+een goed probleem vinden, maar je moet ook
+
+690
+00:28:17.120 --> 00:28:20.070
+een probleem vinden dat vatbaar is
+
+691
+00:28:20.080 --> 00:28:23.029
+voor een oplossing en dat aansluit bij je
+
+692
+00:28:23.039 --> 00:28:25.029
+vaardigheden.
+
+693
+00:28:25.039 --> 00:28:28.549
+En je moet herkennen wanneer je
+
+694
+00:28:28.559 --> 00:28:30.389
+een goede richting op gaat of niet
+
+695
+00:28:30.399 --> 00:28:32.470
+een goede richting op gaat.
+
+696
+00:28:32.480 --> 00:28:34.789
+Terugkijkend op je carrière, zeg je
+
+697
+00:28:34.799 --> 00:28:39.110
+dat het geluk was en dat het lijkt alsof
+
+698
+00:28:39.120 --> 00:28:42.070
+dingen gewoon op hun plaats vielen.
+
+699
+00:28:42.080 --> 00:28:45.269
+Ik denk dat er geluk bij betrokken was.
+
+700
+00:28:45.279 --> 00:28:49.029
+Er was veel hard werk bij betrokken.
+
+701
+00:28:49.039 --> 00:28:50.950
+er was
+
+702
+00:28:50.960 --> 00:28:54.630
+eh het niet toelaten dat
+
+703
+00:28:54.640 --> 00:28:57.990
+iets negatiefs je, weet je, grote
+
+704
+00:28:58.000 --> 00:29:00.789
+moeilijkheden bezorgt.
+
+705
+00:29:00.799 --> 00:29:05.350
+Dus bijvoorbeeld toen ik mijn promotie afrondde
+
+706
+00:29:05.360 --> 00:29:08.070
+had ik graag een universitaire aanstelling gewild
+
+707
+00:29:08.080 --> 00:29:11.110
+maar ik had geen goede aanbiedingen.
+
+708
+00:29:11.120 --> 00:29:13.430
+Dus ging ik terug naar MITER, het bedrijf waar ik
+
+709
+00:29:13.440 --> 00:29:15.990
+aanvankelijk als
+
+710
+00:29:16.000 --> 00:29:17.669
+onderzoeker had gewerkt.
+
+711
+00:29:17.679 --> 00:29:19.590
+Eh, met andere woorden, ik ging gewoon
+
+712
+00:29:19.600 --> 00:29:23.110
+door en het bleek een
+
+713
+00:29:23.120 --> 00:29:25.510
+zeer goede keuze te zijn, omdat ik overschakelde
+
+714
+00:29:25.520 --> 00:29:28.549
+van AI naar systemen en dit gaf me, ik
+
+715
+00:29:28.559 --> 00:29:30.950
+werkte daar vier jaar. Gaf me
+
+716
+00:29:30.960 --> 00:29:32.950
+vier jaar om die overgang te maken
+
+717
+00:29:32.960 --> 00:29:36.789
+zonder me zorgen te hoeven maken over
+
+718
+00:29:36.799 --> 00:29:38.549
+studenten en lesgeven en al het andere
+
+719
+00:29:38.559 --> 00:29:41.110
+spul, weet je. Dus het pakte goed uit,
+
+720
+00:29:41.120 --> 00:29:43.430
+maar het betekende ook dat ik niet, weet
+
+721
+00:29:43.440 --> 00:29:45.669
+je, echt medelijden had met mezelf dat
+
+722
+00:29:45.679 --> 00:29:47.830
+ik geen baan kreeg. En ik ging gewoon door
+
+723
+00:29:47.840 --> 00:29:51.510
+gaande en dan stond titel N op het punt
+
+724
+00:29:51.520 --> 00:29:54.470
+aangenomen te worden en eindelijk stond de academische wereld
+
+725
+00:29:54.480 --> 00:29:58.149
+open voor vrouwen en ik was er klaar voor
+
+726
+00:29:58.159 --> 00:30:00.389
+maar ik denk dat je weet, als ik praat met
+
+727
+00:30:00.399 --> 00:30:02.070
+andere mensen over hun carrière, praten zij
+
+728
+00:30:02.080 --> 00:30:04.310
+over deuren die opengaan en deuren
+
+729
+00:30:04.320 --> 00:30:08.389
+die sluiten. Dus eh, ik kreeg de academische
+
+730
+00:30:08.399 --> 00:30:10.230
+baan die ik wilde niet, maar ik had deze andere
+
+731
+00:30:10.240 --> 00:30:14.950
+kans. Ik studeerde wiskunde en
+
+732
+00:30:14.960 --> 00:30:17.269
+gelukkig werd mij een programmeer-
+
+733
+00:30:17.279 --> 00:30:20.310
+baan aangeboden. Ik bedoel, deuren gaan open en dan moet je
+
+734
+00:30:20.320 --> 00:30:21.669
+beslissen: ga ik er
+
+735
+00:30:21.679 --> 00:30:24.789
+doorheen stappen? En dit is een patroon dat
+
+736
+00:30:24.799 --> 00:30:27.029
+mensen in hun carrière zien. Het zijn
+
+737
+00:30:27.039 --> 00:30:30.230
+niet alleen ik. Veel mensen hebben die
+
+738
+00:30:30.240 --> 00:30:32.470
+soort keuzes die je onderweg maakt,
+
+739
+00:30:32.480 --> 00:30:34.950
+kansen en dingen die
+
+740
+00:30:34.960 --> 00:30:36.549
+niet zo geweldig zijn, weet je, en je
+
+741
+00:30:36.559 --> 00:30:39.110
+werkt je er op een bepaalde manier doorheen.
+
+742
+00:30:39.120 --> 00:30:41.269
+Ik heb een paar mensen geïnterviewd die
+
+743
+00:30:41.279 --> 00:30:43.510
+Turing Awards hebben gewonnen en ik heb
+
+744
+00:30:43.520 --> 00:30:46.389
+onderzoek gedaan en veel van deze
+
+745
+00:30:46.399 --> 00:30:48.389
+toespraken bekeken die mensen geven nadat ze
+
+746
+00:30:48.399 --> 00:30:50.710
+de prijs ontvingen. En ik merkte
+
+747
+00:30:50.720 --> 00:30:54.549
+iets anders in jouw toespraak of
+
+748
+00:30:54.559 --> 00:30:56.870
+sommige dingen die ik las over eh
+
+749
+00:30:56.880 --> 00:30:59.590
+jouw werk, namelijk dat het in het jouwe
+
+750
+00:30:59.600 --> 00:31:00.950
+lijkt alsof toen jij de Turing
+
+751
+00:31:00.960 --> 00:31:05.669
+Award kreeg, er mensen waren die zeiden: "Waarom
+
+752
+00:31:05.679 --> 00:31:07.750
+kreeg zij de Turing Award?" Het was
+
+753
+00:31:07.760 --> 00:31:10.310
+een soort negatief commentaar daarop
+
+754
+00:31:10.320 --> 00:31:12.230
+en dat zag ik niet in de andere
+
+755
+00:31:12.240 --> 00:31:14.950
+gevallen. Waarom denk je dat ze dat zeiden
+
+756
+00:31:14.960 --> 00:31:16.789
+over jouw werk?
+
+757
+00:31:16.799 --> 00:31:19.029
+Dus ik ben er niet zo zeker van dat dit niet
+
+758
+00:31:19.039 --> 00:31:20.630
+bij andere mensen voorkomt trouwens. Het
+
+759
+00:31:20.640 --> 00:31:22.310
+was alleen zo dat mijn man op het
+
+760
+00:31:22.320 --> 00:31:23.590
+internet was. Trouwens, er was toen al een
+
+761
+00:31:23.600 --> 00:31:24.630
+internet.
+
+762
+00:31:24.640 --> 00:31:25.029
+Oké.
+
+763
+00:31:25.039 --> 00:31:27.590
+Oké. Zoals je weet is het internet niet
+
+764
+00:31:27.600 --> 00:31:30.070
+per se aardig.
+
+765
+00:31:30.080 --> 00:31:30.870
+Dat weet ik,
+
+766
+00:31:30.880 --> 00:31:32.070
+toch?
+
+767
+00:31:32.080 --> 00:31:36.470
+En eh dus ik kan me voorstellen dat andere
+
+768
+00:31:36.480 --> 00:31:38.070
+mensen een vergelijkbare
+
+769
+00:31:38.080 --> 00:31:40.310
+vergelijkbare ervaring hadden gehad als ze de moeite hadden genomen om
+
+770
+00:31:40.320 --> 00:31:46.310
+te kijken. Eh maar ik denk ook dat
+
+771
+00:31:46.320 --> 00:31:50.070
+de wereld zo veel was veranderd en het
+
+772
+00:31:50.080 --> 00:31:53.350
+werk dat ik had gedaan zo fundamenteel was voor
+
+773
+00:31:53.360 --> 00:31:57.190
+wat er gaande was dat mensen echt
+
+774
+00:31:57.200 --> 00:31:59.110
+begrepen niet dat er een
+
+775
+00:31:59.120 --> 00:32:01.830
+voor was. Ik bedoel, mijn promovendi
+
+776
+00:32:01.840 --> 00:32:03.669
+begrepen echt niet dat er een
+
+777
+00:32:03.679 --> 00:32:06.630
+een voor was, want ik ontdekte dat op
+
+778
+00:32:06.640 --> 00:32:08.389
+het moment dat ik de prijs kreeg. Het
+
+779
+00:32:08.399 --> 00:32:10.870
+was echt niet tot hen doorgedrongen dat data-abstractie
+
+780
+00:32:10.880 --> 00:32:13.269
+niet altijd bestond.
+
+781
+00:32:13.279 --> 00:32:18.630
+Dus ik denk dat ik het zag als een
+
+782
+00:32:18.640 --> 00:32:21.750
+in zekere zin enorm compliment, niet echt
+
+783
+00:32:21.760 --> 00:32:23.909
+alleen voor mij maar voor de groep
+
+784
+00:32:23.919 --> 00:32:27.110
+onderzoekers die samen, weet je,
+
+785
+00:32:27.120 --> 00:32:30.149
+ons hebben gebracht tot het punt waar we deze
+
+786
+00:32:30.159 --> 00:32:32.230
+modulaire programmeertalen hadden en we
+
+787
+00:32:32.240 --> 00:32:35.110
+abstract datatypen begrepen en
+
+788
+00:32:35.120 --> 00:32:36.630
+we begrepen hoe je moest redeneren over
+
+789
+00:32:36.640 --> 00:32:38.789
+correctheid. Al die dingen waren zo
+
+790
+00:32:38.799 --> 00:32:41.669
+fundamenteel dat mensen dachten dat er
+
+791
+00:32:41.679 --> 00:32:43.590
+geen tijd was geweest dat het er nog niet
+
+792
+00:32:43.600 --> 00:32:44.389
+was.
+
+793
+00:32:44.399 --> 00:32:45.669
+Dus ze namen het als vanzelfsprekend aan.
+
+794
+00:32:45.679 --> 00:32:47.430
+Ze namen het als vanzelfsprekend aan. De
+
+795
+00:32:47.440 --> 00:32:49.190
+Byzantijnse fouttolerantie, je kijkt daarnaar
+
+796
+00:32:49.200 --> 00:32:53.269
+er is een protocol en
+
+797
+00:32:53.279 --> 00:32:54.870
+je kunt begrijpen dat er een
+
+798
+00:32:54.880 --> 00:32:56.310
+protocol was. Iemand heeft dat
+
+799
+00:32:56.320 --> 00:32:59.669
+protocol uitgevonden. Je krijgt dus de
+
+800
+00:32:59.679 --> 00:33:01.750
+erkenning daarvoor. Dit was veel
+
+801
+00:33:01.760 --> 00:33:04.149
+fundamenteler. Dit was de hele manier van denken
+
+802
+00:33:04.159 --> 00:33:06.710
+die je had over hoe je programma's ontwikkelt
+
+803
+00:33:06.720 --> 00:33:08.230
+en dat is waar mensen het over hadden
+
+804
+00:33:08.240 --> 00:33:11.909
+en de dingen waren zo veel veranderd
+
+805
+00:33:11.919 --> 00:33:14.470
+dat al deze uitvindingen van mij en
+
+806
+00:33:14.480 --> 00:33:17.669
+anderen gewoon in het houtwerk zaten
+
+807
+00:33:17.679 --> 00:33:19.830
+en mensen beseften niet dat er
+
+808
+00:33:19.840 --> 00:33:21.350
+een tijd voor was.
+
+809
+00:33:21.360 --> 00:33:24.549
+Dat bevestigt dan dat het zo
+
+810
+00:33:24.559 --> 00:33:26.230
+invloedrijk is en
+
+811
+00:33:26.240 --> 00:33:28.149
+iedereen het altijd gebruikt zodat ze
+
+812
+00:33:28.159 --> 00:33:29.750
+niet eens weten hoe het was voor
+
+813
+00:33:29.760 --> 00:33:31.190
+wat jij deed. Dus ik dacht, weet je,
+
+814
+00:33:31.200 --> 00:33:33.029
+het is enorm, de persoon die het zei
+
+815
+00:33:33.039 --> 00:33:35.669
+bedoelde het niet aardig, maar ik dacht
+
+816
+00:33:35.679 --> 00:33:39.350
+echt, het is een enorm, een enorm compliment en
+
+817
+00:33:39.360 --> 00:33:41.590
+en een uitspraak over waar we nu zijn
+
+818
+00:33:41.600 --> 00:33:45.110
+in tegenstelling tot waar we toen waren. Dus,
+
+819
+00:33:45.120 --> 00:33:46.710
+oké. Dat zijn alle vragen die ik
+
+820
+00:33:46.720 --> 00:33:48.549
+voor je heb. Heel erg bedankt voor
+
+821
+00:33:48.559 --> 00:33:50.070
+je tijd. Echt zeer gewaardeerd.
+
+822
+00:33:50.080 --> 00:33:51.190
+Graag gedaan.
+
+823
+00:33:51.200 --> 00:33:52.950
+Bedankt voor het luisteren naar de podcast.
+
+824
+00:33:52.960 --> 00:33:55.190
+Het is een passieproject van mij waar ik
+
+825
+00:33:55.200 --> 00:33:57.190
+echt van heb genoten om te bouwen. Een ander passie-
+
+826
+00:33:57.200 --> 00:33:58.549
+project waar ik op een bepaalde manier
+
+827
+00:33:58.559 --> 00:34:01.029
+in het geheim aan heb gewerkt, is het bouwen van een ergonomisch
+
+828
+00:34:01.039 --> 00:34:03.269
+toetsenbord waarvan ik wou dat het bestond en ik
+
+829
+00:34:03.279 --> 00:34:04.950
+heb eindelijk een prototype. Dus ik zou graag
+
+830
+00:34:04.960 --> 00:34:07.830
+willen laten zien wat we hebben gebouwd. Het is ultra
+
+831
+00:34:07.840 --> 00:34:10.550
+laagprofielend en ergonomisch en ik kon
+
+832
+00:34:10.560 --> 00:34:12.149
+niets vergelijkbaars op de markt vinden. Dus
+
+833
+00:34:12.159 --> 00:34:13.909
+daarom hebben we het gebouwd. Ik zal een link plaatsen
+
+834
+00:34:13.919 --> 00:34:15.589
+naar het toetsenbord in de beschrijving. Je
+
+835
+00:34:15.599 --> 00:34:17.190
+kunt een kijkje nemen en meer te weten komen over het
+
+836
+00:34:17.200 --> 00:34:18.869
+project daar. We kunnen zeker
+
+837
+00:34:18.879 --> 00:34:20.869
+jouw steun gebruiken. Ook, als je
+
+838
+00:34:20.879 --> 00:34:22.869
+feedback voor mij hebt over de show, hoor ik
+
+839
+00:34:22.879 --> 00:34:25.270
+dat graag. Reacties op YouTube hebben geleid
+
+840
+00:34:25.280 --> 00:34:27.909
+tot gasten zoals Ilia Gregoric
+
+841
+00:34:27.919 --> 00:34:30.310
+en David Fowler. Ik was me niet van hen bewust
+
+842
+00:34:30.320 --> 00:34:32.470
+totdat iemand een reactie achterliet. Ook heeft
+
+843
+00:34:32.480 --> 00:34:33.990
+feedback in de reacties me geholpen te leren
+
+844
+00:34:34.000 --> 00:34:36.550
+het aantal cliffhangers in de
+
+845
+00:34:36.560 --> 00:34:38.389
+intro's te verminderen. Dus jouw reacties maken
+
+846
+00:34:38.399 --> 00:34:39.750
+zeker een verschil. Blijf me alsjeblieft laten
+
+847
+00:34:39.760 --> 00:34:41.349
+weten wat je meer wilt zien
+
+848
+00:34:41.359 --> 00:34:42.869
+in de show, en ik zie je in de
+
+849
+00:34:42.879 --> 00:34:45.520
+volgende aflevering.
+

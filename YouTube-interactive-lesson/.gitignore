@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Generated lesson folders (users create these)
+# Uncomment the patterns below if you want to exclude generated lessons from version control
+# **/transcript*.vtt
+# **/unique_lines.json
+# **/translations.json
+# **/build_translations.py
+# **/gen_nl_vtt.py
+# **/gen_pdf.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store

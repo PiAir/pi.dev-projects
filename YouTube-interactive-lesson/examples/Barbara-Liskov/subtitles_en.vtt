@@ -1,0 +1,3400 @@
+WEBVTT
+Kind: captions
+Language: en
+
+1
+00:00:00.320 --> 00:00:02.710
+Don't do incremental work.
+
+2
+00:00:02.720 --> 00:00:04.950
+This is Barbara Liskov. She's a Turing
+
+3
+00:00:04.960 --> 00:00:07.030
+Award winner famous for her fundamental
+
+4
+00:00:07.040 --> 00:00:08.870
+contributions to programming languages
+
+5
+00:00:08.880 --> 00:00:10.549
+and distributed systems.
+
+6
+00:00:10.559 --> 00:00:12.950
+Encapsulation is an crucial part of
+
+7
+00:00:12.960 --> 00:00:15.749
+making modularity work. Your team is
+
+8
+00:00:15.759 --> 00:00:17.830
+really only as strong as your weakest
+
+9
+00:00:17.840 --> 00:00:18.950
+programmer.
+
+10
+00:00:18.960 --> 00:00:21.349
+I asked her for stories from her career.
+
+11
+00:00:21.359 --> 00:00:23.670
+That paper was the go-to statements
+
+12
+00:00:23.680 --> 00:00:26.870
+considered harmful. Is Dystra in person
+
+13
+00:00:26.880 --> 00:00:29.269
+also like his writing? He was not always
+
+14
+00:00:29.279 --> 00:00:31.589
+as tactful as he might be.
+
+15
+00:00:31.599 --> 00:00:34.950
+There were people saying, "Why did she
+
+16
+00:00:34.960 --> 00:00:37.110
+get the turning award? Why do you think
+
+17
+00:00:37.120 --> 00:00:40.869
+that they said that about your work?"
+
+18
+00:00:40.879 --> 00:00:47.029
+Here's the full episode.
+
+19
+00:00:47.039 --> 00:00:50.229
+You applied to multiple places and
+
+20
+00:00:50.239 --> 00:00:52.389
+Princeton was one of them and they had
+
+21
+00:00:52.399 --> 00:00:54.310
+rejected you on the grounds of you being
+
+22
+00:00:54.320 --> 00:00:56.869
+a a woman. How did you get into
+
+23
+00:00:56.879 --> 00:00:58.869
+programming in an environment that's so
+
+24
+00:00:58.879 --> 00:01:00.310
+hostile?
+
+25
+00:01:00.320 --> 00:01:02.069
+Okay, so this was when I got my
+
+26
+00:01:02.079 --> 00:01:04.310
+bachelor's degree
+
+27
+00:01:04.320 --> 00:01:07.910
+and I applied to several graduate
+
+28
+00:01:07.920 --> 00:01:10.789
+programs in math, which is what I
+
+29
+00:01:10.799 --> 00:01:13.350
+majored in as an undergraduate.
+
+30
+00:01:13.360 --> 00:01:16.789
+And I got this little card back. It was
+
+31
+00:01:16.799 --> 00:01:19.190
+a postcard from Princeton saying, "We do
+
+32
+00:01:19.200 --> 00:01:23.109
+not admit women." Which was surprising.
+
+33
+00:01:23.119 --> 00:01:24.789
+Um, I knew they didn't have women in
+
+34
+00:01:24.799 --> 00:01:26.469
+their undergraduate program, but I
+
+35
+00:01:26.479 --> 00:01:28.390
+hadn't realized it extended to the
+
+36
+00:01:28.400 --> 00:01:32.870
+graduate program. Um, but you know, it
+
+37
+00:01:32.880 --> 00:01:35.749
+was how it was. So, so what happened was
+
+38
+00:01:35.759 --> 00:01:37.749
+I did get into Berkeley, which is where
+
+39
+00:01:37.759 --> 00:01:40.310
+I did my undergraduate work, but I
+
+40
+00:01:40.320 --> 00:01:43.190
+decided I really wasn't ready to do a
+
+41
+00:01:43.200 --> 00:01:46.550
+PhD in math and that I should get a job
+
+42
+00:01:46.560 --> 00:01:49.270
+instead and just sort of see, you know,
+
+43
+00:01:49.280 --> 00:01:53.350
+see how things were. and uh the best job
+
+44
+00:01:53.360 --> 00:01:56.230
+offer I got was as a programmer.
+
+45
+00:01:56.240 --> 00:01:57.830
+So that's how I got into computer
+
+46
+00:01:57.840 --> 00:02:00.630
+science by a happy accident.
+
+47
+00:02:00.640 --> 00:02:02.389
+You were consistently at least at
+
+48
+00:02:02.399 --> 00:02:04.709
+Berkeley, you were consistently a top
+
+49
+00:02:04.719 --> 00:02:08.229
+student. So it's it it is odd that you
+
+50
+00:02:08.239 --> 00:02:10.229
+wouldn't even get an opportunity to play
+
+51
+00:02:10.239 --> 00:02:11.510
+in some cases,
+
+52
+00:02:11.520 --> 00:02:13.430
+but that's how it was back then. It was
+
+53
+00:02:13.440 --> 00:02:15.750
+just I hadn't realized it was more than
+
+54
+00:02:15.760 --> 00:02:18.550
+an undergraduate thing and Berkeley was
+
+55
+00:02:18.560 --> 00:02:22.630
+co-ed. So, you know, there what I found
+
+56
+00:02:22.640 --> 00:02:24.869
+was there weren't very many women in my
+
+57
+00:02:24.879 --> 00:02:26.550
+classes. There were lots of women
+
+58
+00:02:26.560 --> 00:02:29.350
+students, but very few of them majoring
+
+59
+00:02:29.360 --> 00:02:32.630
+in math and there were only maybe a
+
+60
+00:02:32.640 --> 00:02:36.949
+couple of women in my classes, but the
+
+61
+00:02:36.959 --> 00:02:38.949
+uh the idea that a door was shut and
+
+62
+00:02:38.959 --> 00:02:40.710
+women couldn't do things, that was not
+
+63
+00:02:40.720 --> 00:02:43.670
+what went on at Berkeley. So, it was a
+
+64
+00:02:43.680 --> 00:02:45.830
+different environment. Of course
+
+65
+00:02:45.840 --> 00:02:50.070
+nowadays in the top schools the um women
+
+66
+00:02:50.080 --> 00:02:53.589
+are about 50% in computer science.
+
+67
+00:02:53.599 --> 00:02:55.750
+I want to talk about some of the the
+
+68
+00:02:55.760 --> 00:02:57.350
+core problems that you were solving in
+
+69
+00:02:57.360 --> 00:03:00.470
+your career. And so I understand that
+
+70
+00:03:00.480 --> 00:03:03.430
+there's the software crisis in the 1970s
+
+71
+00:03:03.440 --> 00:03:05.670
+and I was wondering if you could give
+
+72
+00:03:05.680 --> 00:03:08.309
+the context behind what the problem was
+
+73
+00:03:08.319 --> 00:03:10.869
+at that time. Well, it was a huge
+
+74
+00:03:10.879 --> 00:03:13.990
+problem at the time because uh people
+
+75
+00:03:14.000 --> 00:03:16.309
+did not know how to build big programs
+
+76
+00:03:16.319 --> 00:03:20.149
+that worked. And so you would often pick
+
+77
+00:03:20.159 --> 00:03:22.149
+up the newspaper and see an article
+
+78
+00:03:22.159 --> 00:03:26.070
+about some company that had spent
+
+79
+00:03:26.080 --> 00:03:30.630
+u you know millions of dollars and
+
+80
+00:03:30.640 --> 00:03:34.390
+hundreds of man years developing some
+
+81
+00:03:34.400 --> 00:03:37.030
+software system for their company and
+
+82
+00:03:37.040 --> 00:03:38.630
+then in the end they'd have to throw it
+
+83
+00:03:38.640 --> 00:03:41.509
+away because they it simply didn't work.
+
+84
+00:03:41.519 --> 00:03:45.589
+The problem was that to get a big
+
+85
+00:03:45.599 --> 00:03:48.309
+program that works, you need modularity
+
+86
+00:03:48.319 --> 00:03:50.070
+and you need to break your program up
+
+87
+00:03:50.080 --> 00:03:52.470
+into small pieces.
+
+88
+00:03:52.480 --> 00:03:57.990
+Each piece provides an interface with a
+
+89
+00:03:58.000 --> 00:04:00.390
+hopefully complete description of what
+
+90
+00:04:00.400 --> 00:04:03.110
+service it provides for you. And then
+
+91
+00:04:03.120 --> 00:04:05.589
+inside is an implementation that's
+
+92
+00:04:05.599 --> 00:04:07.350
+hidden and nobody pays any attention to
+
+93
+00:04:07.360 --> 00:04:10.949
+it on the outside. And if you have a
+
+94
+00:04:10.959 --> 00:04:12.789
+system organized like that, you can
+
+95
+00:04:12.799 --> 00:04:15.030
+actually reason about its correctness
+
+96
+00:04:15.040 --> 00:04:18.469
+one module at a time. But in those days,
+
+97
+00:04:18.479 --> 00:04:21.990
+people didn't know how um they couldn't
+
+98
+00:04:22.000 --> 00:04:23.749
+figure out how to design systems that
+
+99
+00:04:23.759 --> 00:04:27.189
+were modular. And the only kind of
+
+100
+00:04:27.199 --> 00:04:29.030
+modularity mechanism present in
+
+101
+00:04:29.040 --> 00:04:32.070
+programming languages was a procedure.
+
+102
+00:04:32.080 --> 00:04:35.189
+And procedures didn't match the kinds of
+
+103
+00:04:35.199 --> 00:04:37.830
+modules you needed. Because if you think
+
+104
+00:04:37.840 --> 00:04:41.670
+about a file system or a database or you
+
+105
+00:04:41.680 --> 00:04:44.629
+know Amazon or whatever you know they
+
+106
+00:04:44.639 --> 00:04:46.469
+they aren't a procedure where you put
+
+107
+00:04:46.479 --> 00:04:48.150
+something in and get something out
+
+108
+00:04:48.160 --> 00:04:51.270
+they're a much more complicated thing.
+
+109
+00:04:51.280 --> 00:04:54.070
+So there was no notion of a module that
+
+110
+00:04:54.080 --> 00:04:55.909
+sort of matched the kind of things that
+
+111
+00:04:55.919 --> 00:04:58.150
+people were looking for.
+
+112
+00:04:58.160 --> 00:05:00.390
+So when you saw that problem you know
+
+113
+00:05:00.400 --> 00:05:02.629
+what were the early solutions like?
+
+114
+00:05:02.639 --> 00:05:04.230
+Well, so people were proposing
+
+115
+00:05:04.240 --> 00:05:06.469
+modularity and they were talking about
+
+116
+00:05:06.479 --> 00:05:09.670
+how important modularity was. They
+
+117
+00:05:09.680 --> 00:05:12.469
+didn't exactly know what a module was
+
+118
+00:05:12.479 --> 00:05:14.230
+and so it wasn't like they could give
+
+119
+00:05:14.240 --> 00:05:16.070
+you a rule. This is a module. It was
+
+120
+00:05:16.080 --> 00:05:18.469
+just a chunk of code. In fact, there
+
+121
+00:05:18.479 --> 00:05:20.070
+were papers written that talked about
+
+122
+00:05:20.080 --> 00:05:22.070
+how big a module should be and stuff
+
+123
+00:05:22.080 --> 00:05:24.469
+like that. Just a chunk of code. That's
+
+124
+00:05:24.479 --> 00:05:27.029
+not going to work because you need to
+
+125
+00:05:27.039 --> 00:05:28.950
+design these systems. So you need a way
+
+126
+00:05:28.960 --> 00:05:31.029
+of thinking of a design that sort of
+
+127
+00:05:31.039 --> 00:05:34.230
+fits into this notion of modularity.
+
+128
+00:05:34.240 --> 00:05:36.070
+They also didn't really know what the
+
+129
+00:05:36.080 --> 00:05:38.790
+rules should be for modularity.
+
+130
+00:05:38.800 --> 00:05:42.070
+And um it turned out that in some of the
+
+131
+00:05:42.080 --> 00:05:44.150
+early work I did after grad school when
+
+132
+00:05:44.160 --> 00:05:47.189
+I was working at MITER um I had already
+
+133
+00:05:47.199 --> 00:05:49.430
+invented a notion of modularity that was
+
+134
+00:05:49.440 --> 00:05:51.189
+sort of more complete than what people
+
+135
+00:05:51.199 --> 00:05:54.310
+had been talking about just because I
+
+136
+00:05:54.320 --> 00:05:56.230
+had a small team of programmers. we were
+
+137
+00:05:56.240 --> 00:05:59.830
+building a complicated system and I
+
+138
+00:05:59.840 --> 00:06:02.950
+wanted to keep us out of trouble and so
+
+139
+00:06:02.960 --> 00:06:04.790
+I had that sort of sitting there when I
+
+140
+00:06:04.800 --> 00:06:09.590
+started to work on this topic. Um and it
+
+141
+00:06:09.600 --> 00:06:12.309
+enabled me to see this idea of data
+
+142
+00:06:12.319 --> 00:06:13.909
+abstraction.
+
+143
+00:06:13.919 --> 00:06:16.309
+All of a sudden I sort of saw that this
+
+144
+00:06:16.319 --> 00:06:18.469
+thing I had this kind of modularity
+
+145
+00:06:18.479 --> 00:06:21.670
+mechanism which consisted of basically
+
+146
+00:06:21.680 --> 00:06:23.830
+what I just described
+
+147
+00:06:23.840 --> 00:06:26.710
+a a a bunch of code providing you with
+
+148
+00:06:26.720 --> 00:06:29.189
+an access through a number of what I
+
+149
+00:06:29.199 --> 00:06:30.950
+called operations. So you could call it
+
+150
+00:06:30.960 --> 00:06:33.029
+in various ways and then inside was all
+
+151
+00:06:33.039 --> 00:06:35.189
+hidden and whatever data it was using
+
+152
+00:06:35.199 --> 00:06:37.990
+was not accessible to the outside.
+
+153
+00:06:38.000 --> 00:06:39.990
+And then at some point I so I could see
+
+154
+00:06:40.000 --> 00:06:41.830
+this as a data abstraction. It could be
+
+155
+00:06:41.840 --> 00:06:44.070
+a set, it could be a sequence, it could
+
+156
+00:06:44.080 --> 00:06:47.270
+you know and so forth. And um and that
+
+157
+00:06:47.280 --> 00:06:50.550
+meant we had a new type of module. Now
+
+158
+00:06:50.560 --> 00:06:52.390
+when I look back at the papers from the
+
+159
+00:06:52.400 --> 00:06:55.189
+time I see that idea, it's almost there
+
+160
+00:06:55.199 --> 00:06:57.670
+except people hadn't managed to pick it
+
+161
+00:06:57.680 --> 00:07:00.950
+out. And so it was probably I think this
+
+162
+00:07:00.960 --> 00:07:02.870
+happens in science a lot. There's sort
+
+163
+00:07:02.880 --> 00:07:05.510
+of a time when an idea is ready and I
+
+164
+00:07:05.520 --> 00:07:07.589
+happen to see it.
+
+165
+00:07:07.599 --> 00:07:11.029
+You pieced these together and you put it
+
+166
+00:07:11.039 --> 00:07:13.350
+into the clue programming language that
+
+167
+00:07:13.360 --> 00:07:15.670
+you were working on. How did you see it
+
+168
+00:07:15.680 --> 00:07:18.150
+influencing the industry? The first
+
+169
+00:07:18.160 --> 00:07:20.870
+thing that happened was I wrote a paper
+
+170
+00:07:20.880 --> 00:07:24.710
+with um a a a man who was a graduate
+
+171
+00:07:24.720 --> 00:07:27.350
+student at MIT, Steve Zillis, about this
+
+172
+00:07:27.360 --> 00:07:29.430
+idea of data abstraction and it sketched
+
+173
+00:07:29.440 --> 00:07:31.350
+a notion of what abstract data types
+
+174
+00:07:31.360 --> 00:07:32.870
+would be and how a programming language
+
+175
+00:07:32.880 --> 00:07:36.469
+could support them. And this was very um
+
+176
+00:07:36.479 --> 00:07:40.390
+it was a very impactful paper. And so
+
+177
+00:07:40.400 --> 00:07:42.950
+there was a a big impact on the research
+
+178
+00:07:42.960 --> 00:07:46.309
+community and then
+
+179
+00:07:46.319 --> 00:07:48.710
+clue came along and that involved a lot
+
+180
+00:07:48.720 --> 00:07:50.710
+of additional research in the in the
+
+181
+00:07:50.720 --> 00:07:53.189
+programming language area. the next
+
+182
+00:07:53.199 --> 00:07:55.430
+thing that happened. So people were
+
+183
+00:07:55.440 --> 00:07:57.430
+watching this in the research community,
+
+184
+00:07:57.440 --> 00:07:59.110
+but of course people who are in
+
+185
+00:07:59.120 --> 00:08:01.670
+companies that want to write programs,
+
+186
+00:08:01.680 --> 00:08:04.390
+they need a programming language.
+
+187
+00:08:04.400 --> 00:08:08.469
+And I decided I wasn't going to try and
+
+188
+00:08:08.479 --> 00:08:12.309
+turn Clue into a product because that
+
+189
+00:08:12.319 --> 00:08:13.830
+would have required working in a
+
+190
+00:08:13.840 --> 00:08:15.670
+company. In those days, you didn't just
+
+191
+00:08:15.680 --> 00:08:17.350
+put software out on the internet and
+
+192
+00:08:17.360 --> 00:08:20.070
+people used it. There wasn't an internet
+
+193
+00:08:20.080 --> 00:08:23.510
+yet for one thing. and and I was much
+
+194
+00:08:23.520 --> 00:08:25.350
+more interested in doing research than
+
+195
+00:08:25.360 --> 00:08:28.790
+in you know working in a company. So I
+
+196
+00:08:28.800 --> 00:08:31.990
+put clue on the side. It had a user base
+
+197
+00:08:32.000 --> 00:08:34.709
+but I it but for companies to use a
+
+198
+00:08:34.719 --> 00:08:36.230
+programming language in those days they
+
+199
+00:08:36.240 --> 00:08:39.029
+wanted a company behind that language.
+
+200
+00:08:39.039 --> 00:08:40.709
+The next thing that happened was the
+
+201
+00:08:40.719 --> 00:08:44.470
+government uh put out a call for uh a
+
+202
+00:08:44.480 --> 00:08:45.910
+programming language they could use.
+
+203
+00:08:45.920 --> 00:08:48.870
+This led to the ADA programming language
+
+204
+00:08:48.880 --> 00:08:51.910
+that um so you know that was already a
+
+205
+00:08:51.920 --> 00:08:53.829
+big impact if you think about it that
+
+206
+00:08:53.839 --> 00:08:55.829
+there there was a language explicitly
+
+207
+00:08:55.839 --> 00:08:57.829
+being uh designed to have data
+
+208
+00:08:57.839 --> 00:09:01.269
+abstraction in it and then finally in
+
+209
+00:09:01.279 --> 00:09:03.990
+the '9s Java came along. I thought it'd
+
+210
+00:09:04.000 --> 00:09:05.750
+be interesting because you you worked on
+
+211
+00:09:05.760 --> 00:09:07.910
+Clue, you designed that programming
+
+212
+00:09:07.920 --> 00:09:09.430
+language. To ask you about other
+
+213
+00:09:09.440 --> 00:09:11.350
+programming languages, you said
+
+214
+00:09:11.360 --> 00:09:13.190
+somewhere that there's something wrong
+
+215
+00:09:13.200 --> 00:09:14.790
+with Python. And I was curious to hear
+
+216
+00:09:14.800 --> 00:09:16.470
+your thoughts of why
+
+217
+00:09:16.480 --> 00:09:18.150
+Python
+
+218
+00:09:18.160 --> 00:09:20.870
+has modules, but it doesn't have
+
+219
+00:09:20.880 --> 00:09:24.070
+encapsulation. So, it it allows code on
+
+220
+00:09:24.080 --> 00:09:25.990
+the outside to muck around with what's
+
+221
+00:09:26.000 --> 00:09:28.230
+going on on the inside of a module. And
+
+222
+00:09:28.240 --> 00:09:29.829
+that's all I was talking about.
+
+223
+00:09:29.839 --> 00:09:33.509
+Encapsulation is a is a crucial part of
+
+224
+00:09:33.519 --> 00:09:36.870
+making modularity work. And when you're
+
+225
+00:09:36.880 --> 00:09:39.110
+building big programs, so you have many
+
+226
+00:09:39.120 --> 00:09:41.750
+programmers working on them, your team
+
+227
+00:09:41.760 --> 00:09:44.230
+is really only as strong as your weakest
+
+228
+00:09:44.240 --> 00:09:45.750
+programmer.
+
+229
+00:09:45.760 --> 00:09:49.190
+So it's nice if the compiler can enforce
+
+230
+00:09:49.200 --> 00:09:51.590
+things and make certain kinds of bad
+
+231
+00:09:51.600 --> 00:09:54.310
+behavior not possible. I mean, Python
+
+232
+00:09:54.320 --> 00:09:56.870
+is, you know, has another intended use.
+
+233
+00:09:56.880 --> 00:09:59.590
+It's helping naive programmers learn
+
+234
+00:09:59.600 --> 00:10:01.350
+quickly how to write programs and stuff
+
+235
+00:10:01.360 --> 00:10:04.070
+like that. And people in the programming
+
+236
+00:10:04.080 --> 00:10:06.550
+language world do think about issues
+
+237
+00:10:06.560 --> 00:10:10.389
+like this like you know how to make um
+
+238
+00:10:10.399 --> 00:10:12.470
+languages safer and so forth. But since
+
+239
+00:10:12.480 --> 00:10:15.269
+I stopped working in that area I'm no
+
+240
+00:10:15.279 --> 00:10:16.870
+longer an expert in programming
+
+241
+00:10:16.880 --> 00:10:17.910
+languages.
+
+242
+00:10:17.920 --> 00:10:20.310
+What got you into distributed computing?
+
+243
+00:10:20.320 --> 00:10:24.069
+I read a paper by Bob Khan who was with
+
+244
+00:10:24.079 --> 00:10:26.150
+Vince surf considered to be you know the
+
+245
+00:10:26.160 --> 00:10:29.509
+founders of the internet and Bob talked
+
+246
+00:10:29.519 --> 00:10:31.190
+about
+
+247
+00:10:31.200 --> 00:10:34.470
+um his dream of distributed computing
+
+248
+00:10:34.480 --> 00:10:36.230
+where you would have a program composed
+
+249
+00:10:36.240 --> 00:10:38.310
+of pieces on different computers
+
+250
+00:10:38.320 --> 00:10:41.990
+connected by a network and nobody knew
+
+251
+00:10:42.000 --> 00:10:43.829
+how to build those programs and so I
+
+252
+00:10:43.839 --> 00:10:47.829
+just thought great problem
+
+253
+00:10:47.839 --> 00:10:49.990
+and I was looking for a new problem So I
+
+254
+00:10:50.000 --> 00:10:52.470
+jumped into distributed computing and
+
+255
+00:10:52.480 --> 00:10:53.990
+the first project was actually a
+
+256
+00:10:54.000 --> 00:10:55.269
+programming language to write
+
+257
+00:10:55.279 --> 00:10:57.910
+distributed programs in
+
+258
+00:10:57.920 --> 00:11:00.310
+and um and then I started looking at
+
+259
+00:11:00.320 --> 00:11:01.829
+other problems in the distributed
+
+260
+00:11:01.839 --> 00:11:03.190
+systems area.
+
+261
+00:11:03.200 --> 00:11:04.790
+What was that first programming
+
+262
+00:11:04.800 --> 00:11:05.509
+language? I don't
+
+263
+00:11:05.519 --> 00:11:07.910
+it was called Argus. It was it was very
+
+264
+00:11:07.920 --> 00:11:10.790
+strongly influenced by clue. It was an
+
+265
+00:11:10.800 --> 00:11:13.590
+object-oriented language had a special
+
+266
+00:11:13.600 --> 00:11:16.870
+kind of object called a guardian which
+
+267
+00:11:16.880 --> 00:11:18.790
+was a module sitting at a single
+
+268
+00:11:18.800 --> 00:11:21.430
+computer and then guardians could
+
+269
+00:11:21.440 --> 00:11:23.430
+compute could communicate through remote
+
+270
+00:11:23.440 --> 00:11:25.990
+procedure calls. One of the things you
+
+271
+00:11:26.000 --> 00:11:29.269
+run into in distributed computing
+
+272
+00:11:29.279 --> 00:11:31.590
+um is if you have a computation that
+
+273
+00:11:31.600 --> 00:11:33.990
+starts at one guardian and then makes
+
+274
+00:11:34.000 --> 00:11:35.910
+use of other guardians at other nodes in
+
+275
+00:11:35.920 --> 00:11:38.790
+the network. In the end, you want that
+
+276
+00:11:38.800 --> 00:11:41.910
+computation to either complete entirely
+
+277
+00:11:41.920 --> 00:11:45.430
+or have no effect at all. And how do you
+
+278
+00:11:45.440 --> 00:11:48.470
+do that? Well, I borrowed the notion of
+
+279
+00:11:48.480 --> 00:11:51.030
+transactions coming out of the database
+
+280
+00:11:51.040 --> 00:11:54.310
+field. And that was part of how Argus
+
+281
+00:11:54.320 --> 00:11:56.550
+worked. It ran computations as atomic
+
+282
+00:11:56.560 --> 00:11:57.910
+transactions.
+
+283
+00:11:57.920 --> 00:12:00.389
+Oh, interesting. Like distributed
+
+284
+00:12:00.399 --> 00:12:02.870
+transactions across those nodes.
+
+285
+00:12:02.880 --> 00:12:04.790
+Yeah. And I think it led right into the
+
+286
+00:12:04.800 --> 00:12:07.509
+work I did on um viewstamp replication
+
+287
+00:12:07.519 --> 00:12:10.470
+which was um that was the beginning of
+
+288
+00:12:10.480 --> 00:12:12.710
+cloud storage. I was thinking in terms
+
+289
+00:12:12.720 --> 00:12:14.470
+of a file system but it doesn't really
+
+290
+00:12:14.480 --> 00:12:16.230
+matter what it is. You know how do you
+
+291
+00:12:16.240 --> 00:12:20.230
+have data out on the internet stored at
+
+292
+00:12:20.240 --> 00:12:26.069
+multiple sites with correct behavior and
+
+293
+00:12:26.079 --> 00:12:28.949
+always accessible as long as enough
+
+294
+00:12:28.959 --> 00:12:30.710
+nodes are up and running and the network
+
+295
+00:12:30.720 --> 00:12:32.150
+is working.
+
+296
+00:12:32.160 --> 00:12:34.470
+I see. And what is view stamp in this
+
+297
+00:12:34.480 --> 00:12:35.509
+context?
+
+298
+00:12:35.519 --> 00:12:37.670
+Oh, that had to do with some details of
+
+299
+00:12:37.680 --> 00:12:39.990
+how the system worked and it was a way
+
+300
+00:12:40.000 --> 00:12:43.190
+of noticing when some nodes failed and
+
+301
+00:12:43.200 --> 00:12:45.509
+other nodes had to take over. You could
+
+302
+00:12:45.519 --> 00:12:47.030
+figure out which ones had the most
+
+303
+00:12:47.040 --> 00:12:48.870
+recent state in them. So you could pick
+
+304
+00:12:48.880 --> 00:12:51.590
+up and not lose anything that had not h
+
+305
+00:12:51.600 --> 00:12:53.750
+that had happened in the past.
+
+306
+00:12:53.760 --> 00:12:55.750
+Uh what what if the clocks are out of
+
+307
+00:12:55.760 --> 00:12:56.949
+sync? Like
+
+308
+00:12:56.959 --> 00:12:58.870
+uh it had nothing to do with clocks
+
+309
+00:12:58.880 --> 00:13:01.750
+because it was just numbers. In other
+
+310
+00:13:01.760 --> 00:13:03.990
+words, we were in view 25. The next view
+
+311
+00:13:04.000 --> 00:13:05.509
+was 26. So,
+
+312
+00:13:05.519 --> 00:13:07.750
+Oh, okay. Just incrementing some number
+
+313
+00:13:07.760 --> 00:13:08.949
+that's passed around.
+
+314
+00:13:08.959 --> 00:13:09.590
+Yeah.
+
+315
+00:13:09.600 --> 00:13:11.670
+This reminds me a lot of uh Leslie
+
+316
+00:13:11.680 --> 00:13:12.870
+Lamport's work.
+
+317
+00:13:12.880 --> 00:13:14.470
+Actually, yes.
+
+318
+00:13:14.480 --> 00:13:17.350
+Did you ever work with him or?
+
+319
+00:13:17.360 --> 00:13:19.829
+No. Leslie and I developed what is
+
+320
+00:13:19.839 --> 00:13:22.550
+essentially the same idea independently
+
+321
+00:13:22.560 --> 00:13:25.509
+and he had the system he called Paxos
+
+322
+00:13:25.519 --> 00:13:27.350
+and I had this thing called stamp
+
+323
+00:13:27.360 --> 00:13:28.870
+replication.
+
+324
+00:13:28.880 --> 00:13:31.750
+Oh, interesting. And they're essentially
+
+325
+00:13:31.760 --> 00:13:32.629
+the same thing.
+
+326
+00:13:32.639 --> 00:13:33.990
+They are. Yeah.
+
+327
+00:13:34.000 --> 00:13:36.230
+Oh. Are there pros and cons of the two
+
+328
+00:13:36.240 --> 00:13:37.509
+approaches?
+
+329
+00:13:37.519 --> 00:13:39.750
+Yeah. I mean that when you do this kind
+
+330
+00:13:39.760 --> 00:13:41.350
+of system, there's a lots of little
+
+331
+00:13:41.360 --> 00:13:43.190
+details you can play around with. So you
+
+332
+00:13:43.200 --> 00:13:45.670
+could, you know, decide to do it. It
+
+333
+00:13:45.680 --> 00:13:47.190
+gets technical, but you know, there's
+
+334
+00:13:47.200 --> 00:13:49.030
+tiny differences, but no, they're
+
+335
+00:13:49.040 --> 00:13:50.470
+basically the same. In fact, what
+
+336
+00:13:50.480 --> 00:13:55.110
+happened was uh the first time that I'm
+
+337
+00:13:55.120 --> 00:13:57.110
+aware of that this was actually used in
+
+338
+00:13:57.120 --> 00:13:59.910
+a real system was when the Google file
+
+339
+00:13:59.920 --> 00:14:04.150
+system came along and one of my former
+
+340
+00:14:04.160 --> 00:14:06.550
+students who was a I think he was a
+
+341
+00:14:06.560 --> 00:14:08.470
+consultant at Google looked at what was
+
+342
+00:14:08.480 --> 00:14:09.910
+going on in there and he said oh he says
+
+343
+00:14:09.920 --> 00:14:12.389
+that's fut replication. So the people at
+
+344
+00:14:12.399 --> 00:14:15.269
+Google seem to think it was Paxos but in
+
+345
+00:14:15.279 --> 00:14:18.150
+fact they are the same system. I also
+
+346
+00:14:18.160 --> 00:14:21.110
+noticed like um when you were uh when
+
+347
+00:14:21.120 --> 00:14:24.310
+you came up with abstract data types
+
+348
+00:14:24.320 --> 00:14:25.829
+maybe and maybe it's just because there
+
+349
+00:14:25.839 --> 00:14:28.870
+wasn't the internet wasn't as you know
+
+350
+00:14:28.880 --> 00:14:30.870
+wasn't there that there was also the
+
+351
+00:14:30.880 --> 00:14:33.189
+objectoriented stuff going on on the
+
+352
+00:14:33.199 --> 00:14:34.150
+west coast
+
+353
+00:14:34.160 --> 00:14:37.350
+yes Alan Kay was developing small talk
+
+354
+00:14:37.360 --> 00:14:39.350
+at the same time that I was working on
+
+355
+00:14:39.360 --> 00:14:43.030
+clue and then at Carnegie Melon uh Bill
+
+356
+00:14:43.040 --> 00:14:44.550
+Wolf and Mary Shaw were working on
+
+357
+00:14:44.560 --> 00:14:46.230
+Alfard which was another data
+
+358
+00:14:46.240 --> 00:14:47.430
+abstraction
+
+359
+00:14:47.440 --> 00:14:50.150
+language and you're right there was no
+
+360
+00:14:50.160 --> 00:14:51.590
+there was no internet although there was
+
+361
+00:14:51.600 --> 00:14:53.269
+the arpanet
+
+362
+00:14:53.279 --> 00:14:55.990
+you know so we did but it was like there
+
+363
+00:14:56.000 --> 00:14:58.230
+were two independent streams of research
+
+364
+00:14:58.240 --> 00:15:00.069
+going on and we weren't talking to each
+
+365
+00:15:00.079 --> 00:15:02.949
+other and so I wasn't paying much
+
+366
+00:15:02.959 --> 00:15:05.990
+attention to small talk and on the west
+
+367
+00:15:06.000 --> 00:15:07.269
+coast I don't think they were paying
+
+368
+00:15:07.279 --> 00:15:10.230
+much attention to data abstraction
+
+369
+00:15:10.240 --> 00:15:13.430
+and this led to the liskoff substitution
+
+370
+00:15:13.440 --> 00:15:16.949
+principle which I mean the story is a
+
+371
+00:15:16.959 --> 00:15:21.590
+sort of acute one because in 1986 I
+
+372
+00:15:21.600 --> 00:15:23.269
+think it was I was asked to give a
+
+373
+00:15:23.279 --> 00:15:25.990
+keynote at oopsla oops is the
+
+374
+00:15:26.000 --> 00:15:29.110
+object-oriented programming conference
+
+375
+00:15:29.120 --> 00:15:30.949
+and this was the second year it was
+
+376
+00:15:30.959 --> 00:15:34.790
+happening and so I decided I think I'll
+
+377
+00:15:34.800 --> 00:15:36.870
+read all those papers about small talk
+
+378
+00:15:36.880 --> 00:15:38.389
+and there were other languages being
+
+379
+00:15:38.399 --> 00:15:40.150
+developed that were based on small talk
+
+380
+00:15:40.160 --> 00:15:42.629
+and see what's going on with them and I
+
+381
+00:15:42.639 --> 00:15:44.389
+discovered
+
+382
+00:15:44.399 --> 00:15:46.550
+um so small talk has this idea of
+
+383
+00:15:46.560 --> 00:15:48.629
+inheritance in it where you can have a
+
+384
+00:15:48.639 --> 00:15:51.110
+class and a subclass which borrows from
+
+385
+00:15:51.120 --> 00:15:52.870
+the way the class is implemented and
+
+386
+00:15:52.880 --> 00:15:56.069
+changes it a bit and clue doesn't have
+
+387
+00:15:56.079 --> 00:15:57.910
+that. Clue just has what we call
+
+388
+00:15:57.920 --> 00:16:00.790
+clusters and they're all independent.
+
+389
+00:16:00.800 --> 00:16:03.910
+So I saw that they were talking about
+
+390
+00:16:03.920 --> 00:16:07.269
+this notion of classes and subclasses
+
+391
+00:16:07.279 --> 00:16:10.069
+and and then I saw that they were also
+
+392
+00:16:10.079 --> 00:16:11.670
+talking about something they called type
+
+393
+00:16:11.680 --> 00:16:13.430
+hierarchy
+
+394
+00:16:13.440 --> 00:16:16.069
+where they wanted the type implemented
+
+395
+00:16:16.079 --> 00:16:19.829
+by a class to be related in some way
+
+396
+00:16:19.839 --> 00:16:21.749
+that they didn't understand to the type
+
+397
+00:16:21.759 --> 00:16:24.550
+that was implemented by a subclass. I
+
+398
+00:16:24.560 --> 00:16:26.389
+really thought about modules in terms of
+
+399
+00:16:26.399 --> 00:16:29.030
+their specifications.
+
+400
+00:16:29.040 --> 00:16:31.430
+This partly had to do with a class I
+
+401
+00:16:31.440 --> 00:16:33.910
+developed at MIT that I developed
+
+402
+00:16:33.920 --> 00:16:36.629
+jointly with my colleague John Gutag.
+
+403
+00:16:36.639 --> 00:16:38.389
+And in that class, we taught the
+
+404
+00:16:38.399 --> 00:16:40.069
+students how to do design about
+
+405
+00:16:40.079 --> 00:16:42.069
+modularity, data types, and so forth,
+
+406
+00:16:42.079 --> 00:16:44.629
+but also how to write specifications,
+
+407
+00:16:44.639 --> 00:16:47.670
+how to reason about correctness. And so
+
+408
+00:16:47.680 --> 00:16:51.030
+it had a big focus on think about the
+
+409
+00:16:51.040 --> 00:16:53.509
+meaning of things first. And the
+
+410
+00:16:53.519 --> 00:16:54.949
+implementation is something that's kind
+
+411
+00:16:54.959 --> 00:16:56.389
+of hidden inside. You don't worry about
+
+412
+00:16:56.399 --> 00:16:59.350
+it very much. And so
+
+413
+00:16:59.360 --> 00:17:00.790
+that was a different way of thinking
+
+414
+00:17:00.800 --> 00:17:02.550
+about things than what was going on in
+
+415
+00:17:02.560 --> 00:17:05.429
+the on the west coast where they were
+
+416
+00:17:05.439 --> 00:17:08.230
+really thinking in terms of classes and
+
+417
+00:17:08.240 --> 00:17:10.630
+subclasses. And I even saw papers where
+
+418
+00:17:10.640 --> 00:17:13.270
+they would describe the behavior of a
+
+419
+00:17:13.280 --> 00:17:14.710
+class by explaining how its
+
+420
+00:17:14.720 --> 00:17:16.390
+implementation was different from the
+
+421
+00:17:16.400 --> 00:17:18.470
+implementation of the superclass. So
+
+422
+00:17:18.480 --> 00:17:19.909
+they were kind of focused on
+
+423
+00:17:19.919 --> 00:17:21.510
+implementations in a way that we
+
+424
+00:17:21.520 --> 00:17:24.870
+weren't. And so
+
+425
+00:17:24.880 --> 00:17:27.110
+when I read these papers about type
+
+426
+00:17:27.120 --> 00:17:29.430
+hierarchy and I saw they just couldn't
+
+427
+00:17:29.440 --> 00:17:32.230
+figure out what it was supposed to mean,
+
+428
+00:17:32.240 --> 00:17:34.070
+I was thinking about it from the terms
+
+429
+00:17:34.080 --> 00:17:37.029
+of meaning. And so I was able to say it
+
+430
+00:17:37.039 --> 00:17:40.070
+has to do with the behavior. And this
+
+431
+00:17:40.080 --> 00:17:41.750
+subclass better behave like the
+
+432
+00:17:41.760 --> 00:17:43.909
+superclass if you use it in an
+
+433
+00:17:43.919 --> 00:17:45.750
+environment where the superclass is
+
+434
+00:17:45.760 --> 00:17:47.669
+expected.
+
+435
+00:17:47.679 --> 00:17:49.990
+And that became what ended up being
+
+436
+00:17:50.000 --> 00:17:51.590
+called the Liskoff substitution
+
+437
+00:17:51.600 --> 00:17:54.150
+principle. And ultimately Janette Wing
+
+438
+00:17:54.160 --> 00:17:55.909
+and I wrote a paper on behavioral
+
+439
+00:17:55.919 --> 00:17:57.590
+subtyping which is the formal
+
+440
+00:17:57.600 --> 00:17:58.950
+definition.
+
+441
+00:17:58.960 --> 00:18:00.630
+And then how did it get that name?
+
+442
+00:18:00.640 --> 00:18:02.150
+Because you didn't go up on stage and
+
+443
+00:18:02.160 --> 00:18:03.830
+say, "Hey everyone, here's the list."
+
+444
+00:18:03.840 --> 00:18:06.789
+No, no, but no. As as as I said, one day
+
+445
+00:18:06.799 --> 00:18:10.230
+in the in the 90s after the internet had
+
+446
+00:18:10.240 --> 00:18:12.950
+arrived, I got an email saying, "Can you
+
+447
+00:18:12.960 --> 00:18:14.310
+say if this is the correct
+
+448
+00:18:14.320 --> 00:18:15.750
+interpretation of the Liskoff
+
+449
+00:18:15.760 --> 00:18:17.990
+substitution principle?" That's when I
+
+450
+00:18:18.000 --> 00:18:22.549
+discovered that there was such a name
+
+451
+00:18:22.559 --> 00:18:25.909
+and and I I don't think I had really
+
+452
+00:18:25.919 --> 00:18:28.070
+been aware of how important it was until
+
+453
+00:18:28.080 --> 00:18:29.590
+that point because I wasn't thinking
+
+454
+00:18:29.600 --> 00:18:31.110
+about this stuff. if I was working on
+
+455
+00:18:31.120 --> 00:18:32.230
+other stuff
+
+456
+00:18:32.240 --> 00:18:35.190
+in the academic community. It seems very
+
+457
+00:18:35.200 --> 00:18:37.909
+reasonable to have multiple people have
+
+458
+00:18:37.919 --> 00:18:40.710
+similar ideas, but it seems like some
+
+459
+00:18:40.720 --> 00:18:44.630
+ideas stick more than others. For
+
+460
+00:18:44.640 --> 00:18:46.789
+instance, like the um the view stamp
+
+461
+00:18:46.799 --> 00:18:49.430
+replication versus Paxos,
+
+462
+00:18:49.440 --> 00:18:51.909
+they're the same thing. I'm wondering
+
+463
+00:18:51.919 --> 00:18:53.830
+like in that case, for instance, why
+
+464
+00:18:53.840 --> 00:18:57.350
+would Paxos be more known than Vstamp
+
+465
+00:18:57.360 --> 00:18:57.909
+replication?
+
+466
+00:18:57.919 --> 00:19:00.950
+Yeah. So what Lesie says is
+
+467
+00:19:00.960 --> 00:19:03.270
+I went around giving all the talks and
+
+468
+00:19:03.280 --> 00:19:08.070
+she implemented it.
+
+469
+00:19:08.080 --> 00:19:09.830
+Really
+
+470
+00:19:09.840 --> 00:19:11.669
+something up to that.
+
+471
+00:19:11.679 --> 00:19:15.750
+Then he got notoriety for speaking about
+
+472
+00:19:15.760 --> 00:19:18.230
+it. Yeah, he he he did give lots of
+
+473
+00:19:18.240 --> 00:19:20.310
+talks about it and wrote several papers
+
+474
+00:19:20.320 --> 00:19:23.430
+and so forth and I didn't realize it was
+
+475
+00:19:23.440 --> 00:19:26.150
+the same system, but finally it became
+
+476
+00:19:26.160 --> 00:19:28.310
+clear that they were the same system.
+
+477
+00:19:28.320 --> 00:19:31.350
+I also wonder how much the name matters
+
+478
+00:19:31.360 --> 00:19:33.590
+because Paxos is kind of catchy.
+
+479
+00:19:33.600 --> 00:19:34.549
+It is a cute name.
+
+480
+00:19:34.559 --> 00:19:35.590
+It's a cute name. Yeah.
+
+481
+00:19:35.600 --> 00:19:36.230
+Yeah. Right.
+
+482
+00:19:36.240 --> 00:19:38.789
+So I I could see maybe it has better
+
+483
+00:19:38.799 --> 00:19:41.830
+marketing around the idea, I guess. I
+
+484
+00:19:41.840 --> 00:19:45.350
+also think that this approach to solving
+
+485
+00:19:45.360 --> 00:19:47.190
+this problem which both Leslie and I
+
+486
+00:19:47.200 --> 00:19:49.669
+picked up independently in my case came
+
+487
+00:19:49.679 --> 00:19:51.110
+from the work I'd been doing with
+
+488
+00:19:51.120 --> 00:19:54.070
+transactions because in transactions
+
+489
+00:19:54.080 --> 00:19:57.750
+there's a leader that you know says now
+
+490
+00:19:57.760 --> 00:19:59.510
+we're going to commit and ask everybody
+
+491
+00:19:59.520 --> 00:20:01.750
+can we commit and if they all say okay
+
+492
+00:20:01.760 --> 00:20:06.150
+you know it's but unlike in transactions
+
+493
+00:20:06.160 --> 00:20:08.470
+of in transactions if the leader fails
+
+494
+00:20:08.480 --> 00:20:10.549
+there's what's called you know this this
+
+495
+00:20:10.559 --> 00:20:12.630
+can be a real problem here. We had to
+
+496
+00:20:12.640 --> 00:20:15.350
+have a way of moving to a new leader if
+
+497
+00:20:15.360 --> 00:20:17.510
+the old leader failed. And that's the
+
+498
+00:20:17.520 --> 00:20:19.990
+big step forward that happened in both
+
+499
+00:20:20.000 --> 00:20:23.669
+view stamp replication and paxos. Now
+
+500
+00:20:23.679 --> 00:20:26.549
+there was also Byzantine fall tolerance
+
+501
+00:20:26.559 --> 00:20:29.029
+which came along later that was
+
+502
+00:20:29.039 --> 00:20:31.669
+developed. So viewstamp replication I
+
+503
+00:20:31.679 --> 00:20:33.909
+developed with my student Brian Oki. It
+
+504
+00:20:33.919 --> 00:20:37.750
+was his PhD thesis and then Paxos I
+
+505
+00:20:37.760 --> 00:20:40.390
+developed with my student Miguel Castro.
+
+506
+00:20:40.400 --> 00:20:45.190
+was his PhD student thesis and Miguel
+
+507
+00:20:45.200 --> 00:20:47.990
+got interested in this problem because
+
+508
+00:20:48.000 --> 00:20:50.310
+uh there was a DARPA request for
+
+509
+00:20:50.320 --> 00:20:53.669
+proposals and there was one about this
+
+510
+00:20:53.679 --> 00:20:55.430
+problem on the internet. By then there
+
+511
+00:20:55.440 --> 00:20:57.270
+were Byzantine attacks and you know
+
+512
+00:20:57.280 --> 00:21:01.190
+malicious attacks and nodes that were
+
+513
+00:21:01.200 --> 00:21:03.029
+purport to be working correctly but
+
+514
+00:21:03.039 --> 00:21:04.950
+actually they had been compromised and
+
+515
+00:21:04.960 --> 00:21:07.430
+so forth. And so view stamp
+
+516
+00:21:07.440 --> 00:21:10.149
+amplification in Paxos only handled
+
+517
+00:21:10.159 --> 00:21:14.230
+crashes and um if there were messages
+
+518
+00:21:14.240 --> 00:21:16.549
+that were had been played with you could
+
+519
+00:21:16.559 --> 00:21:17.909
+tell when they arrived that they were
+
+520
+00:21:17.919 --> 00:21:19.590
+bad and that was about the extent of
+
+521
+00:21:19.600 --> 00:21:22.230
+what we dealt with. But these malicious
+
+522
+00:21:22.240 --> 00:21:24.950
+attacks with nodes that purported to be
+
+523
+00:21:24.960 --> 00:21:27.190
+working when they weren't, that was a
+
+524
+00:21:27.200 --> 00:21:30.310
+big step forward. And Miguel saw this
+
+525
+00:21:30.320 --> 00:21:32.630
+request for proposals and he said to me,
+
+526
+00:21:32.640 --> 00:21:34.390
+"Why don't we see whether we can come up
+
+527
+00:21:34.400 --> 00:21:36.630
+with a protocol that works in the
+
+528
+00:21:36.640 --> 00:21:39.830
+presence of Byzantine attacks?" And and
+
+529
+00:21:39.840 --> 00:21:41.510
+I think, by the way, Lesie is the one
+
+530
+00:21:41.520 --> 00:21:43.510
+that invented the word Byzantine to I
+
+531
+00:21:43.520 --> 00:21:43.590
+think
+
+532
+00:21:43.600 --> 00:21:44.230
+he did.
+
+533
+00:21:44.240 --> 00:21:45.990
+Yeah. Right. I saw in the in the
+
+534
+00:21:46.000 --> 00:21:48.070
+software crisis stuff there's the paper
+
+535
+00:21:48.080 --> 00:21:51.669
+with Dystra that you had mentioned was
+
+536
+00:21:51.679 --> 00:21:53.669
+one of the papers you you wrote that
+
+537
+00:21:53.679 --> 00:21:56.230
+said we need modularity and that paper
+
+538
+00:21:56.240 --> 00:21:58.789
+was the go-to statements considered
+
+539
+00:21:58.799 --> 00:21:59.590
+harmful
+
+540
+00:21:59.600 --> 00:22:00.310
+right
+
+541
+00:22:00.320 --> 00:22:02.950
+and I'm curious because Dystra I mean
+
+542
+00:22:02.960 --> 00:22:04.710
+when I was studying computer science you
+
+543
+00:22:04.720 --> 00:22:07.590
+we all know his name did you ever meet
+
+544
+00:22:07.600 --> 00:22:08.549
+him or work
+
+545
+00:22:08.559 --> 00:22:10.149
+oh yeah many time I didn't never worked
+
+546
+00:22:10.159 --> 00:22:12.390
+with him but I did meet him multiple
+
+547
+00:22:12.400 --> 00:22:15.270
+times and uh you know He had very
+
+548
+00:22:15.280 --> 00:22:19.909
+interesting ideas and that paper uh go
+
+549
+00:22:19.919 --> 00:22:22.149
+to statement considered harmful it's not
+
+550
+00:22:22.159 --> 00:22:24.549
+actually a paper it was a letter to the
+
+551
+00:22:24.559 --> 00:22:27.669
+editor of the communications of the ACM
+
+552
+00:22:27.679 --> 00:22:31.590
+but it was very impactful and what was
+
+553
+00:22:31.600 --> 00:22:33.750
+really important about that paper was
+
+554
+00:22:33.760 --> 00:22:37.430
+that Dyra was talking about
+
+555
+00:22:37.440 --> 00:22:40.149
+how difficult it is to reason about the
+
+556
+00:22:40.159 --> 00:22:43.430
+correctness of code and this was at a
+
+557
+00:22:43.440 --> 00:22:47.350
+time when in the sciences
+
+558
+00:22:47.360 --> 00:22:49.270
+computer science was kind of dismissed
+
+559
+00:22:49.280 --> 00:22:52.710
+as nothing much and anybody can write
+
+560
+00:22:52.720 --> 00:22:55.830
+code and you know Dyster was trying to
+
+561
+00:22:55.840 --> 00:22:58.310
+make a point which I think was actually
+
+562
+00:22:58.320 --> 00:23:01.029
+important that it's not as trivial as
+
+563
+00:23:01.039 --> 00:23:04.549
+you think it is it's not trivial at all
+
+564
+00:23:04.559 --> 00:23:06.310
+um and he was also pointing out that
+
+565
+00:23:06.320 --> 00:23:08.630
+gotos can be misused
+
+566
+00:23:08.640 --> 00:23:11.430
+and it was controversial at the time but
+
+567
+00:23:11.440 --> 00:23:12.149
+it was yeah
+
+568
+00:23:12.159 --> 00:23:15.350
+but today I I I I don't I mean I've
+
+569
+00:23:15.360 --> 00:23:17.750
+written code for over a decade.
+
+570
+00:23:17.760 --> 00:23:18.710
+People don't use goto.
+
+571
+00:23:18.720 --> 00:23:20.630
+Yeah. I I haven't even seen a go-to in
+
+572
+00:23:20.640 --> 00:23:21.669
+the code.
+
+573
+00:23:21.679 --> 00:23:23.990
+So what why was it controversial at the
+
+574
+00:23:24.000 --> 00:23:24.789
+time?
+
+575
+00:23:24.799 --> 00:23:26.390
+The programming languages were different
+
+576
+00:23:26.400 --> 00:23:29.270
+then. Um first of all there were people
+
+577
+00:23:29.280 --> 00:23:32.149
+writing programs in assembler. In
+
+578
+00:23:32.159 --> 00:23:34.549
+assembler you have to use gotos.
+
+579
+00:23:34.559 --> 00:23:37.029
+Programming languages didn't have some
+
+580
+00:23:37.039 --> 00:23:38.789
+of the constructs in them that we think
+
+581
+00:23:38.799 --> 00:23:42.870
+of today. And uh so some people were
+
+582
+00:23:42.880 --> 00:23:45.830
+using go-tos because they had to. And
+
+583
+00:23:45.840 --> 00:23:47.510
+also
+
+584
+00:23:47.520 --> 00:23:49.830
+um compilers didn't do all the kinds of
+
+585
+00:23:49.840 --> 00:23:52.070
+optimizations that they do today. So
+
+586
+00:23:52.080 --> 00:23:53.669
+there was a concern if you didn't have
+
+587
+00:23:53.679 --> 00:23:55.510
+gotos maybe your program wouldn't be
+
+588
+00:23:55.520 --> 00:23:59.350
+efficient enough. And then there were
+
+589
+00:23:59.360 --> 00:24:01.270
+people who used go-tos and wrote really
+
+590
+00:24:01.280 --> 00:24:03.750
+good code. And they were offended that
+
+591
+00:24:03.760 --> 00:24:06.870
+Dyster was saying your code is bad. So
+
+592
+00:24:06.880 --> 00:24:09.110
+there was a whole butt and and Daer was
+
+593
+00:24:09.120 --> 00:24:13.909
+not the most um diplomatic person. So
+
+594
+00:24:13.919 --> 00:24:15.990
+you know so he he didn't write it in the
+
+595
+00:24:16.000 --> 00:24:18.630
+in a nice not you can imagine writing
+
+596
+00:24:18.640 --> 00:24:22.310
+that paper more nicely where you said um
+
+597
+00:24:22.320 --> 00:24:24.789
+so that that but there were many reasons
+
+598
+00:24:24.799 --> 00:24:26.310
+why it was controversial. You know
+
+599
+00:24:26.320 --> 00:24:28.789
+people were offended but then there were
+
+600
+00:24:28.799 --> 00:24:31.510
+also concerns about
+
+601
+00:24:31.520 --> 00:24:32.950
+programming languages don't have these
+
+602
+00:24:32.960 --> 00:24:34.630
+features I need. What am I supposed to
+
+603
+00:24:34.640 --> 00:24:37.590
+do? And then there were concerns about
+
+604
+00:24:37.600 --> 00:24:39.909
+what the compiler was doing. And so the
+
+605
+00:24:39.919 --> 00:24:42.149
+world is very different now. But clearly
+
+606
+00:24:42.159 --> 00:24:43.669
+Dyra won the day.
+
+607
+00:24:43.679 --> 00:24:44.310
+Okay.
+
+608
+00:24:44.320 --> 00:24:49.029
+Because no gotos.
+
+609
+00:24:49.039 --> 00:24:53.110
+And is Dystra in person also like his
+
+610
+00:24:53.120 --> 00:24:55.510
+writing.
+
+611
+00:24:55.520 --> 00:24:57.750
+Uh he was not always as tactful as he
+
+612
+00:24:57.760 --> 00:25:00.070
+might be.
+
+613
+00:25:00.080 --> 00:25:02.710
+Yeah. But you know he was a very uh
+
+614
+00:25:02.720 --> 00:25:04.950
+distinguished researcher. Computer
+
+615
+00:25:04.960 --> 00:25:07.750
+science has had such a huge impact on
+
+616
+00:25:07.760 --> 00:25:10.630
+the industry. Why did you choose to stay
+
+617
+00:25:10.640 --> 00:25:12.710
+in academia instead of going into
+
+618
+00:25:12.720 --> 00:25:14.230
+industry?
+
+619
+00:25:14.240 --> 00:25:15.750
+So
+
+620
+00:25:15.760 --> 00:25:18.470
+I like doing research
+
+621
+00:25:18.480 --> 00:25:21.510
+and I enjoy working with students
+
+622
+00:25:21.520 --> 00:25:23.190
+and
+
+623
+00:25:23.200 --> 00:25:26.070
+I teaching was never my favorite thing
+
+624
+00:25:26.080 --> 00:25:28.310
+but I always felt teaching and research
+
+625
+00:25:28.320 --> 00:25:30.789
+were very closely connected.
+
+626
+00:25:30.799 --> 00:25:35.750
+Um but also it was a different time. So
+
+627
+00:25:35.760 --> 00:25:38.549
+this business about how professors are
+
+628
+00:25:38.559 --> 00:25:41.190
+all forming companies and so forth which
+
+629
+00:25:41.200 --> 00:25:43.750
+goes on today that wasn't happening 20
+
+630
+00:25:43.760 --> 00:25:47.190
+years ago or maybe it was happening 20
+
+631
+00:25:47.200 --> 00:25:49.110
+years ago but 30 years ago it wasn't.
+
+632
+00:25:49.120 --> 00:25:50.870
+And so when I was young it wasn't the
+
+633
+00:25:50.880 --> 00:25:53.990
+thing that you did. It was sort of a
+
+634
+00:25:54.000 --> 00:25:56.950
+eitheror sort of thing. So I wasn't even
+
+635
+00:25:56.960 --> 00:25:59.669
+thinking about doing stuff like that. I
+
+636
+00:25:59.679 --> 00:26:01.909
+did work in a startup briefly at the end
+
+637
+00:26:01.919 --> 00:26:05.590
+of the 90s. I didn't like it.
+
+638
+00:26:05.600 --> 00:26:08.870
+I much prefer doing research. And as a
+
+639
+00:26:08.880 --> 00:26:11.350
+professor, you have this it's it's a
+
+640
+00:26:11.360 --> 00:26:14.549
+gift and a curse. The gift is you can do
+
+641
+00:26:14.559 --> 00:26:16.870
+whatever you want. The curse is you have
+
+642
+00:26:16.880 --> 00:26:18.230
+to figure out what it is that you're
+
+643
+00:26:18.240 --> 00:26:22.549
+doing. But I like that freedom and the
+
+644
+00:26:22.559 --> 00:26:25.350
+fact that I just could go off in any I
+
+645
+00:26:25.360 --> 00:26:27.350
+mean my career is full of these
+
+646
+00:26:27.360 --> 00:26:29.430
+interesting zigzags where I would switch
+
+647
+00:26:29.440 --> 00:26:31.269
+to something else. I had the freedom to
+
+648
+00:26:31.279 --> 00:26:32.470
+do that.
+
+649
+00:26:32.480 --> 00:26:34.870
+What stops you from going off in a very
+
+650
+00:26:34.880 --> 00:26:36.549
+useless direction?
+
+651
+00:26:36.559 --> 00:26:40.390
+Uh you won't get tenure.
+
+652
+00:26:40.400 --> 00:26:41.909
+Who's the judge?
+
+653
+00:26:41.919 --> 00:26:43.990
+The community.
+
+654
+00:26:44.000 --> 00:26:46.710
+Yeah. It's not, you know, what what the
+
+655
+00:26:46.720 --> 00:26:48.230
+way that you're viewed at your
+
+656
+00:26:48.240 --> 00:26:53.350
+university has mostly to do with um one
+
+657
+00:26:53.360 --> 00:26:55.669
+very important facet of it is how are
+
+658
+00:26:55.679 --> 00:26:59.110
+you viewed in your research community.
+
+659
+00:26:59.120 --> 00:27:02.549
+So because that's one of the important
+
+660
+00:27:02.559 --> 00:27:05.830
+things they want from their faculty if
+
+661
+00:27:05.840 --> 00:27:08.149
+you're in a research university. You
+
+662
+00:27:08.159 --> 00:27:10.630
+mentioned earlier that uh research and
+
+663
+00:27:10.640 --> 00:27:13.110
+teaching were heavily related in your
+
+664
+00:27:13.120 --> 00:27:15.190
+opinion. Why is that?
+
+665
+00:27:15.200 --> 00:27:18.149
+Because when you teach, you have to
+
+666
+00:27:18.159 --> 00:27:20.789
+teach from first principles.
+
+667
+00:27:20.799 --> 00:27:22.789
+And if you're doing good research, you
+
+668
+00:27:22.799 --> 00:27:25.510
+need to understand deeply what's
+
+669
+00:27:25.520 --> 00:27:27.110
+working, what's not working, what
+
+670
+00:27:27.120 --> 00:27:29.350
+assumptions you're making. It's it's
+
+671
+00:27:29.360 --> 00:27:31.830
+really the same thought process.
+
+672
+00:27:31.840 --> 00:27:34.710
+It's it sounds like in research I mean
+
+673
+00:27:34.720 --> 00:27:37.510
+and this is true in every walk of life
+
+674
+00:27:37.520 --> 00:27:39.510
+there's the I guess the direction that
+
+675
+00:27:39.520 --> 00:27:41.909
+you take and then the work that you do
+
+676
+00:27:41.919 --> 00:27:43.990
+towards that direction and it sounds
+
+677
+00:27:44.000 --> 00:27:48.630
+like for research the the direction is
+
+678
+00:27:48.640 --> 00:27:51.190
+maybe the most important thing cuz you
+
+679
+00:27:51.200 --> 00:27:54.950
+could have a phenomenal researcher
+
+680
+00:27:54.960 --> 00:27:58.149
+doing an idea that has no you know even
+
+681
+00:27:58.159 --> 00:28:00.310
+if you did it at 100% it's not going to
+
+682
+00:28:00.320 --> 00:28:02.789
+lead to That's right. So you you know I
+
+683
+00:28:02.799 --> 00:28:05.110
+you tell students, graduate students,
+
+684
+00:28:05.120 --> 00:28:07.909
+don't do incremental work. Don't you
+
+685
+00:28:07.919 --> 00:28:09.750
+know you've got you you can't just keep
+
+686
+00:28:09.760 --> 00:28:11.190
+working on the same thing over and over
+
+687
+00:28:11.200 --> 00:28:13.269
+just making little teeny improvements.
+
+688
+00:28:13.279 --> 00:28:15.029
+You need to find You're right. You have
+
+689
+00:28:15.039 --> 00:28:17.110
+to find a good problem, but you also
+
+690
+00:28:17.120 --> 00:28:20.070
+have to find a problem that's amenable
+
+691
+00:28:20.080 --> 00:28:23.029
+to a solution and one that matches your
+
+692
+00:28:23.039 --> 00:28:25.029
+skill set.
+
+693
+00:28:25.039 --> 00:28:28.549
+And um you have to recognize when you're
+
+694
+00:28:28.559 --> 00:28:30.389
+going in a good direction versus not
+
+695
+00:28:30.399 --> 00:28:32.470
+going in a good direction.
+
+696
+00:28:32.480 --> 00:28:34.789
+Looking back on your career, you say
+
+697
+00:28:34.799 --> 00:28:39.110
+that it was luck and that it seems like
+
+698
+00:28:39.120 --> 00:28:42.070
+things just fit together.
+
+699
+00:28:42.080 --> 00:28:45.269
+I feel there was luck involved.
+
+700
+00:28:45.279 --> 00:28:49.029
+There was a lot of hard work involved.
+
+701
+00:28:49.039 --> 00:28:50.950
+there was
+
+702
+00:28:50.960 --> 00:28:54.630
+um not allowing
+
+703
+00:28:54.640 --> 00:28:57.990
+uh something negative to you know cause
+
+704
+00:28:58.000 --> 00:29:00.789
+you great difficulty.
+
+705
+00:29:00.799 --> 00:29:05.350
+So for example when I finished my PhD I
+
+706
+00:29:05.360 --> 00:29:08.070
+would have liked a faculty position
+
+707
+00:29:08.080 --> 00:29:11.110
+but I didn't have any good offers.
+
+708
+00:29:11.120 --> 00:29:13.430
+So I went back to MITER the company I
+
+709
+00:29:13.440 --> 00:29:15.990
+had worked for initially as a
+
+710
+00:29:16.000 --> 00:29:17.669
+researcher.
+
+711
+00:29:17.679 --> 00:29:19.590
+Um, in other words, I just kept on
+
+712
+00:29:19.600 --> 00:29:23.110
+marching along and it turned out to be a
+
+713
+00:29:23.120 --> 00:29:25.510
+very good choice because I was switching
+
+714
+00:29:25.520 --> 00:29:28.549
+from AI to systems and this gave me I
+
+715
+00:29:28.559 --> 00:29:30.950
+worked there for four years. Gave me
+
+716
+00:29:30.960 --> 00:29:32.950
+four years to make that transition
+
+717
+00:29:32.960 --> 00:29:36.789
+without having to uh worry about
+
+718
+00:29:36.799 --> 00:29:38.549
+students and teaching and all the other
+
+719
+00:29:38.559 --> 00:29:41.110
+stuff, you know. So, it worked out well,
+
+720
+00:29:41.120 --> 00:29:43.430
+but it also meant that I didn't, you
+
+721
+00:29:43.440 --> 00:29:45.669
+know, feel really sorry for myself that
+
+722
+00:29:45.679 --> 00:29:47.830
+I didn't get a job. it and I just kept
+
+723
+00:29:47.840 --> 00:29:51.510
+on going and then title N was about to
+
+724
+00:29:51.520 --> 00:29:54.470
+be passed and finally academia was
+
+725
+00:29:54.480 --> 00:29:58.149
+opening up to women and I was ready
+
+726
+00:29:58.159 --> 00:30:00.389
+but I think you know when I talk to
+
+727
+00:30:00.399 --> 00:30:02.070
+other people about their careers they
+
+728
+00:30:02.080 --> 00:30:04.310
+talk about doors opening and doors
+
+729
+00:30:04.320 --> 00:30:08.389
+closing so um I didn't get the academic
+
+730
+00:30:08.399 --> 00:30:10.230
+job I wanted but I had this other
+
+731
+00:30:10.240 --> 00:30:14.950
+opportunity I majored in math and
+
+732
+00:30:14.960 --> 00:30:17.269
+fortunately I was offered a programming
+
+733
+00:30:17.279 --> 00:30:20.310
+job. I mean, doors open and then you
+
+734
+00:30:20.320 --> 00:30:21.669
+have to decide, am I going to step
+
+735
+00:30:21.679 --> 00:30:24.789
+through? And this is a pattern that
+
+736
+00:30:24.799 --> 00:30:27.029
+people see in their careers. It's not
+
+737
+00:30:27.039 --> 00:30:30.230
+just me. Many people have have those
+
+738
+00:30:30.240 --> 00:30:32.470
+kinds of choices that you make along the
+
+739
+00:30:32.480 --> 00:30:34.950
+way, opportunities and things that
+
+740
+00:30:34.960 --> 00:30:36.549
+aren't so great, you know, and you're
+
+741
+00:30:36.559 --> 00:30:39.110
+sort of working your way through.
+
+742
+00:30:39.120 --> 00:30:41.269
+I've interviewed a few people who have
+
+743
+00:30:41.279 --> 00:30:43.510
+won touring awards and I've done
+
+744
+00:30:43.520 --> 00:30:46.389
+research and watched a lot of these
+
+745
+00:30:46.399 --> 00:30:48.389
+speeches that people give after they
+
+746
+00:30:48.399 --> 00:30:50.710
+received the award. And I noticed
+
+747
+00:30:50.720 --> 00:30:54.549
+something different in in your speech or
+
+748
+00:30:54.559 --> 00:30:56.870
+some of the stuff that I read about uh
+
+749
+00:30:56.880 --> 00:30:59.590
+your work, which is that in yours, it
+
+750
+00:30:59.600 --> 00:31:00.950
+seems like when you got the Turing
+
+751
+00:31:00.960 --> 00:31:05.669
+Award, there were people saying, "Why
+
+752
+00:31:05.679 --> 00:31:07.750
+did she get the Turing Award?" It was
+
+753
+00:31:07.760 --> 00:31:10.310
+kind of negative commentary on that
+
+754
+00:31:10.320 --> 00:31:12.230
+and I didn't see that in the other
+
+755
+00:31:12.240 --> 00:31:14.950
+cases. Why do you think that they said
+
+756
+00:31:14.960 --> 00:31:16.789
+that about your work?
+
+757
+00:31:16.799 --> 00:31:19.029
+So I'm I'm not so sure this doesn't
+
+758
+00:31:19.039 --> 00:31:20.630
+happen to other people by the way. It
+
+759
+00:31:20.640 --> 00:31:22.310
+was just that my husband was out on the
+
+760
+00:31:22.320 --> 00:31:23.590
+internet. By the way, there was an
+
+761
+00:31:23.600 --> 00:31:24.630
+internet by then.
+
+762
+00:31:24.640 --> 00:31:25.029
+Okay.
+
+763
+00:31:25.039 --> 00:31:27.590
+Okay. As you know, the internet is not
+
+764
+00:31:27.600 --> 00:31:30.070
+necessarily nice.
+
+765
+00:31:30.080 --> 00:31:30.870
+I know that,
+
+766
+00:31:30.880 --> 00:31:32.070
+right?
+
+767
+00:31:32.080 --> 00:31:36.470
+And um so I I can imagine that other
+
+768
+00:31:36.480 --> 00:31:38.070
+people might have had the similar a
+
+769
+00:31:38.080 --> 00:31:40.310
+similar experience had they bothered to
+
+770
+00:31:40.320 --> 00:31:46.310
+look. Um but I also think that
+
+771
+00:31:46.320 --> 00:31:50.070
+the world had changed so much and the
+
+772
+00:31:50.080 --> 00:31:53.350
+work that I had done was so basic to
+
+773
+00:31:53.360 --> 00:31:57.190
+what was going on that people really
+
+774
+00:31:57.200 --> 00:31:59.110
+didn't understand that there was a
+
+775
+00:31:59.120 --> 00:32:01.830
+before. I mean, my graduate students
+
+776
+00:32:01.840 --> 00:32:03.669
+really didn't understand that there was
+
+777
+00:32:03.679 --> 00:32:06.630
+a before because I discovered that at
+
+778
+00:32:06.640 --> 00:32:08.389
+the time I got the award. It really
+
+779
+00:32:08.399 --> 00:32:10.870
+hadn't struck them that data abstraction
+
+780
+00:32:10.880 --> 00:32:13.269
+didn't always exist.
+
+781
+00:32:13.279 --> 00:32:18.630
+So I think that I mean I viewed it as a
+
+782
+00:32:18.640 --> 00:32:21.750
+in a way a huge compliment not really
+
+783
+00:32:21.760 --> 00:32:23.909
+just to me but to the group of
+
+784
+00:32:23.919 --> 00:32:27.110
+researchers who you know all together
+
+785
+00:32:27.120 --> 00:32:30.149
+got us to the point where we had u these
+
+786
+00:32:30.159 --> 00:32:32.230
+modular programming languages and we
+
+787
+00:32:32.240 --> 00:32:35.110
+understood about abstract data types and
+
+788
+00:32:35.120 --> 00:32:36.630
+we understood about how to reason about
+
+789
+00:32:36.640 --> 00:32:38.789
+correctness. All that stuff was so
+
+790
+00:32:38.799 --> 00:32:41.669
+fundamental that people thought there
+
+791
+00:32:41.679 --> 00:32:43.590
+was no time when it hadn't already
+
+792
+00:32:43.600 --> 00:32:44.389
+existed.
+
+793
+00:32:44.399 --> 00:32:45.669
+So they took it for granted.
+
+794
+00:32:45.679 --> 00:32:47.430
+They took it for granted. I mean the
+
+795
+00:32:47.440 --> 00:32:49.190
+Byzantine fall tolerance, you look at
+
+796
+00:32:49.200 --> 00:32:53.269
+that there's a protocol and
+
+797
+00:32:53.279 --> 00:32:54.870
+you can understand that there was a
+
+798
+00:32:54.880 --> 00:32:56.310
+protocol. Somebody invented that
+
+799
+00:32:56.320 --> 00:32:59.669
+protocol. Um you know so you get the
+
+800
+00:32:59.679 --> 00:33:01.750
+credit for that. This was much more
+
+801
+00:33:01.760 --> 00:33:04.149
+fundamental. This was the whole mindset
+
+802
+00:33:04.159 --> 00:33:06.710
+you had about how to de develop programs
+
+803
+00:33:06.720 --> 00:33:08.230
+and that's what people were talking
+
+804
+00:33:08.240 --> 00:33:11.909
+about and things had changed so much
+
+805
+00:33:11.919 --> 00:33:14.470
+that all these inventions of mine and
+
+806
+00:33:14.480 --> 00:33:17.669
+others were just there in the woodwork
+
+807
+00:33:17.679 --> 00:33:19.830
+and people didn't realize that there was
+
+808
+00:33:19.840 --> 00:33:21.350
+a time before.
+
+809
+00:33:21.360 --> 00:33:24.549
+That's validating then that it's it's so
+
+810
+00:33:24.559 --> 00:33:26.230
+impactful and
+
+811
+00:33:26.240 --> 00:33:28.149
+everyone uses it all the time that they
+
+812
+00:33:28.159 --> 00:33:29.750
+don't even know what it was like before
+
+813
+00:33:29.760 --> 00:33:31.190
+what you did. So, I thought, you know,
+
+814
+00:33:31.200 --> 00:33:33.029
+it's a huge the person who said it
+
+815
+00:33:33.039 --> 00:33:35.669
+didn't mean it nicely, but I thought
+
+816
+00:33:35.679 --> 00:33:39.350
+really it's a huge a huge compliment and
+
+817
+00:33:39.360 --> 00:33:41.590
+and a statement about where we are now
+
+818
+00:33:41.600 --> 00:33:45.110
+as opposed to where we were then. So,
+
+819
+00:33:45.120 --> 00:33:46.710
+okay. Well, that's all the questions I
+
+820
+00:33:46.720 --> 00:33:48.549
+have for you. Thank you so much for for
+
+821
+00:33:48.559 --> 00:33:50.070
+your time. Really appreciate it.
+
+822
+00:33:50.080 --> 00:33:51.190
+You're welcome.
+
+823
+00:33:51.200 --> 00:33:52.950
+Thank you for listening to the podcast.
+
+824
+00:33:52.960 --> 00:33:55.190
+It's a passion project of mine that I've
+
+825
+00:33:55.200 --> 00:33:57.190
+really enjoyed building. Another passion
+
+826
+00:33:57.200 --> 00:33:58.549
+project that I've been working on kind
+
+827
+00:33:58.559 --> 00:34:01.029
+of in secret is building an ergonomic
+
+828
+00:34:01.039 --> 00:34:03.269
+keyboard that I wish existed and I
+
+829
+00:34:03.279 --> 00:34:04.950
+finally have a prototype. So, I'd love
+
+830
+00:34:04.960 --> 00:34:07.830
+to show you what we've built. It's ultra
+
+831
+00:34:07.840 --> 00:34:10.550
+lowprofile and ergonomic and I couldn't
+
+832
+00:34:10.560 --> 00:34:12.149
+find anything like it on the market. So,
+
+833
+00:34:12.159 --> 00:34:13.909
+that's why we built it. I'll put a link
+
+834
+00:34:13.919 --> 00:34:15.589
+to the keyboard in the description. You
+
+835
+00:34:15.599 --> 00:34:17.190
+can take a look and learn more about the
+
+836
+00:34:17.200 --> 00:34:18.869
+project there. We could definitely use
+
+837
+00:34:18.879 --> 00:34:20.869
+your support. Also, if you have any
+
+838
+00:34:20.879 --> 00:34:22.869
+feedback for me about the show, I'd love
+
+839
+00:34:22.879 --> 00:34:25.270
+to hear it. Comments on YouTube have led
+
+840
+00:34:25.280 --> 00:34:27.909
+to guests coming on like Ilia Gregoric
+
+841
+00:34:27.919 --> 00:34:30.310
+and David Fowler. I wasn't aware of them
+
+842
+00:34:30.320 --> 00:34:32.470
+until someone dropped a comment. Also,
+
+843
+00:34:32.480 --> 00:34:33.990
+feedback in the comments helped me learn
+
+844
+00:34:34.000 --> 00:34:36.550
+to reduce the number of cliffhers in the
+
+845
+00:34:36.560 --> 00:34:38.389
+intros. So, your comments definitely
+
+846
+00:34:38.399 --> 00:34:39.750
+make a difference. Please keep letting
+
+847
+00:34:39.760 --> 00:34:41.349
+me know what you'd like to see more of
+
+848
+00:34:41.359 --> 00:34:42.869
+in the show, and I'll see you in the
+
+849
+00:34:42.879 --> 00:34:45.520
+next episode.
+

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbara Liskov – Interactieve Les</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html, body { height: 100%; margin: 0; font-family: sans-serif; background: #0f172a; color: #e2e8f0; }
+    #app { display: flex; height: 100vh; overflow: hidden; }
+    #sidebar { width: 280px; min-width: 280px; display: flex; flex-direction: column; height: 100%; background: #1e293b; border-right: 1px solid #334155; overflow-y: auto; }
+    #main { flex: 1; display: flex; flex-direction: column; overflow: hidden; min-width: 0; min-height: 0; align-items: flex-start; }
+    #video-col { display: flex; flex-direction: column; width: calc(42vh * 16 / 9); max-width: 100%; height: 100%; min-height: 0; }
+    #video-area { flex-shrink: 0; background: #000; width: 100%; }
+    #player-wrapper { position: relative; height: 42vh; width: 100%; }
+    #player-wrapper iframe, #player-wrapper > div { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+    #subtitle-bar { background: #111; min-height: 2.6rem; display: flex; align-items: center; justify-content: center; padding: 6px 16px; text-align: center; font-size: 0.95rem; color: #fde68a; }
+    #content-area { flex: 1; min-height: 0; display: flex; flex-direction: column; overflow: hidden; background: #0f172a; }
+    #tab-bar { flex-shrink: 0; display: flex; border-bottom: 1px solid #334155; background: #1e293b; }
+    .tab-btn { padding: 10px 18px; font-size: 0.85rem; cursor: pointer; border-bottom: 2px solid transparent; color: #94a3b8; }
+    .tab-btn.active { color: #38bdf8; border-bottom-color: #38bdf8; }
+    #tab-content { flex: 1; overflow-y: auto; padding: 20px 24px; }
+    .chapter-item { padding: 10px 14px; cursor: pointer; border-left: 3px solid transparent; font-size: 0.85rem; }
+    .chapter-item:hover { background: #334155; }
+    .chapter-item.active { border-left-color: #38bdf8; background: #0f172a; color: #38bdf8; }
+    .topic-link { font-size: 0.78rem; color: #7dd3fc; cursor: pointer; margin: 2px 0; display: block; }
+    .topic-link:hover { text-decoration: underline; }
+    .quiz-btn { display: block; width: 100%; text-align: left; padding: 10px 14px; margin: 6px 0; border-radius: 6px; border: 1px solid #334155; background: #1e293b; color: #e2e8f0; cursor: pointer; font-size: 0.9rem; transition: background 0.15s; }
+    .quiz-btn:hover:not(:disabled) { background: #334155; }
+    .quiz-btn:disabled { cursor: default; opacity: 0.85; }
+    .quiz-btn.correct { background: #166534; border-color: #22c55e; }
+    .quiz-btn.wrong { background: #7f1d1d; border-color: #ef4444; }
+    .lang-toggle { display: flex; gap: 6px; padding: 8px 14px; }
+    .lang-btn { padding: 3px 10px; border-radius: 12px; font-size: 0.75rem; cursor: pointer; border: 1px solid #334155; background: #0f172a; color: #94a3b8; }
+    .lang-btn.active { background: #0369a1; color: #fff; border-color: #0369a1; }
+  </style>
+</head>
+<body>
+<div id="app">
+  <!-- Sidebar -->
+  <div id="sidebar">
+    <div style="padding: 14px 14px 8px; font-weight: bold; font-size: 1rem; color: #38bdf8; border-bottom: 1px solid #334155;">
+      Barbara Liskov
+    </div>
+    <div style="padding: 6px 14px 4px; font-size: 0.7rem; color: #64748b; text-transform: uppercase; letter-spacing: .05em;">Hoofdstukken</div>
+    <div v-for="(ch, ci) in chapters" :key="ci"
+         class="chapter-item" :class="{active: chapter===ci}"
+         @click="goChapter(ci)">
+      <div style="font-weight:600;">{{ ch.title }}</div>
+      <div style="font-size:0.74rem;color:#64748b;">{{ fmtTime(ch.start) }}</div>
+      <div v-if="chapter===ci" style="margin-top:6px;">
+        <span v-for="t in ch.topics" :key="t.start"
+              class="topic-link"
+              @click.stop="seekTo(t.start)">
+          &#9654; {{ t.label }} ({{ fmtTime(t.start) }})
+        </span>
+      </div>
+    </div>
+    <div style="padding: 12px 14px 4px; font-size: 0.7rem; color: #64748b; text-transform: uppercase; letter-spacing: .05em; border-top: 1px solid #334155; margin-top: auto;">Ondertitels</div>
+    <div class="lang-toggle">
+      <button class="lang-btn" :class="{active: sublang==='nl'}" @click="sublang='nl'">NL</button>
+      <button class="lang-btn" :class="{active: sublang==='en'}" @click="sublang='en'">EN</button>
+      <button class="lang-btn" :class="{active: sublang==='off'}" @click="sublang='off'">Uit</button>
+    </div>
+    <div style="padding: 10px 14px 14px; border-top: 1px solid #334155;">
+      <a href="samenvatting_barbara_liskov.pdf" target="_blank"
+         style="display:flex;align-items:center;gap:8px;background:#1e40af;color:#e0f2fe;text-decoration:none;padding:9px 12px;border-radius:6px;font-size:0.82rem;font-weight:600;transition:background 0.15s;"
+         onmouseover="this.style.background='#1d4ed8'" onmouseout="this.style.background='#1e40af'">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9 15 12 18 15 15"/>
+        </svg>
+        Samenvatting (PDF)
+      </a>
+    </div>
+  </div>
+
+  <!-- Main -->
+  <div id="main">
+    <div id="video-col">
+      <div id="video-area">
+        <div id="player-wrapper">
+          <div id="yt-player"></div>
+        </div>
+        <div id="subtitle-bar">
+          <span>{{ subtitle }}&nbsp;</span>
+        </div>
+      </div>
+      <div id="content-area">
+      <div id="tab-bar">
+        <button class="tab-btn" :class="{active: tab==='info'}" @click="tab='info'">Info</button>
+        <button class="tab-btn" :class="{active: tab==='punten'}" @click="tab='punten'">Kernpunten</button>
+        <button class="tab-btn" :class="{active: tab==='quiz'}" @click="tab='quiz'">Quiz</button>
+      </div>
+      <div id="tab-content">
+        <!-- Info tab -->
+        <div v-if="tab==='info'">
+          <h2 style="font-size:1.1rem;font-weight:700;color:#38bdf8;margin-bottom:8px;">{{ chapters[chapter].title }}</h2>
+          <p style="font-size:0.9rem;line-height:1.6;color:#cbd5e1;">{{ chapters[chapter].description }}</p>
+          <div style="margin-top:14px;">
+            <div style="font-size:0.75rem;color:#64748b;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px;">Onderwerpen in dit hoofdstuk</div>
+            <div v-for="t in chapters[chapter].topics" :key="t.start"
+                 class="topic-link" style="margin:4px 0;"
+                 @click="seekTo(t.start)">
+              &#9654; {{ t.label }} &mdash; {{ fmtTime(t.start) }}
+            </div>
+          </div>
+        </div>
+        <!-- Kernpunten tab -->
+        <div v-if="tab==='punten'">
+          <h2 style="font-size:1.1rem;font-weight:700;color:#38bdf8;margin-bottom:10px;">Kernpunten</h2>
+          <ul style="list-style:disc;padding-left:1.4rem;font-size:0.9rem;line-height:1.8;color:#cbd5e1;">
+            <li v-for="p in chapters[chapter].keyPoints" :key="p">{{ p }}</li>
+          </ul>
+        </div>
+        <!-- Quiz tab -->
+        <div v-if="tab==='quiz'">
+          <div v-if="!finished">
+            <div style="font-size:0.78rem;color:#64748b;margin-bottom:10px;">Vraag {{ qidx+1 }} / {{ questions.length }}</div>
+            <p style="font-size:0.95rem;font-weight:600;color:#f1f5f9;margin-bottom:14px;">{{ questions[qidx].question }}</p>
+            <button v-for="(opt, oi) in questions[qidx].options" :key="oi"
+                    class="quiz-btn"
+                    :class="answer!==null ? (oi===questions[qidx].correct ? 'correct' : (oi===answer ? 'wrong' : '')) : ''"
+                    :disabled="answer!==null"
+                    @click="selectAnswer(oi)">
+              {{ opt }}
+            </button>
+            <div v-if="answer!==null" style="margin-top:12px;padding:10px 14px;background:#1e293b;border-radius:6px;font-size:0.85rem;color:#94a3b8;">
+              <div style="font-weight:600;color:#38bdf8;margin-bottom:4px;">
+                {{ answer===questions[qidx].correct ? '✓ Correct!' : '✗ Onjuist' }}
+              </div>
+              {{ questions[qidx].explanation }}
+              <div v-if="questions[qidx].clipTime!==null" style="margin-top:6px;">
+                <span class="topic-link" @click="seekTo(questions[qidx].clipTime)">&#9654; Bekijk het fragment ({{ fmtTime(questions[qidx].clipTime) }})</span>
+              </div>
+            </div>
+            <div v-if="answer!==null" style="margin-top:12px;text-align:right;">
+              <button @click="nextQ()"
+                      style="padding:8px 18px;background:#0369a1;color:#fff;border-radius:6px;font-size:0.85rem;cursor:pointer;border:none;">
+                <span v-if="qidx &lt; questions.length-1">Volgende &rarr;</span>
+                <span v-else>Resultaten</span>
+              </button>
+            </div>
+          </div>
+          <div v-else style="text-align:center;padding:30px 0;">
+            <div style="font-size:2rem;font-weight:800;color:#38bdf8;">{{ score }} / {{ questions.length }}</div>
+            <div style="margin-top:8px;font-size:1rem;color:#cbd5e1;">{{ msg }}</div>
+            <div style="width:100%;background:#334155;border-radius:4px;height:10px;margin:16px 0;">
+              <div :style="'width:'+pct+'%;background:#38bdf8;height:10px;border-radius:4px;transition:width .4s;'"></div>
+            </div>
+            <button @click="resetQuiz()"
+                    style="padding:10px 24px;background:#0369a1;color:#fff;border-radius:6px;font-size:0.9rem;cursor:pointer;border:none;margin-top:8px;">
+              Opnieuw proberen
+            </button>
+          </div>
+        </div>
+      </div>
+      </div><!-- /content-area -->
+    </div><!-- /video-col -->
+  </div><!-- /main -->
+</div><!-- /app -->
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script>
+const VIDEO_ID = 'T9CGjbPZeaM';
+
+function toSec(ts) {
+  const p = ts.split(':');
+  if (p.length === 3) return +p[0]*3600 + +p[1]*60 + parseFloat(p[2]);
+  if (p.length === 2) return +p[0]*60 + parseFloat(p[1]);
+  return parseFloat(p[0]);
+}
+
+function fmtTime(sec) {
+  const h = Math.floor(sec/3600), m = Math.floor((sec%3600)/60), s = Math.floor(sec%60);
+  if (h > 0) return `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+  return `${m}:${String(s).padStart(2,'0')}`;
+}
+
+function parseVTT(text) {
+  const cues = [];
+  const normalised = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+  for (const block of normalised.split(/\n\n+/)) {
+    const lines = block.trim().split('\n');
+    const tsLine = lines.find(l => l.includes('-->'));
+    if (!tsLine) continue;
+    const [s, e] = tsLine.split('-->').map(p => toSec(p.trim().split(' ')[0]));
+    const txt = lines
+      .filter(l => l && !l.includes('-->') &&
+        !/^(WEBVTT|NOTE|Kind:|Language:)/.test(l) &&
+        !/^\d+$/.test(l.trim()))
+      .join(' ').trim();
+    const clean = txt.replace(/^>>\s*/g, '').replace(/\s*>>\s*/g, ' ').trim();
+    if (clean) cues.push({ start: s, end: e, text: clean });
+  }
+  return cues;
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length-1; i > 0; i--) {
+    const j = Math.floor(Math.random()*(i+1));
+    [a[i],a[j]] = [a[j],a[i]];
+  }
+  return a;
+}
+
+function shuffleOptions(q) {
+  const correctText = q.options[q.correct];
+  const opts = shuffle([...q.options]);
+  return { ...q, options: opts, correct: opts.indexOf(correctText) };
+}
+
+const allChapters = [
+  {
+    title: "Introductie & Jeugd",
+    start: 0,
+    description: "Barbara Liskov wordt voorgesteld als Turing Award-winnaar voor haar bijdragen aan programmeertalen en gedistribueerde systemen. Ze vertelt hoe ze via een omweg de informatica inrolde nadat Princeton haar als vrouw weigerde voor het graduaatprogramma.",
+    keyPoints: [
+      "Princeton weigerde vrouwen voor het graduate programma in de jaren '60.",
+      "Liskov studeerde wiskunde aan Berkeley en vond informatica via haar eerste programmeersbaan.",
+      "Ze noemt het een 'gelukkig toeval' dat ze in de computerwetenschap belandde.",
+      "Berkeley had een inclusievere omgeving dan Princeton voor vrouwen."
+    ],
+    topics: [
+      { label: "Afwijzing door Princeton", start: 47 },
+      { label: "Eerste programmeersbaan", start: 100 }
+    ]
+  },
+  {
+    title: "Softwarecrisis & Modulariteit",
+    start: 180,
+    description: "In de jaren '70 worstelden bedrijven met het bouwen van grote softwaresystemen. Liskov legt uit hoe het gebrek aan een duidelijk moduleconcept ten grondslag lag aan de crisis, en hoe ze bij MITER een vroeg idee van modulariteit ontwikkelde dat later zou leiden tot data-abstractie.",
+    keyPoints: [
+      "Bedrijven verloren miljoenen door software die niet werkte.",
+      "Modulariteit vereist een interface plus verborgen implementatie.",
+      "Procedures als enige modulariteitsconstructen waren onvoldoende voor complexe systemen.",
+      "Liskov bedacht bij MITER een volledigere notie van modulariteit om haar team uit de problemen te houden."
+    ],
+    topics: [
+      { label: "Omvang van de softwarecrisis", start: 180 },
+      { label: "Waarom procedures tekortschieten", start: 295 },
+      { label: "MITER en vroege modulariteit", start: 381 }
+    ]
+  },
+  {
+    title: "Data-abstractie & CLU",
+    start: 359,
+    description: "Liskov zag dat haar modulariteitsidee overeenkwam met een abstract datatype. Dit leidde tot de programmeertaal CLU, een invloedrijke paper met Steve Zilles, en uiteindelijk tot de programmeertaal ADA voor de Amerikaanse overheid en later Java.",
+    keyPoints: [
+      "Data-abstractie: een module biedt bewerkingen en verbergt de interne data.",
+      "CLU was de eerste programmeertaal die abstract datatypen direct ondersteunde.",
+      "Een paper met Steve Zilles had grote invloed op de onderzoeksgemeenschap.",
+      "Overheids­taal ADA en later Java bouwden voort op deze ideeën."
+    ],
+    topics: [
+      { label: "Inzicht in data-abstractie", start: 359 },
+      { label: "CLU en zijn invloed", start: 420 },
+      { label: "ADA en Java", start: 520 }
+    ]
+  },
+  {
+    title: "Gedistribueerde Systemen & Argus",
+    start: 647,
+    description: "Geïnspireerd door Bob Kahns visie op gedistribueerd rekenen begon Liskov aan Argus, een programmeertaal voor gedistribueerde systemen. Ze introduceerde atomaire transacties in gedistribueerde computaties en legde daarmee de basis voor viewstamp-replicatie, de voorloper van cloudopslag.",
+    keyPoints: [
+      "Argus was objectgeoriënteerd en gebruikte 'guardians' als modules op afzonderlijke computers.",
+      "Atomaire transacties garanderen dat berekeningen volledig slagen of geen enkel effect hebben.",
+      "Viewstamp-replicatie is onafhankelijk ontwikkeld van Paxos (Leslie Lamport) maar vrijwel identiek.",
+      "Het Google-bestandssysteem gebruikte dezelfde aanpak, aanvankelijk dachten ze dat het Paxos was."
+    ],
+    topics: [
+      { label: "Argus en guardians", start: 660 },
+      { label: "Atomaire transacties", start: 730 },
+      { label: "Viewstamp-replicatie", start: 821 },
+      { label: "Vergelijking met Paxos", start: 844 }
+    ]
+  },
+  {
+    title: "Liskov-substitutieprincipe",
+    start: 900,
+    description: "Na het lezen van Smalltalk-papers voor een keynote op OOPSLA in 1986 formuleerde Liskov het substitutieprincipe: een subklasse moet zich gedragen als de superklasse wanneer die verwacht wordt. Samen met Jeannette Wing werd dit formeel uitgewerkt als gedragsmatige subtypering.",
+    keyPoints: [
+      "Smalltalk gebruikte overerving; CLU had alleen onafhankelijke clusters.",
+      "West-coast onderzoekers beschreven typehiërarchie in termen van implementaties, niet betekenis.",
+      "Liskov's benadering: betekenis en gedrag zijn primair, implementatie is secundair.",
+      "Het LSP kreeg zijn naam doordat anderen er naar gingen verwijzen; Liskov ontdekte de naam via e-mail in de jaren '90."
+    ],
+    topics: [
+      { label: "OOPSLA-keynote 1986", start: 900 },
+      { label: "Overerving vs. clusters", start: 960 },
+      { label: "Definitie van het substitutieprincipe", start: 1070 }
+    ]
+  },
+  {
+    title: "Byzantijnse fouttolerantie",
+    start: 1220,
+    description: "Met student Miguel Castro ontwikkelde Liskov Byzantijnse fouttolerantie als uitbreiding op viewstamp-replicatie. Waar viewstamp alleen crashes aankon, handelt BFT ook kwaadaardige en gecompromitteerde knooppunten af. De term 'Byzantijns' werd door Leslie Lamport bedacht.",
+    keyPoints: [
+      "Viewstamp en Paxos handelen alleen crashes af, niet kwaadaardige knooppunten.",
+      "BFT beschermt tegen knooppunten die doen alsof ze correct werken maar gecompromitteerd zijn.",
+      "Een DARPA-projectoproep inspireerde Castro om dit probleem aan te pakken.",
+      "De term 'Byzantijns' voor kwaadaardige fouten is bedacht door Leslie Lamport."
+    ],
+    topics: [
+      { label: "Grens van viewstamp-replicatie", start: 1220 },
+      { label: "BFT vs. viewstamp", start: 1330 },
+      { label: "Castro's proefschrift", start: 1381 }
+    ]
+  },
+  {
+    title: "Dijkstra & goto-statements",
+    start: 1381,
+    description: "Liskov ontmoette Dijkstra meerdere keren. Ze bespreekt zijn beroemde brief 'Go To Statement Considered Harmful': waarom het destijds controversieel was (assembler, compilatorbeperkingen, beledigd programmeurs), en hoe Dijkstra uiteindelijk gelijk heeft gekregen.",
+    keyPoints: [
+      "De 'paper' van Dijkstra was eigenlijk een brief aan de redacteur van de ACM-communicaties.",
+      "Gotos waren nodig in assembler en programmeertalen misten alternatieven.",
+      "Compilatoren optimaliseerden niet goed genoeg, gotos gaven soms snelheidsvoordeel.",
+      "Dijkstra was niet de meest diplomatieke schrijver — dat vergrootte de controverse."
+    ],
+    topics: [
+      { label: "Goto-discussie", start: 1381 },
+      { label: "Waarom het controversieel was", start: 1441 },
+      { label: "Dijkstra in persoon", start: 1530 }
+    ]
+  },
+  {
+    title: "Academische carrière & Reflectie",
+    start: 1561,
+    description: "Liskov legt uit waarom ze in de academische wereld bleef, hoe geluk en doorzettingsvermogen haar carrière vormgaven, en hoe haar fundamentele bijdragen zo vanzelfsprekend zijn geworden dat mensen vergeten dat ze ooit niet bestonden.",
+    keyPoints: [
+      "Onderzoek en lesgeven zijn nauw verbonden: beide vereisen denken vanuit eerste beginselen.",
+      "Ze raadde promovendi aan geen incrementeel werk te doen maar betekenisvolle problemen te kiezen.",
+      "Haar Turing Award werd aangevochten omdat haar bijdragen zo fundamenteel zijn dat mensen vergaten dat er een 'voor' bestond.",
+      "Deuren openen en sluiten: ze zag haar afwijzingen als kansen in een andere richting."
+    ],
+    topics: [
+      { label: "Academie vs. industrie", start: 1561 },
+      { label: "Turing Award en kritiek", start: 1841 }
+    ]
+  }
+];
+
+const allQ = [
+  {
+    question: "Waarom kon Barbara Liskov niet studeren aan Princeton?",
+    options: [
+      "Princeton nam in de jaren '60 geen vrouwen aan voor het graduate programma, ongeacht academische prestaties.",
+      "Ze had onvoldoende wiskundige voorkennis voor het toelatingsniveau van Princeton.",
+      "Ze koos bewust voor Berkeley vanwege de betere wiskundige opleiding die ze zocht.",
+      "Princeton had een capaciteitslimiet waardoor buitenlandse studenten voorrang kregen."
+    ],
+    correct: 0,
+    explanation: "Princeton stuurde haar een briefkaart: 'We do not admit women.' Ze was verrast omdat ze wist dat Princeton geen vrouwen had in het undergraduate programma, maar niet dat dit ook voor graduate programma's gold.",
+    clipTime: 47
+  },
+  {
+    question: "Wat was het kernprobleem dat leidde tot de softwarecrisis in de jaren '70?",
+    options: [
+      "Programmeurs waren te duur waardoor bedrijven geen professionele software konden betalen.",
+      "Computers waren te traag om grote programma's uit te voeren, waardoor systemen faalden.",
+      "Er was geen goede notie van modules: procedures schoten tekort voor complexe systemen als databases en bestandssystemen.",
+      "Programmeertalen waren te moeilijk te leren, waardoor er een tekort was aan bekwame programmeurs."
+    ],
+    correct: 2,
+    explanation: "Liskov legt uit dat je grote programma's alleen correct kunt bouwen via modulariteit. Maar procedures — het enige modulariteitsmechanisme — waren niet geschikt voor de soort modules die mensen nodig hadden.",
+    clipTime: 180
+  },
+  {
+    question: "Wat is het centrale idee van data-abstractie dat Liskov ontwikkelde?",
+    options: [
+      "Een module biedt een set van bewerkingen via een interface en verbergt volledig de interne data en implementatie.",
+      "Data wordt geabstraheerd door het te comprimeren zodat programma's minder geheugen gebruiken.",
+      "Functies krijgen abstracte typen zodat de compiler automatisch het juiste geheugentype kan kiezen.",
+      "Data-abstractie betekent dat alle variabelen in een programma typeloos zijn voor maximale flexibiliteit."
+    ],
+    correct: 0,
+    explanation: "Liskov zag dat haar moduleconcept — een interface met bewerkingen plus verborgen interne toestand — overeenkomt met een abstract datatype zoals een set of een reeks.",
+    clipTime: 359
+  },
+  {
+    question: "Hoe verhoudt viewstamp-replicatie van Liskov zich tot Paxos van Leslie Lamport?",
+    options: [
+      "Ze zijn onafhankelijk ontwikkeld en vrijwel identiek; zelfs het Google-bestandssysteem gebruikte dezelfde aanpak.",
+      "Viewstamp is een vereenvoudiging van Paxos speciaal ontworpen voor cloudopslag bij grote bedrijven.",
+      "Paxos is een formele verbetering op viewstamp die uitgebreidere fouttolerantie biedt voor transacties.",
+      "Ze zijn complementair: viewstamp behandelt dataverlies en Paxos behandelt netwerkstoringen afzonderlijk."
+    ],
+    correct: 0,
+    explanation: "Liskov en Lamport ontwikkelden onafhankelijk vrijwel hetzelfde systeem. Een voormalig student van Liskov bij Google herkende dat het Google-bestandssysteem viewstamp-replicatie gebruikte, niet Paxos — hoewel het in essentie hetzelfde is.",
+    clipTime: 844
+  },
+  {
+    question: "Wat stelt het Liskov-substitutieprincipe (LSP)?",
+    options: [
+      "Een subklasse moet zich gedragen als de superklasse wanneer die verwacht wordt, gebaseerd op de betekenis van het type.",
+      "Een klasse mag nooit gesubstitueerd worden door een subklasse omdat dit de inkapseling verbreekt.",
+      "Elke klasse moet een substitutiemethode hebben zodat objecten uitgewisseld kunnen worden zonder hercompilatie.",
+      "Substitutie van typen is alleen veilig als de subklasse dezelfde implementatie gebruikt als de superklasse."
+    ],
+    correct: 0,
+    explanation: "Liskov formuleerde dit na het lezen van Smalltalk-papers voor OOPSLA 1986. West-coast onderzoekers konden de typehiërarchie niet uitleggen; Liskov zag dat het draait om gedrag en betekenis, niet om implementatiedetails.",
+    clipTime: 900
+  },
+  {
+    question: "Wat onderscheidt Byzantijnse fouttolerantie van viewstamp-replicatie?",
+    options: [
+      "BFT handelt ook kwaadaardige knooppunten af die doen alsof ze correct werken maar gecompromitteerd zijn.",
+      "BFT gebruikt een gedistribueerde klok terwijl viewstamp-replicatie werkt met oplopende nummers.",
+      "BFT is ontworpen voor lokale netwerken en viewstamp-replicatie voor het publieke internet.",
+      "BFT vereist minder knooppunten voor consensus waardoor het efficiënter is dan viewstamp."
+    ],
+    correct: 0,
+    explanation: "Viewstamp en Paxos behandelen crashes: een knooppunt doet niets. BFT gaat verder en beschermt tegen knooppunten die actief misleidend gedrag vertonen — iets dat nodig werd naarmate het internet groeide.",
+    clipTime: 1220
+  },
+  {
+    question: "Waarom was Dijkstra's 'Go To Statement Considered Harmful' destijds controversieel?",
+    options: [
+      "Gotos waren noodzakelijk in assembler, compilers konden nog niet goed optimaliseren zonder gotos, en vakkundige programmeurs voelden zich beledigd.",
+      "Dijkstra beweerde dat alle iteratieve algoritmen moesten worden vervangen door recursie, wat praktisch onhaalbaar was.",
+      "De brief was te lang en technisch voor ACM-lezers die meer geïnteresseerd waren in hardware dan software.",
+      "Goto-statements waren juist de meest efficiënte manier om lussen te schrijven in de toenmalige compilers."
+    ],
+    correct: 0,
+    explanation: "Drie redenen: assembler vereiste gotos, compilers misten optimalisaties waardoor gotos snelheidsvoordeel gaven, en goede programmeurs die gotos gebruikten voelden zich aangevallen. Plus: Dijkstra schreef niet diplomatisch.",
+    clipTime: 1441
+  },
+  {
+    question: "Waarom waren sommige mensen verbaasd dat Liskov de Turing Award kreeg?",
+    options: [
+      "Haar bijdragen waren zo fundamenteel geworden dat mensen vergaten dat data-abstractie en modulariteit ooit niet bestonden.",
+      "Ze had nooit een startup opgericht of commercieel product gelanceerd, wat de jury als nadeel zag.",
+      "Andere kandidaten hadden meer gepubliceerde papers en een grotere h-index in die periode.",
+      "De Turing Award ging normaal naar theoretici en Liskov was voornamelijk een systeemontwerper."
+    ],
+    correct: 0,
+    explanation: "Liskov zag het als een groot compliment: haar werk was zo fundamenteel dat haar graduate studenten zich niet eens konden voorstellen dat data-abstractie ooit niet had bestaan — ze dachten dat het er altijd al was geweest.",
+    clipTime: 1841
+  }
+];
+
+let player = null;
+let rafId = null;
+
+const { createApp, ref, computed, onMounted } = Vue;
+
+createApp({
+  setup() {
+    const subtitles = { en: [], nl: [] };
+    const subtitle = ref('');
+    const sublang = ref('nl');
+    const chapter = ref(0);
+    const tab = ref('info');
+    const chapters = ref(allChapters);
+
+    // Quiz state — all lowercase names!
+    const questions = ref(shuffle(allQ).map(shuffleOptions));
+    const qidx = ref(0);
+    const answer = ref(null);
+    const score = ref(0);
+    const finished = ref(false);
+    const pct = computed(() => Math.round(score.value / questions.value.length * 100));
+    const msg = computed(() => {
+      const p = pct.value;
+      if (p === 100) return 'Perfect! Uitstekend werk.';
+      if (p >= 75) return 'Goed gedaan!';
+      if (p >= 50) return 'Redelijk, maar er is ruimte voor verbetering.';
+      return 'Probeer het nog eens — bekijk de fragmenten voor hints.';
+    });
+
+    function tick() {
+      if (player && typeof player.getCurrentTime === 'function' && sublang.value !== 'off') {
+        const t = player.getCurrentTime();
+        const cue = subtitles[sublang.value].find(c => t >= c.start && t < c.end);
+        subtitle.value = cue ? cue.text : '';
+      }
+      rafId = requestAnimationFrame(tick);
+    }
+
+    function initPlayer() {
+      player = new YT.Player('yt-player', {
+        videoId: VIDEO_ID,
+        width: '100%',
+        height: '100%',
+        playerVars: { rel: 0, modestbranding: 1 },
+        events: {
+          onReady: () => { rafId = requestAnimationFrame(tick); }
+        }
+      });
+    }
+
+    async function loadSubs() {
+      try {
+        const [enRes, nlRes] = await Promise.all([
+          fetch('subtitles_en.vtt'), fetch('subtitles_nl.vtt')
+        ]);
+        subtitles.en = parseVTT(await enRes.text());
+        subtitles.nl = parseVTT(await nlRes.text());
+      } catch(e) { console.warn('Subtitles load error', e); }
+    }
+
+    onMounted(async () => {
+      await loadSubs();
+      if (window.YT && window.YT.Player) {
+        initPlayer();
+      } else {
+        window.onYouTubeIframeAPIReady = initPlayer;
+      }
+    });
+
+    function seekTo(sec) {
+      if (player && typeof player.seekTo === 'function') {
+        player.seekTo(sec, true);
+        player.playVideo();
+      }
+    }
+
+    function goChapter(ci) {
+      chapter.value = ci;
+      tab.value = 'info';
+      seekTo(chapters.value[ci].start);
+    }
+
+    function selectAnswer(oi) {
+      if (answer.value !== null) return;
+      answer.value = oi;
+      if (oi === questions.value[qidx.value].correct) score.value++;
+    }
+
+    function nextQ() {
+      if (qidx.value < questions.value.length - 1) {
+        qidx.value++;
+        answer.value = null;
+      } else {
+        finished.value = true;
+      }
+    }
+
+    function resetQuiz() {
+      questions.value = shuffle(allQ).map(shuffleOptions);
+      qidx.value = 0;
+      answer.value = null;
+      score.value = 0;
+      finished.value = false;
+    }
+
+    return {
+      subtitle, sublang, chapter, tab, chapters,
+      questions, qidx, answer, score, finished, pct, msg,
+      seekTo, goChapter, selectAnswer, nextQ, resetQuiz, fmtTime
+    };
+  }
+}).mount('#app');
+</script>
+<script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>
