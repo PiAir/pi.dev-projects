@@ -1,0 +1,7 @@
+pdfs/
+markdown/
+*.pdf
+.env
+__pycache__/
+*.pyc
+.DS_Store

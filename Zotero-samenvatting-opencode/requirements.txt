@@ -1,0 +1,10 @@
+pymupdf
+pymupdf4llm
+Pillow
+requests
+
+# pytesseract is optioneel — alleen nodig voor image-heavy PDFs (gescande artikelen)
+# Vereist ook Tesseract OCR zelf:
+#   Windows: https://github.com/UB-Mannheim/tesseract/wiki
+#   Linux/WSL2: sudo apt install tesseract-ocr tesseract-ocr-nld tesseract-ocr-eng
+pytesseract

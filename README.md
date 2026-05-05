@@ -23,6 +23,28 @@ opencode run "/youtube-interactive-lesson https://www.youtube.com/watch?v=YOUR_V
 
 ---
 
+### 📚 [Zotero OpenCode Skills](./Zotero-samenvatting-opencode/)
+
+> Generate abstracts and search your Zotero library directly from the command line.
+
+Two OpenCode skills that connect to your local Zotero installation via the Zotero Local API:
+
+- **`/zotero-samenvatting`** — reads the attached PDF of a Zotero item and writes a content-based abstract (max. 150 words) directly into Zotero, with batch support via CSV.
+- **`/zotero-zoeken`** — searches your Zotero library by title or keyword and returns matching item IDs; results can be saved to CSV for further processing.
+
+**Quick start:**
+```bash
+# Generate an abstract for one item
+/zotero-samenvatting ABCD1234
+
+# Search your library and save results
+/zotero-zoeken "artificial intelligence in education" --save results.csv
+```
+
+➡️ See the [full README](./Zotero-samenvatting-opencode/README.md) for setup, configuration, and all script options.
+
+---
+
 ## About OpenCode
 
 [OpenCode](https://opencode.ai/) is an open-source, terminal-native AI coding agent. It supports local LLMs as well as cloud providers, and can orchestrate multi-step agentic tasks (including parallel subagents) directly from your shell.
