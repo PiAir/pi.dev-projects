@@ -1,4 +1,4 @@
-# OpenCode Projects
+# Pi.dev Projects
 
 Personal repository for code experiments using [Pi.dev](https://pi.dev/) — an AI-powered coding agent platform that lets you run agentic workflows directly from the command line with local or cloud LLMs.
 
