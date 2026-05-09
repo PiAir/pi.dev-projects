@@ -1,6 +1,6 @@
-# Zotero Abstract Generator — OpenCode Skills
+# Zotero Abstract Generator — pi.dev Skills
 
-This repo contains a set of OpenCode CLI skills for working with a Zotero library:
+This repo contains a set of pi.dev skills for working with a Zotero library:
 generating abstracts for items that have none, searching by title or keyword, and
 querying the library directly via SQLite or the command-line interface.
 
@@ -34,7 +34,7 @@ For each specified Zotero item:
 3. Converts the PDF to markdown (text extraction or OCR)
 4. The agent reads the markdown and writes a genuine content-based abstract
 5. Saves the abstract as `abstractNote` in Zotero
-6. Adds the tag `opencode-ai` to the item
+6. Adds the tag `pi.dev-ai` to the item
 7. Sets `status=1` in the CSV file
 
 ## Requirements
@@ -108,7 +108,7 @@ export ZOTERO_DATA_DIR="/mnt/c/Users/your-name/Zotero"
 /zotero-samenvatting path/to/sources.csv
 ```
 
-OpenCode drives the process: it reads the markdown, writes the abstract, and calls the
+pi.dev drives the process: it reads the markdown, writes the abstract, and calls the
 script to save the result. The script only handles mechanical work.
 
 ### zotero-zoeken
@@ -132,7 +132,7 @@ to widen the results.
 
 ---
 
-## Script subcommands (used internally by OpenCode)
+## Script subcommands (used internally by pi.dev)
 
 ### create_summary.py
 

@@ -63,7 +63,7 @@ Read `md_preview` and write an abstract that:
 python3 scripts/create_summary.py save <ZOTERO_ID> <CSV_PATH> "<abstract>"
 ```
 
-This saves the abstract as `abstractNote` in Zotero, adds the tag `opencode-ai`, and sets
+This saves the abstract as `abstractNote` in Zotero, adds the tag `pi.dev-ai`, and sets
 `status=1` in the CSV file.
 
 ---

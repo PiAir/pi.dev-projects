@@ -2,8 +2,8 @@
 """
 create_summary.py — Mechanische helper voor de zotero-samenvatting skill.
 
-Bedoeld om aangeroepen te worden door OpenCode (of een subagent), niet als
-standalone pipeline. OpenCode leest de output en neemt de vervolgstappen.
+Bedoeld om aangeroepen te worden door pi.dev (of een subagent), niet als
+standalone pipeline. pi.dev leest de output en neemt de vervolgstappen.
 
 Subcommando's:
   prepare <ZOTERO_ID>
@@ -15,7 +15,7 @@ Subcommando's:
 
   save <ZOTERO_ID> <CSV_PAD> <SAMENVATTING>
       Schrijft de samenvatting als abstractNote in Zotero, voegt tag
-      'opencode-ai' toe, en zet status=1 in het CSV-bestand.
+      'pi.dev-ai' toe, en zet status=1 in het CSV-bestand.
 
   pending <CSV_PAD>
       Print JSON-lijst van items met status=0:
@@ -225,8 +225,8 @@ def convert_pdf(pdf_path, zotero_id):
 def save_to_zotero(zotero_id, summary):
     run(zotero_cli(f'item update {zotero_id} --field "abstractNote={summary}"'))
     r = run_silent(zotero_cli(f"item tag {zotero_id}"))
-    if "opencode-ai" not in r.stdout:
-        run(zotero_cli(f"item tag {zotero_id} --add opencode-ai"))
+    if "pi.dev-ai" not in r.stdout:
+        run(zotero_cli(f"item tag {zotero_id} --add pi.dev-ai"))
 
 
 def save_to_csv(csv_path, zotero_id, status=1):

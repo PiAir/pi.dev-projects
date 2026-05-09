@@ -1,6 +1,6 @@
-# Zotero OpenCode Skills
+# Zotero pi.dev Skills
 
-Two [OpenCode](https://opencode.ai) CLI skills for working with your Zotero library:
+Two [pi.dev](https://pi.dev) skills for working with your Zotero library:
 
 | Skill | Command | What it does |
 |-------|---------|--------------|
@@ -105,7 +105,7 @@ have no abstract yet.
 2. Locates the attached PDF (local cache → SynologyDrive/linked path → Local API download)
 3. Converts the PDF to markdown (text extraction, with OCR fallback for scanned pages)
 4. The agent reads the markdown and writes a genuine abstract based on the content
-5. Saves the abstract as `abstractNote` in Zotero and adds the tag `opencode-ai`
+5. Saves the abstract as `abstractNote` in Zotero and adds the tag `pi.dev-ai`
 6. Sets `status=1` in the CSV file
 
 **Language rule:** Dutch source → Dutch abstract. Any other language → English abstract.
@@ -192,15 +192,15 @@ Uses text extraction where possible; falls back to Tesseract OCR for image-heavy
 
 ```
 README.md
-AGENTS.md                                   # full setup instructions (for OpenCode)
+AGENTS.md                                   # full setup instructions (for pi.dev)
 .env.sample                                 # environment variable template
 requirements.txt                            # Python dependencies
 .gitignore
 .agents/skills/
 ├── zotero-samenvatting/
-│   └── SKILL.md                            # skill instructions for OpenCode
+│   └── SKILL.md                            # skill instructions for pi.dev
 └── zotero-zoeken/
-    └── SKILL.md                            # skill instructions for OpenCode
+    └── SKILL.md                            # skill instructions for pi.dev
 scripts/
 ├── create_summary.py                       # pipeline: prepare / save / pending
 ├── zotero_search.py                        # search: search / save
