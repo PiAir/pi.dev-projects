@@ -1,8 +1,8 @@
 # OpenCode Projects
 
-Personal repository for code experiments using [OpenCode](https://opencode.ai/) — an AI-powered coding agent platform that lets you run agentic workflows directly from the command line with local or cloud LLMs.
+Personal repository for code experiments using [Pi.dev](https://pi.dev/) — an AI-powered coding agent platform that lets you run agentic workflows directly from the command line with local or cloud LLMs.
 
-This repository collects small tools, proof-of-concepts, and reusable skills built during hands-on experimentation with OpenCode. Each project lives in its own subdirectory with its own README.
+This repository collects small tools, proof-of-concepts, and reusable skills built during hands-on experimentation with Pi.dev. Each project lives in its own subdirectory with its own README.
 
 ---
 
