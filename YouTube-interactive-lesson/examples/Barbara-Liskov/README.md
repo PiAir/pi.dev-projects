@@ -9,7 +9,8 @@ https://www.youtube.com/watch?v=qAKrMdUycb8
 
 ## What's Included
 
-- **`index.html`** — Self-contained interactive lesson page (Vue 3 + Tailwind CSS from CDN)
+- **`index.html`** — UI template (Vue 3 + Tailwind CSS from CDN), loads `lesson-data.json` at runtime
+- **`lesson-data.json`** — chapters, quiz questions, video metadata, subtitle language list
 - **`subtitles_en.vtt`** — Clean English subtitles (849 cues)
 - **`subtitles_nl.vtt`** — Dutch translation (849 cues, identical timestamps)
 - **`samenvatting_barbara_liskov.pdf`** — Dutch PDF summary with chapter breakdowns (20 KB)
@@ -17,10 +18,12 @@ https://www.youtube.com/watch?v=qAKrMdUycb8
 ## Features Demonstrated
 
 - **8 chapters** with timestamped navigation
-- **Synced subtitle bar** (English/Dutch toggle)
+- **Multi-language subtitle toggle** (EN/NL/Uit) — dynamically built from `subtitleLangs`
+- **Synced subtitle bar** below the video (not overlaid)
 - **Tabbed content per chapter** (description + key points + subtopics)
 - **8-question quiz** with shuffled options, feedback, and video clip links
 - **PDF download button** in sidebar
+- **Data/UI split** — regenerate quiz/chapters without touching the HTML template
 
 ## How to View Locally
 
@@ -38,6 +41,15 @@ Then open **http://localhost:8770/** in your browser.
 
 Press `Ctrl+C` in the terminal to stop the server.
 
+## How to Run Tests
+
+Open **`tests/test-vtt-parser.js`** in any browser (no server needed). It runs 5 test suites:
+1. VTT parser correctness
+2. Subtitle sync accuracy
+3. Quiz shuffle statistics
+4. Multi-language support structure
+5. lesson-data.json validation
+
 ## What's NOT Included
 
 The following intermediate files were used during generation but are **not needed to view the example**:
@@ -47,7 +59,7 @@ The following intermediate files were used during generation but are **not neede
 - `gen_pdf.py` — Python script that generated the PDF summary
 - `translations.json`, `unique_lines.json` — Translation build artifacts
 
-These files are video-specific and not useful as templates. The `.agents/skills/youtube-interactive-lesson/SKILL.md` documents the generation patterns in detail.
+These files are video-specific and not useful as templates. The `.pi/skills/youtube-interactive-lesson/SKILL.md` documents the generation patterns in detail.
 
 ## Technical Notes
 
@@ -56,6 +68,9 @@ These files are video-specific and not useful as templates. The `.agents/skills/
 - Subtitle bar positioned below video iframe (not overlaid)
 - Video sizing: `height: 42vh` + `aspect-ratio: 16/9` (no `max-height`)
 - VTT line endings normalized for cross-platform compatibility
+- Data/UI split: `lesson-data.json` contains all chapters, quiz, and metadata; `index.html` loads it via `fetch()`
+- Multi-language toggle dynamically reads `subtitleLangs` from `lesson-data.json`
+- Two-pass quiz generation for higher quality
 
 ## License
 

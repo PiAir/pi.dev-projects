@@ -10,7 +10,6 @@ ENV/
 .venv
 
 # Generated lesson folders (users create these)
-# Uncomment the patterns below if you want to exclude generated lessons from version control
 # **/transcript*.vtt
 # **/unique_lines.json
 # **/translations.json

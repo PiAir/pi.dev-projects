@@ -1,0 +1,260 @@
+{
+  "videoId": "T9CGjbPZeaM",
+  "videoTitle": "ACM Turing Award Lecture: The Power of Abstraction – Barbara Liskov",
+  "videoUrl": "https://www.youtube.com/watch?v=qAKrMdUycb8",
+  "subtitleLangs": ["en", "nl"],
+  "chapters": [
+    {
+      "title": "Introductie & Jeugd",
+      "start": 0,
+      "description": "Barbara Liskov wordt voorgesteld als Turing Award-winnaar voor haar bijdragen aan programmeertalen en gedistribueerde systemen. Ze vertelt hoe ze via een omweg de informatica inrolde nadat Princeton haar als vrouw weigerde voor het graduaatprogramma.",
+      "keyPoints": [
+        "Princeton weigerde vrouwen voor het graduate programma in de jaren '60.",
+        "Liskov studeerde wiskunde aan Berkeley en vond informatica via haar eerste programmeersbaan.",
+        "Ze noemt het een 'gelukkig toeval' dat ze in de computerwetenschap belandde.",
+        "Berkeley had een inclusievere omgeving dan Princeton voor vrouwen."
+      ],
+      "topics": [
+        { "label": "Afwijzing door Princeton", "start": 47 },
+        { "label": "Eerste programmeersbaan", "start": 100 }
+      ]
+    },
+    {
+      "title": "Softwarecrisis & Modulariteit",
+      "start": 180,
+      "description": "In de jaren '70 worstelden bedrijven met het bouwen van grote softwaresystemen. Liskov legt uit hoe het gebrek aan een duidelijk moduleconcept ten grondslag lag aan de crisis, en hoe ze bij MITER een vroeg idee van modulariteit ontwikkelde dat later zou leiden tot data-abstractie.",
+      "keyPoints": [
+        "Bedrijven verloren miljoenen door software die niet werkte.",
+        "Modulariteit vereist een interface plus verborgen implementatie.",
+        "Procedures als enige modulariteitsconstructen waren onvoldoende voor complexe systemen.",
+        "Liskov bedacht bij MITER een volledigere notie van modulariteit om haar team uit de problemen te houden."
+      ],
+      "topics": [
+        { "label": "Omvang van de softwarecrisis", "start": 180 },
+        { "label": "Waarom procedures tekortschieten", "start": 295 },
+        { "label": "MITER en vroege modulariteit", "start": 381 }
+      ]
+    },
+    {
+      "title": "Data-abstractie & CLU",
+      "start": 359,
+      "description": "Liskov zag dat haar modulariteitsidee overeenkwam met een abstract datatype. Dit leidde tot de programmeertaal CLU, een invloedrijke paper met Steve Zilles, en uiteindelijk tot de programmeertaal ADA voor de Amerikaanse overheid en later Java.",
+      "keyPoints": [
+        "Data-abstractie: een module biedt bewerkingen en verbergt de interne data.",
+        "CLU was de eerste programmeertaal die abstract datatypen direct ondersteunde.",
+        "Een paper met Steve Zilles had grote invloed op de onderzoeksgemeenschap.",
+        "Overheids­taal ADA en later Java bouwden voort op deze ideeën."
+      ],
+      "topics": [
+        { "label": "Inzicht in data-abstractie", "start": 359 },
+        { "label": "CLU en zijn invloed", "start": 420 },
+        { "label": "ADA en Java", "start": 520 }
+      ]
+    },
+    {
+      "title": "Gedistribueerde Systemen & Argus",
+      "start": 647,
+      "description": "Geïnspireerd door Bob Kahns visie op gedistribueerd rekenen begon Liskov aan Argus, een programmeertaal voor gedistribueerde systemen. Ze introduceerde atomaire transacties in gedistribueerde computaties en legde daarmee de basis voor viewstamp-replicatie, de voorloper van cloudopslag.",
+      "keyPoints": [
+        "Argus was objectgeoriënteerd en gebruikte 'guardians' als modules op afzonderlijke computers.",
+        "Atomaire transacties garanderen dat berekeningen volledig slagen of geen enkel effect hebben.",
+        "Viewstamp-replicatie is onafhankelijk ontwikkeld van Paxos (Leslie Lamport) maar vrijwel identiek.",
+        "Het Google-bestandssysteem gebruikte dezelfde aanpak, aanvankelijk dachten ze dat het Paxos was."
+      ],
+      "topics": [
+        { "label": "Argus en guardians", "start": 660 },
+        { "label": "Atomaire transacties", "start": 730 },
+        { "label": "Viewstamp-replicatie", "start": 821 },
+        { "label": "Vergelijking met Paxos", "start": 844 }
+      ]
+    },
+    {
+      "title": "Liskov-substitutieprincipe",
+      "start": 900,
+      "description": "Na het lezen van Smalltalk-papers voor een keynote op OOPSLA in 1986 formuleerde Liskov het substitutieprincipe: een subklasse moet zich gedragen als de superklasse wanneer die verwacht wordt. Samen met Jeannette Wing werd dit formeel uitgewerkt als gedragsmatige subtypering.",
+      "keyPoints": [
+        "Smalltalk gebruikte overerving; CLU had alleen onafhankelijke clusters.",
+        "West-coast onderzoekers beschreven typehiërarchie in termen van implementaties, niet betekenis.",
+        "Liskov's benadering: betekenis en gedrag zijn primair, implementatie is secundair.",
+        "Het LSP kreeg zijn naam doordat anderen er naar gingen verwijzen; Liskov ontdekte de naam via e-mail in de jaren '90."
+      ],
+      "topics": [
+        { "label": "OOPSLA-keynote 1986", "start": 900 },
+        { "label": "Overerving vs. clusters", "start": 960 },
+        { "label": "Definitie van het substitutieprincipe", "start": 1070 }
+      ]
+    },
+    {
+      "title": "Byzantijnse fouttolerantie",
+      "start": 1220,
+      "description": "Met student Miguel Castro ontwikkelde Liskov Byzantijnse fouttolerantie als uitbreiding op viewstamp-replicatie. Waar viewstamp alleen crashes aankon, handelt BFT ook kwaadaardige en gecompromitteerde knooppunten af. De term 'Byzantijns' werd door Leslie Lamport bedacht.",
+      "keyPoints": [
+        "Viewstamp en Paxos handelen alleen crashes af, niet kwaadaardige knooppunten.",
+        "BFT beschermt tegen knooppunten die doen alsof ze correct werken maar gecompromitteerd zijn.",
+        "Een DARPA-projectoproep inspireerde Castro om dit probleem aan te pakken.",
+        "De term 'Byzantijns' voor kwaadaardige fouten is bedacht door Leslie Lamport."
+      ],
+      "topics": [
+        { "label": "Grens van viewstamp-replicatie", "start": 1220 },
+        { "label": "BFT vs. viewstamp", "start": 1330 },
+        { "label": "Castro's proefschrift", "start": 1381 }
+      ]
+    },
+    {
+      "title": "Dijkstra & goto-statements",
+      "start": 1381,
+      "description": "Liskov ontmoette Dijkstra meerdere keren. Ze bespreekt zijn beroemde brief 'Go To Statement Considered Harmful': waarom het destijds controversieel was (assembler, compilatorbeperkingen, beledigd programmeurs), en hoe Dijkstra uiteindelijk gelijk heeft gekregen.",
+      "keyPoints": [
+        "De 'paper' van Dijkstra was eigenlijk een brief aan de redacteur van de ACM-communicaties.",
+        "Gotos waren nodig in assembler en programmeertalen misten alternatieven.",
+        "Compilatoren optimaliseerden niet goed genoeg, gotos gaven soms snelheidsvoordeel.",
+        "Dijkstra was niet de meest diplomatieke schrijver — dat vergrootte de controverse."
+      ],
+      "topics": [
+        { "label": "Goto-discussie", "start": 1381 },
+        { "label": "Waarom het controversieel was", "start": 1441 },
+        { "label": "Dijkstra in persoon", "start": 1530 }
+      ]
+    },
+    {
+      "title": "Academische carrière & Reflectie",
+      "start": 1561,
+      "description": "Liskov legt uit waarom ze in de academische wereld bleef, hoe geluk en doorzettingsvermogen haar carrière vormgaven, en hoe haar fundamentele bijdragen zo vanzelfsprekend zijn geworden dat mensen vergeten dat ze ooit niet bestonden.",
+      "keyPoints": [
+        "Onderzoek en lesgeven zijn nauw verbonden: beide vereisen denken vanuit eerste beginselen.",
+        "Ze raadde promovendi aan geen incrementeel werk te doen maar betekenisvolle problemen te kiezen.",
+        "Haar Turing Award werd aangevochten omdat haar bijdragen zo fundamenteel zijn dat mensen vergaten dat er een 'voor' bestond.",
+        "Deuren openen en sluiten: ze zag haar afwijzingen als kansen in een andere richting."
+      ],
+      "topics": [
+        { "label": "Academie vs. industrie", "start": 1561 },
+        { "label": "Turing Award en kritiek", "start": 1841 }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "concept": "Princeton-afwijzing",
+      "question": "Waarom kon Barbara Liskov niet studeren aan Princeton?",
+      "options": [
+        "Princeton nam in de jaren '60 geen vrouwen aan voor het graduate programma, ongeacht academische prestaties.",
+        "Ze had onvoldoende wiskundige voorkennis voor het toelatingsniveau van Princeton.",
+        "Ze koos bewust voor Berkeley vanwege de betere wiskundige opleiding die ze zocht.",
+        "Princeton had een capaciteitslimiet waardoor buitenlandse studenten voorrang kregen."
+      ],
+      "correct": 0,
+      "explanation": "Princeton stuurde haar een briefkaart: 'We do not admit women.' Ze was verrast omdat ze wist dat Princeton geen vrouwen had in het undergraduate programma, maar niet dat dit ook voor graduate programma's gold.",
+      "clipTime": 47,
+      "anchoredChapter": 0,
+      "sourceLine": "transcript segment around 00:47"
+    },
+    {
+      "concept": "Softwarecrisis",
+      "question": "Wat was het kernprobleem dat leidde tot de softwarecrisis in de jaren '70?",
+      "options": [
+        "Programmeurs waren te duur waardoor bedrijven geen professionele software konden betalen.",
+        "Computers waren te traag om grote programma's uit te voeren, waardoor systemen faalden.",
+        "Er was geen goede notie van modules: procedures schoten tekort voor complexe systemen als databases en bestandssystemen.",
+        "Programmeertalen waren te moeilijk te leren, waardoor er een tekort was aan bekwame programmeurs."
+      ],
+      "correct": 2,
+      "explanation": "Liskov legt uit dat je grote programma's alleen correct kunt bouwen via modulariteit. Maar procedures — het enige modulariteitsmechanisme — waren niet geschikt voor de soort modules die mensen nodig hadden.",
+      "clipTime": 180,
+      "anchoredChapter": 1,
+      "sourceLine": "transcript segment around 03:00"
+    },
+    {
+      "concept": "Data-abstractie",
+      "question": "Wat is het centrale idee van data-abstractie dat Liskov ontwikkelde?",
+      "options": [
+        "Een module biedt een set van bewerkingen via een interface en verbergt volledig de interne data en implementatie.",
+        "Data wordt geabstraheerd door het te comprimeren zodat programma's minder geheugen gebruiken.",
+        "Functies krijgen abstracte typen zodat de compiler automatisch het juiste geheugentype kan kiezen.",
+        "Data-abstractie betekent dat alle variabelen in een programma typeloos zijn voor maximale flexibiliteit."
+      ],
+      "correct": 0,
+      "explanation": "Liskov zag dat haar moduleconcept — een interface met bewerkingen plus verborgen interne toestand — overeenkomt met een abstract datatype zoals een set of een reeks.",
+      "clipTime": 359,
+      "anchoredChapter": 2,
+      "sourceLine": "transcript segment around 05:59"
+    },
+    {
+      "concept": "Viewstamp vs Paxos",
+      "question": "Hoe verhoudt viewstamp-replicatie van Liskov zich tot Paxos van Leslie Lamport?",
+      "options": [
+        "Ze zijn onafhankelijk ontwikkeld en vrijwel identiek; zelfs het Google-bestandssysteem gebruikte dezelfde aanpak.",
+        "Viewstamp is een vereenvoudiging van Paxos speciaal ontworpen voor cloudopslag bij grote bedrijven.",
+        "Paxos is een formele verbetering op viewstamp die uitgebreidere fouttolerantie biedt voor transacties.",
+        "Ze zijn complementair: viewstamp behandelt dataverlies en Paxos behandelt netwerkstoringen afzonderlijk."
+      ],
+      "correct": 0,
+      "explanation": "Liskov en Lamport ontwikkelden onafhankelijk vrijwel hetzelfde systeem. Een voormalig student van Liskov bij Google herkende dat het Google-bestandssysteem viewstamp-replicatie gebruikte, niet Paxos — hoewel het in essentie hetzelfde is.",
+      "clipTime": 844,
+      "anchoredChapter": 3,
+      "sourceLine": "transcript segment around 14:04"
+    },
+    {
+      "concept": "LSP",
+      "question": "Wat stelt het Liskov-substitutieprincipe (LSP)?",
+      "options": [
+        "Een subklasse moet zich gedragen als de superklasse wanneer die verwacht wordt, gebaseerd op de betekenis van het type.",
+        "Een klasse mag nooit gesubstitueerd worden door een subklasse omdat dit de inkapseling verbreekt.",
+        "Elke klasse moet een substitutiemethode hebben zodat objecten uitgewisseld kunnen worden zonder hercompilatie.",
+        "Substitutie van typen is alleen veilig als de subklasse dezelfde implementatie gebruikt als de superklasse."
+      ],
+      "correct": 0,
+      "explanation": "Liskov formuleerde dit na het lezen van Smalltalk-papers voor OOPSLA 1986. West-coast onderzoekers konden de typehiërarchie niet uitleggen; Liskov zag dat het draait om gedrag en betekenis, niet om implementatiedetails.",
+      "clipTime": 900,
+      "anchoredChapter": 4,
+      "sourceLine": "transcript segment around 15:00"
+    },
+    {
+      "concept": "BFT",
+      "question": "Wat onderscheidt Byzantijnse fouttolerantie van viewstamp-replicatie?",
+      "options": [
+        "BFT handelt ook kwaadaardige knooppunten af die doen alsof ze correct werken maar gecompromitteerd zijn.",
+        "BFT gebruikt een gedistribueerde klok terwijl viewstamp-replicatie werkt met oplopende nummers.",
+        "BFT is ontworpen voor lokale netwerken en viewstamp-replicatie voor het publieke internet.",
+        "BFT vereist minder knooppunten voor consensus waardoor het efficiënter is dan viewstamp."
+      ],
+      "correct": 0,
+      "explanation": "Viewstamp en Paxos behandelen crashes: een knooppunt doet niets. BFT gaat verder en beschermt tegen knooppunten die actief misleidend gedrag vertonen — iets dat nodig werd naarmate het internet groeide.",
+      "clipTime": 1220,
+      "anchoredChapter": 5,
+      "sourceLine": "transcript segment around 20:20"
+    },
+    {
+      "concept": "Goto-controverse",
+      "question": "Waarom was Dijkstra's 'Go To Statement Considered Harmful' destijds controversieel?",
+      "options": [
+        "Gotos waren noodzakelijk in assembler, compilers konden nog niet goed optimaliseren zonder gotos, en vakkundige programmeurs voelden zich beledigd.",
+        "Dijkstra beweerde dat alle iteratieve algoritmen moesten worden vervangen door recursie, wat praktisch onhaalbaar was.",
+        "De brief was te lang en technisch voor ACM-lezers die meer geïnteresseerd waren in hardware dan software.",
+        "Goto-statements waren juist de meest efficiënte manier om lussen te schrijven in de toenmalige compilers."
+      ],
+      "correct": 0,
+      "explanation": "Drie redenen: assembler vereiste gotos, compilers misten optimalisaties waardoor gotos snelheidsvoordeel gaven, en goede programmeurs die gotos gebruikten voelden zich aangevallen. Plus: Dijkstra schreef niet diplomatisch.",
+      "clipTime": 1441,
+      "anchoredChapter": 6,
+      "sourceLine": "transcript segment around 24:01"
+    },
+    {
+      "concept": "Turing Award",
+      "question": "Waarom waren sommige mensen verbaasd dat Liskov de Turing Award kreeg?",
+      "options": [
+        "Haar bijdragen waren zo fundamenteel geworden dat mensen vergaten dat data-abstractie en modulariteit ooit niet bestonden.",
+        "Ze had nooit een startup opgericht of commercieel product gelanceerd, wat de jury als nadeel zag.",
+        "Andere kandidaten hadden meer gepubliceerde papers en een grotere h-index in die periode.",
+        "De Turing Award ging normaal naar theoretici en Liskov was voornamelijk een systeemontwerper."
+      ],
+      "correct": 0,
+      "explanation": "Liskov zag het als een groot compliment: haar werk was zo fundamenteel dat haar graduate studenten zich niet eens konden voorstellen dat data-abstractie ooit niet had bestaan — ze dachten dat het er altijd al was geweest.",
+      "clipTime": 1841,
+      "anchoredChapter": 7,
+      "sourceLine": "transcript segment around 30:41"
+    }
+  ],
+  "pdfAvailable": true,
+  "pdfFilename": "samenvatting_barbara_liskov.pdf",
+  "generatedAt": "2026-05-06T21:10:00Z"
+}

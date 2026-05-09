@@ -1,0 +1,12 @@
+{
+  "name": "youtube-interactive-lesson",
+  "version": "1.0.0",
+  "description": "Transform any YouTube video into an interactive educational experience with synced subtitles, chapters, quiz, and PDF summary",
+  "keywords": ["pi-package", "youtube", "interactive", "lesson", "education"],
+  "license": "MIT",
+  "pi": {
+    "skills": ["skills"],
+    "extensions": ["extensions"],
+    "prompts": ["prompts"]
+  }
+}
