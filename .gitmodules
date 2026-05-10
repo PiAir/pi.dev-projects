@@ -1,0 +1,9 @@
+[submodule "n8n/.pi/n8n-skills"]
+	path = n8n/.pi/n8n-skills
+	url = https://github.com/czlonkowski/n8n-skills
+[submodule "n8n/pi-mcp-adapter"]
+	path = n8n/pi-mcp-adapter
+	url = https://github.com/nicobailon/pi-mcp-adapter
+[submodule "n8n/n8n-mcp"]
+	path = n8n/n8n-mcp
+	url = https://github.com/czlonkowski/n8n-mcp

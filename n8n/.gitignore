@@ -1,0 +1,49 @@
+# Environment & Credentials
+.env
+.env.local
+.env.*.local
+.env.mcp
+.mcp.json
+
+# Node/npm
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-error.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build & Distribution
+dist/
+build/
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+temp/
+.cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Sensitive/Local
+.claude-plugin/
+.secrets/
+
+# Logs
+logs/
+*.log
+
+# Lock files (optional - uncomment if you want to commit them)
+# package-lock.json

@@ -45,6 +45,17 @@ Two Pi.dev skills that connect to your local Zotero installation via the Zotero 
 
 ---
 
+### 🔄 [n8n Workflow Automation with MCP](./n8n/)
+
+> Configuration and skills for building n8n workflows via Claude Code and Pi.dev.
+
+Combines three external components as git submodules:
+- **n8n-mcp** — MCP server for n8n (800+ nodes, validation, templates)
+- **n8n-skills** — 7 expert skills for n8n workflow building
+- **pi-mcp-adapter** — MCP proxy for Pi.dev
+
+---
+
 ## About Pi.dev
 
 [Pi.dev](https://pi.dev/) is an AI-powered coding agent platform that lets you run agentic workflows directly from the command line with local or cloud LLMs. It supports multi-step agentic tasks (including parallel subagents) and skills that can be invoked directly from your shell.
