@@ -56,6 +56,17 @@ Combines three external components as git submodules:
 
 ---
 
+### 🏠 [Home Assistant Automation with MCP](./HA-MCP/)
+
+> Configuration and skills for Home Assistant via Claude Code and Pi.dev.
+
+Combines three external components as git submodules:
+- **ha-mcp** — MCP server for Home Assistant
+- **ha-skills** — Expert skills for Home Assistant
+- **pi-mcp-adapter** — MCP proxy for Pi.dev
+
+---
+
 ## About Pi.dev
 
 [Pi.dev](https://pi.dev/) is an AI-powered coding agent platform that lets you run agentic workflows directly from the command line with local or cloud LLMs. It supports multi-step agentic tasks (including parallel subagents) and skills that can be invoked directly from your shell.
