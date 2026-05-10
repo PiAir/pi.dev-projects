@@ -7,3 +7,12 @@
 [submodule "n8n/n8n-mcp"]
 	path = n8n/n8n-mcp
 	url = https://github.com/czlonkowski/n8n-mcp
+[submodule "HA-MCP/ha-mcp"]
+	path = HA-MCP/ha-mcp
+	url = https://github.com/homeassistant-ai/ha-mcp
+[submodule "HA-MCP/pi-mcp-adapter"]
+	path = HA-MCP/pi-mcp-adapter
+	url = https://github.com/nicobailon/pi-mcp-adapter
+[submodule "HA-MCP/.pi/ha-skills"]
+	path = HA-MCP/.pi/ha-skills
+	url = https://github.com/homeassistant-ai/skills
