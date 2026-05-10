@@ -1,6 +1,6 @@
 # Pi-MCP-Adapter Setup für n8n-mcp
 
-Je hebt `pi-mcp-adapter@2.5.4` - dat is de MCP support extension voor pi.dev!
+Je hebt `pi-mcp-adapter` als submodule in dit project! Dit is de MCP support extension voor pi.dev.
 
 ## Quick Start
 
@@ -318,9 +318,9 @@ For n8n-mcp, `lazy` (default) is usually best:
 
 ## 📚 More Resources
 
-- **Pi MCP Adapter README:** (already installed)
+- **Pi MCP Adapter README:** (linked as submodule)
   ```bash
-  cat ~/.pi/agent/node_modules/pi-mcp-adapter/README.md | less
+  cat pi-mcp-adapter/README.md | less
   ```
 
 - **n8n-mcp Tools:** Check tools via `/mcp` or `mcp({ search: "..." })`
@@ -333,7 +333,7 @@ For n8n-mcp, `lazy` (default) is usually best:
 
 - [ ] `.mcp.json` has valid JSON (run `jq . .mcp.json`)
 - [ ] `N8N_API_URL` and `N8N_API_KEY` are filled in
-- [ ] `pi-mcp-adapter@2.5.4` installed (`npm list -g pi-mcp-adapter`)
+- [ ] `pi-mcp-adapter` submodule is initialized (`git submodule status`)
 - [ ] Can run: `pi` without errors
 - [ ] `/mcp` shows `n8n-mcp` server
 - [ ] `mcp({ search: "node" })` returns results

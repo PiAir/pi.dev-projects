@@ -21,12 +21,12 @@ API Key:    sk_prod_xxxxx (van n8n → Settings → API)
 
 ### 3A. Claude Code ✅
 ```bash
-cd C:\Temp\Projecten\n8n
+cd n8n
 claude mcp add n8n-mcp --scope project
 claude  # Start
 ```
 
-### 3B. Pi.dev ✅ (je hebt pi-mcp-adapter!)
+### 3B. Pi.dev ✅ (je hebt pi-mcp-adapter als submodule!)
 ```bash
 pi  # Start Pi
 /mcp  # See n8n-mcp status
@@ -98,23 +98,18 @@ mcp({ tool: "tool_name", args: '{"param": "value"}' })  # Call tool
 
 ## 📁 Directory Structure
 
-```
-C:\Temp\Projecten\n8n\
+```text
+n8n/
 ├── .mcp.json                 ← MCP configuration (edit this!)
 ├── .env.mcp.example          ← Optional: env template
 ├── CLAUDE.md                 ← Project guide
 ├── MCP_SETUP.md              ← Detailed setup
 ├── QUICKSTART.md             ← This file
 ├── .pi/
-│   └── skills/               ← 7 n8n expert skills
-│       ├── n8n-code-javascript/
-│       ├── n8n-code-python/
-│       ├── n8n-expression-syntax/
-│       ├── n8n-mcp-tools-expert/
-│       ├── n8n-node-configuration/
-│       ├── n8n-validation-expert/
-│       └── n8n-workflow-patterns/
-└── n8n-mcp/                  ← MCP server source
+│   ├── settings.json         ← Configures Pi.dev to load skills
+│   └── n8n-skills/           ← Submodule: 7 n8n expert skills
+├── n8n-mcp/                  ← Submodule: MCP server
+└── pi-mcp-adapter/           ← Submodule: Pi.dev adapter
 ```
 
 ---
@@ -142,7 +137,7 @@ claude mcp get n8n-mcp
 
 **Check 4: Pi.dev pi-mcp-adapter**
 ```bash
-npm list -g pi-mcp-adapter  # Should be installed
+git submodule status  # Should show pi-mcp-adapter initialized
 ```
 
 In pi:

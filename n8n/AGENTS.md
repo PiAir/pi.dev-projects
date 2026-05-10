@@ -34,23 +34,18 @@ See `MCP_SETUP.md` for:
 
 ## Project Structure
 
-```
-n8n-skills/
-├── README.md              # Overview and video walkthrough
+```text
+n8n/
+├── README.md              # Overview and setup guide
 ├── CLAUDE.md              # Claude Code specific guidance
 ├── AGENTS.md              # This file - pi.dev guidance
 ├── MCP_SETUP.md           # MCP configuration & troubleshooting
-├── .mcp.json              # MCP server configuration (LOCAL, not in git)
-├── skills/                # 7 n8n-specific skills
-│   ├── n8n-expression-syntax/
-│   ├── n8n-mcp-tools-expert/
-│   ├── n8n-workflow-patterns/
-│   ├── n8n-validation-expert/
-│   ├── n8n-node-configuration/
-│   ├── n8n-code-javascript/
-│   └── n8n-code-python/
-├── evaluations/           # Test scenarios for each skill
-└── docs/                  # Detailed skill documentation
+├── .mcp.json.example      # Template for MCP server configuration
+├── .pi/
+│   ├── settings.json      # Pi.dev skills configuration
+│   └── n8n-skills/        # Submodule: 7 n8n-specific skills
+├── n8n-mcp/               # Submodule: MCP server
+└── pi-mcp-adapter/        # Submodule: Pi.dev MCP adapter
 ```
 
 ## The 7 n8n Skills
@@ -245,20 +240,20 @@ update_workflow → validate     (56s avg between edits)
 
 ## Related Documentation
 
-- **README.md** - Project overview and video walkthrough
+- **README.md** - Project overview and setup
 - **CLAUDE.md** - For Claude Code (claude.ai/code) users
 - **MCP_SETUP.md** - Detailed MCP configuration and troubleshooting
-- **Skill Files** - Each skill has detailed documentation in `.pi/skills/*/SKILL.md`
+- **Skill Files** - Each skill has detailed documentation in `.pi/n8n-skills/skills/*/SKILL.md`
 
 ## Support & Contributing
 
 ### For Issues
 1. Check `MCP_SETUP.md` troubleshooting section
-2. Review skill documentation in `.pi/skills/*/SKILL.md`
+2. Review skill documentation in `.pi/n8n-skills/skills/*/SKILL.md`
 3. See related GitHub issues (referenced in skills)
 
 ### For Contributions
-- Add new skills following the structure in `skills/`
+- Add new skills following the structure in `n8n-skills/skills/`
 - Update AGENTS.md if adding pi.dev specific features
 - Test skills with both Claude Code and pi.dev
 

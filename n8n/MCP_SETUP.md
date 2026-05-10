@@ -162,8 +162,10 @@ mcp({ search: "webhook" })  # Should return results
 - `.env.mcp` ← Your env vars (LOCAL, never commit)
 - `CLAUDE.md` ← Claude Code user guide
 - `AGENTS.md` ← pi.dev user guide
-- `.pi/skills/` ← 7 n8n skills
-- `n8n-mcp/` ← MCP server source
+- `.pi/settings.json` ← Pi.dev configuration to load skills
+- `.pi/n8n-skills/` ← Submodule: 7 n8n skills
+- `n8n-mcp/` ← Submodule: MCP server source
+- `pi-mcp-adapter/` ← Submodule: Pi.dev MCP adapter
 
 ---
 
